@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Privacy Policy — Kura</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --cream:   #F5EEE4;
+    --cream2:  #EDE4D7;
+    --surface: #FFFBF5;
+    --ink:     #2B2420;
+    --ink-soft:#6B5D54;
+    --ink-faint:#A69385;
+    --sage:    #7D9169;
+    --sage-lt: #C8D5BC;
+    --terra:   #D07A50;
+    --terra-lt:#F0D0BC;
+    --bad:     #B85248;
+    --line:    rgba(43,36,32,0.10);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Nunito', system-ui, sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  /* ── REVEAL ANIMATIONS ── */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity .7s cubic-bezier(.22,1,.36,1), transform .7s cubic-bezier(.22,1,.36,1);
+  }
+  .reveal.visible { opacity: 1; transform: none; }
+  .reveal-delay-1 { transition-delay: .1s; }
+  .reveal-delay-2 { transition-delay: .2s; }
+  .reveal-delay-3 { transition-delay: .3s; }
+  .reveal-delay-4 { transition-delay: .4s; }
+  .reveal-delay-5 { transition-delay: .5s; }
+
+  /* ── TYPOGRAPHY ── */
+  .display {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+  }
+  .display em { font-style: italic; font-weight: 200; }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 0 40px;
+    height: 68px;
+    display: flex; align-items: center; justify-content: space-between;
+    background: rgba(245, 238, 228, 0.88);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-logo {
+    font-family: 'Fraunces', serif;
+    font-weight: 400; font-size: 22px;
+    letter-spacing: -0.5px; color: var(--ink);
+  }
+  .nav-logo span { font-style: italic; color: var(--terra); }
+  .nav-links { display: flex; gap: 32px; align-items: center; }
+  .nav-links a {
+    font-size: 14px; font-weight: 700;
+    color: var(--ink-soft); text-decoration: none;
+    letter-spacing: 0.1px;
+  }
+  .nav-links a:hover { color: var(--ink); }
+  .nav-cta {
+    background: var(--ink) !important;
+    color: var(--surface) !important;
+    padding: 10px 20px !important;
+    border-radius: 99px !important;
+  }
+  .nav-cta:hover { opacity: 0.85; }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    padding: 140px 40px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 99px;
+    padding: 7px 14px;
+    font-size: 12px; font-weight: 800;
+    letter-spacing: 1.2px; text-transform: uppercase;
+    color: var(--terra); margin-bottom: 24px;
+  }
+  .eyebrow-dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--terra);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%       { opacity: 0.5; transform: scale(0.7); }
+  }
+
+  .hero-headline {
+    font-size: clamp(44px, 5.2vw, 76px);
+    margin-bottom: 28px;
+    max-width: 620px;
+  }
+  .hero-headline .line-bad {
+    display: block; color: var(--bad);
+  }
+  .hero-headline .line-still {
+    display: block; font-style: normal; font-weight: 300;
+    color: var(--ink-soft); font-size: 0.82em;
+  }
+  .hero-headline .line-kid {
+    display: block; color: var(--ink);
+  }
+
+  .hero-body {
+    font-size: 18px; line-height: 1.6;
+    color: var(--ink-soft); max-width: 480px;
+    margin-bottom: 40px;
+    font-weight: 500;
+  }
+  .hero-body strong { color: var(--ink); font-weight: 700; }
+
+  .btn-row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 48px; }
+
+  .btn-store {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 14px 22px; border-radius: 99px;
+    font-family: 'Nunito'; font-size: 14px; font-weight: 800;
+    text-decoration: none; cursor: pointer; border: none;
+    transition: transform .15s, box-shadow .15s;
+  }
+  .btn-store:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(43,36,32,0.16); }
+  .btn-store.primary {
+    background: var(--ink); color: var(--surface);
+  }
+  .btn-store.secondary {
+    background: var(--surface); color: var(--ink);
+    border: 1.5px solid var(--line);
+  }
+  .store-icon { width: 20px; height: 20px; }
+
+  .hero-proof {
+    display: flex; gap: 28px;
+    font-size: 13px; font-weight: 700; color: var(--ink-soft);
+    align-items: center;
+  }
+  .hero-proof-item { display: flex; align-items: center; gap: 6px; }
+  .proof-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--sage);
+  }
+
+  /* Hero phone frame column */
+  .hero-phones {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: -20px;
+    position: relative;
+    padding-top: 20px;
+  }
+
+  .phone-frame {
+    width: 260px;
+    border-radius: 36px;
+    overflow: hidden;
+    box-shadow:
+      0 4px 6px rgba(43,36,32,0.04),
+      0 20px 60px rgba(43,36,32,0.16),
+      0 0 0 1px rgba(43,36,32,0.08);
+    background: #1A1410;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .phone-frame-inner {
+    width: 100%;
+    aspect-ratio: 9/19.5;
+    background: var(--cream);
+    position: relative;
+    overflow: hidden;
+  }
+  .phone-island {
+    position: absolute; top: 10px; left: 50%;
+    transform: translateX(-50%);
+    width: 88px; height: 26px; background: #000;
+    border-radius: 20px; z-index: 5;
+  }
+  .phone-placeholder-content {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 12px;
+  }
+  .phone-placeholder-label {
+    font-family: 'Fraunces', serif;
+    font-size: 13px; font-style: italic;
+    color: var(--ink-faint); letter-spacing: -0.2px;
+    text-align: center; padding: 0 20px;
+    line-height: 1.4;
+  }
+  .phone-screen-placeholder {
+    width: 80%; height: 70%;
+    background: repeating-linear-gradient(
+      135deg,
+      var(--cream2) 0 6px,
+      var(--cream) 6px 12px
+    );
+    border-radius: 16px;
+    border: 1px dashed var(--line);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .phone-frame.secondary-phone {
+    width: 220px;
+    transform: translateX(-30px) translateY(40px) rotate(4deg);
+    z-index: -1;
+    opacity: 0.8;
+  }
+
+  /* ── STRIP ── */
+  .strip {
+    background: var(--ink);
+    color: var(--surface);
+    padding: 18px 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .strip-track {
+    display: flex; gap: 0;
+    animation: marquee 28s linear infinite;
+    white-space: nowrap;
+  }
+  .strip-item {
+    display: inline-flex; align-items: center; gap: 16px;
+    padding: 0 32px;
+    font-size: 13px; font-weight: 800; letter-spacing: 1.2px;
+    text-transform: uppercase; color: rgba(255,255,255,0.7);
+    flex-shrink: 0;
+  }
+  .strip-item span { color: var(--terra); }
+  .strip-sep { color: rgba(255,255,255,0.2); }
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ── SECTION WRAPPER ── */
+  .section {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 96px 40px;
+  }
+  .section-label {
+    font-size: 11px; font-weight: 800;
+    letter-spacing: 2px; text-transform: uppercase;
+    color: var(--ink-faint); margin-bottom: 14px;
+  }
+  .section-title {
+    font-size: clamp(36px, 3.6vw, 56px);
+    max-width: 700px;
+    margin-bottom: 20px;
+  }
+  .section-body {
+    font-size: 17px; line-height: 1.6;
+    color: var(--ink-soft); max-width: 540px;
+    font-weight: 500;
+  }
+
+  /* ── HOW IT WORKS ── */
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin-top: 64px;
+    background: var(--line);
+    border-radius: 28px;
+    overflow: hidden;
+  }
+  .step {
+    background: var(--surface);
+    padding: 40px 36px;
+    position: relative;
+  }
+  .step-num {
+    font-family: 'Fraunces', serif;
+    font-size: 80px; font-weight: 200; line-height: 1;
+    color: var(--cream2);
+    position: absolute; top: 24px; right: 28px;
+    letter-spacing: -4px;
+    user-select: none;
+  }
+  .step-icon {
+    width: 52px; height: 52px; border-radius: 26px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+  .step-title {
+    font-family: 'Fraunces', serif;
+    font-size: 26px; font-weight: 400;
+    letter-spacing: -0.3px;
+    margin-bottom: 12px; line-height: 1.15;
+  }
+  .step-title em { font-style: italic; font-weight: 300; }
+  .step-body {
+    font-size: 15px; line-height: 1.6;
+    color: var(--ink-soft); font-weight: 500;
+  }
+
+  /* ── FEATURES ── */
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 64px;
+  }
+  .feature-card {
+    background: var(--surface);
+    border-radius: 28px;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    transition: transform .2s, box-shadow .2s;
+  }
+  .feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 24px 60px rgba(43,36,32,0.09);
+  }
+  .feature-card.dark {
+    background: var(--ink);
+    color: var(--surface);
+    border-color: transparent;
+  }
+  .feature-card.accent {
+    background: linear-gradient(135deg, var(--terra-lt), var(--cream));
+    border-color: transparent;
+  }
+  .feature-tag {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 5px 12px; border-radius: 99px;
+    font-size: 11px; font-weight: 800;
+    letter-spacing: 1px; text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .feature-card:not(.dark):not(.accent) .feature-tag {
+    background: var(--cream); color: var(--ink-soft);
+  }
+  .feature-card.dark .feature-tag {
+    background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.7);
+  }
+  .feature-card.accent .feature-tag {
+    background: rgba(208,122,80,0.15); color: var(--terra);
+  }
+  .feature-title {
+    font-family: 'Fraunces', serif;
+    font-size: 30px; font-weight: 300;
+    letter-spacing: -0.4px; line-height: 1.15;
+    margin-bottom: 14px;
+  }
+  .feature-title em { font-style: italic; font-weight: 200; }
+  .feature-card.dark .feature-title { color: var(--surface); }
+  .feature-body {
+    font-size: 15px; line-height: 1.65;
+    color: var(--ink-soft); font-weight: 500;
+    max-width: 420px;
+  }
+  .feature-card.dark .feature-body { color: rgba(255,255,255,0.65); }
+  .feature-stat {
+    margin-top: 28px;
+    font-family: 'Fraunces', serif;
+    font-size: 52px; font-weight: 200;
+    letter-spacing: -2px; line-height: 1;
+    color: var(--sage);
+  }
+  .feature-card.dark .feature-stat { color: var(--terra-lt); }
+  .feature-stat-label {
+    font-size: 12px; font-weight: 700;
+    color: var(--ink-faint); letter-spacing: 0.5px;
+    margin-top: 4px; text-transform: uppercase;
+  }
+  .feature-card.dark .feature-stat-label { color: rgba(255,255,255,0.4); }
+
+  /* EU card decoration */
+  .eu-flag {
+    position: absolute; bottom: 32px; right: 32px;
+    display: flex; flex-wrap: wrap;
+    width: 52px; gap: 4px;
+  }
+  .eu-star {
+    width: 7px; height: 7px;
+    background: rgba(255,255,255,0.15);
+    clip-path: polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);
+  }
+
+  /* ── SCIENCE / CREDIBILITY ── */
+  .science-section {
+    background: var(--ink);
+    padding: 96px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .science-section::before {
+    content: '';
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 60% 80% at 80% 50%, rgba(125,145,105,0.12), transparent),
+      radial-gradient(ellipse 50% 50% at 10% 90%, rgba(208,122,80,0.1), transparent);
+  }
+  .science-inner {
+    max-width: 1280px; margin: 0 auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    position: relative;
+  }
+  .science-title {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(36px, 3.4vw, 52px);
+    font-weight: 300; letter-spacing: -0.03em;
+    line-height: 1.08; color: var(--surface);
+    margin-bottom: 20px;
+  }
+  .science-title em { font-style: italic; font-weight: 200; color: var(--sage-lt); }
+  .science-body {
+    font-size: 16px; line-height: 1.65;
+    color: rgba(255,255,255,0.6);
+    font-weight: 500; margin-bottom: 36px;
+  }
+  .source-pills {
+    display: flex; flex-wrap: wrap; gap: 8px;
+  }
+  .source-pill {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 99px;
+    padding: 8px 16px;
+    font-size: 12px; font-weight: 700;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.3px;
+  }
+  .metrics-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 2px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 24px; overflow: hidden;
+  }
+  .metric-cell {
+    background: rgba(255,255,255,0.03);
+    padding: 30px 28px;
+  }
+  .metric-num {
+    font-family: 'Fraunces', serif;
+    font-size: 48px; font-weight: 200;
+    letter-spacing: -2px; line-height: 1;
+    color: var(--surface);
+  }
+  .metric-num span { color: var(--terra-lt); }
+  .metric-label {
+    font-size: 13px; font-weight: 600;
+    color: rgba(255,255,255,0.45);
+    margin-top: 6px; line-height: 1.4;
+  }
+
+  /* ── FAQ ── */
+  .faq-grid {
+    max-width: 720px;
+    margin: 56px auto 0;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--line);
+  }
+  .faq-q {
+    width: 100%; background: none; border: none;
+    padding: 22px 0;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 20px; cursor: pointer;
+    font-family: 'Nunito'; font-size: 16px; font-weight: 700;
+    color: var(--ink); text-align: left;
+  }
+  .faq-q:hover { color: var(--terra); }
+  .faq-chevron {
+    width: 24px; height: 24px; flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--cream2);
+    display: flex; align-items: center; justify-content: center;
+    transition: transform .25s, background .2s;
+  }
+  .faq-item.open .faq-chevron {
+    transform: rotate(180deg);
+    background: var(--ink);
+    color: var(--surface);
+  }
+  .faq-a {
+    font-size: 15px; line-height: 1.7;
+    color: var(--ink-soft); font-weight: 500;
+    max-height: 0; overflow: hidden;
+    transition: max-height .35s cubic-bezier(.22,1,.36,1), padding .3s;
+  }
+  .faq-item.open .faq-a {
+    max-height: 400px;
+    padding-bottom: 20px;
+  }
+
+  /* ── CTA BANNER ── */
+  .cta-banner {
+    background: var(--terra);
+    padding: 80px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-banner::before {
+    content: 'Kura';
+    position: absolute;
+    font-family: 'Fraunces', serif;
+    font-size: 320px; font-weight: 200; font-style: italic;
+    color: rgba(255,255,255,0.07);
+    line-height: 1;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none; user-select: none;
+    white-space: nowrap;
+  }
+  .cta-banner-title {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(32px, 4vw, 60px);
+    font-weight: 300; letter-spacing: -0.03em;
+    line-height: 1.1; color: #fff;
+    margin-bottom: 16px; position: relative;
+  }
+  .cta-banner-title em { font-style: italic; font-weight: 200; }
+  .cta-banner-sub {
+    font-size: 17px; color: rgba(255,255,255,0.75);
+    font-weight: 500; margin-bottom: 36px;
+    position: relative;
+  }
+  .cta-banner .btn-row {
+    justify-content: center; margin-bottom: 0;
+    position: relative;
+  }
+  .cta-banner .btn-store.primary {
+    background: #fff; color: var(--ink);
+  }
+  .cta-banner .btn-store.secondary {
+    background: rgba(255,255,255,0.15);
+    color: #fff; border-color: rgba(255,255,255,0.3);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--ink);
+    color: var(--surface);
+    padding: 60px 40px 40px;
+  }
+  .footer-inner {
+    max-width: 1280px; margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .footer-logo {
+    font-family: 'Fraunces', serif;
+    font-size: 26px; font-weight: 400;
+    letter-spacing: -0.5px; margin-bottom: 12px;
+  }
+  .footer-logo span { font-style: italic; color: var(--terra-lt); }
+  .footer-tagline {
+    font-size: 14px; color: rgba(255,255,255,0.45);
+    font-weight: 500; line-height: 1.6;
+    max-width: 260px;
+  }
+  .footer-col-title {
+    font-size: 11px; font-weight: 800;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    color: rgba(255,255,255,0.35);
+    margin-bottom: 16px;
+  }
+  .footer-links { display: flex; flex-direction: column; gap: 10px; }
+  .footer-links a {
+    font-size: 14px; font-weight: 600;
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+  }
+  .footer-links a:hover { color: #fff; }
+  .footer-bottom {
+    max-width: 1280px; margin: 0 auto;
+    padding-top: 28px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 12px; color: rgba(255,255,255,0.3);
+    font-weight: 600;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    nav { padding: 0 20px; }
+    .nav-links { display: none; }
+    .hero { grid-template-columns: 1fr; padding: 100px 24px 60px; gap: 40px; }
+    .hero-phones { display: none; }
+    .section { padding: 64px 24px; }
+    .steps-grid { grid-template-columns: 1fr; }
+    .features-grid { grid-template-columns: 1fr; }
+    .science-inner { grid-template-columns: 1fr; gap: 48px; }
+    .footer-inner { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+    .hero-headline { font-size: 40px; }
+    .strip-track { animation-duration: 18s; }
+  }
+</style>
+  <link rel="icon" type="image/png" href="../favicon.png">
+
+  <style>
+    .page-content {
+      max-width: 800px;
+      margin: 140px auto 80px;
+      padding: 0 40px;
+    }
+    .page-content h1 {
+      font-family: 'Fraunces', serif;
+      font-size: 48px;
+      font-weight: 300;
+      letter-spacing: -0.03em;
+      margin-bottom: 32px;
+      color: var(--ink);
+    }
+    .page-content h2 {
+      font-size: 24px;
+      margin: 32px 0 16px;
+      font-weight: 700;
+      font-family: 'Fraunces', serif;
+    }
+    .page-content p, .page-content li {
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--ink-soft);
+      margin-bottom: 16px;
+    }
+    .page-content a {
+      color: var(--terra);
+      text-decoration: underline;
+    }
+    .page-content ul {
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+    /* Simple utility to ensure Tally form fits well */
+    .tally-container {
+      margin-top: 40px;
+    }
+  </style>
+  </head>
+  <body>
+  
+<nav>
+  <div class="nav-logo" style="display: flex; align-items: center; gap: 8px;"><img src="../favicon.png" class="nav-logo-img" style="width: 28px; height: 28px; border-radius: 6px;" alt="">K<span>ura</span></div>
+  <div class="nav-links">
+    <a href="/#how-it-works">How it works</a>
+    <a href="/#features">Features</a>
+    <a href="/#science">Science</a>
+    <a href="/#faq">FAQ</a>
+    <a href="https://apps.apple.com/us/app/food-scanner-kura-allergify/id6755896152" target="_blank" class="nav-cta">Download free</a>
+  </div>
+</nav>
+<div class="page-content">
+<p>Privacy Policy</p>
+<p>Last Updated: December 11, 2025 · Effective Date: December 11, 2025
+Introduction</p>
+<p>Welcome to Allergify (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your privacy and being transparent about how we handle your data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your personal information.</p>
+<p>By using the Allergify mobile application (&quot;App&quot;), you agree to the collection and use of information in accordance with this policy.</p>
+<ol>
+<li>Information We Collect
+1.1 Information You Provide Directly</li>
+</ol>
+<p>Allergen Preferences:</p>
+<pre><code>Selected allergens and dietary restrictions
+Stored locally on your device only
+Not transmitted to our servers
+</code></pre>
+<p>Product Contributions:</p>
+<pre><code>Product barcodes
+Product images
+Ingredient label images
+Submitted voluntarily to improve our database
+</code></pre>
+<p>1.2 Automatically Collected Information</p>
+<p>Scan Data:</p>
+<pre><code>Scanned product barcodes
+Scan timestamps
+Scan results (allergen matches)
+Stored locally on your device
+</code></pre>
+<p>Usage Data:</p>
+<pre><code>App version
+Device model and operating system
+Crash reports and performance data
+Feature usage statistics
+Anonymized analytics events collected via TelemetryDeck
+</code></pre>
+<p>1.3 Third-Party Data Collection</p>
+<p>Google AdMob (Non-Premium Users Only):</p>
+<pre><code>Advertising identifier (IDFA on iOS, AAID on Android)
+IP address (for location-based advertising)
+Device model and operating system version
+App usage patterns and session duration
+</code></pre>
+<p>OpenAI API (Premium Users Only):</p>
+<pre><code>Ingredient text from product labels (for AI analysis)
+Your allergy information
+Product name and category (for context)
+No personal identifiers, location data, or device information
+</code></pre>
+<ol start="2">
+<li><p>How We Use Your Information
+2.1 Core Functionality</p>
+<p> Detect allergens in scanned products
+ Provide personalized allergen alerts
+ Display product information and nutritional data
+ Save scan history and favorites locally</p>
+</li>
+</ol>
+<p>2.2 Product Database Improvement</p>
+<pre><code>Enhance allergen detection accuracy
+Expand product database coverage
+Contribute to Open Food Facts (open-source food database)
+</code></pre>
+<p>2.3 AI-Powered Analysis (Premium Feature)</p>
+<pre><code>Analyze ingredient lists for allergen detection
+Provide health scores and nutritional insights
+Generate personalized recommendations
+Processed via OpenAI&#39;s API under their Business Terms
+</code></pre>
+<p>2.4 Advertising (Non-Premium Users)</p>
+<pre><code>Display relevant advertisements via Google AdMob
+Support free access to core features
+Fund ongoing app development and maintenance
+</code></pre>
+<p>2.5 Analytics and Improvement</p>
+<pre><code>Monitor app performance and stability
+Identify and fix bugs and crashes
+Understand feature usage and user preferences
+Improve user experience
+We use TelemetryDeck and similar analytics services to monitor app performance, understand feature usage, and improve user experience.
+</code></pre>
+<ol start="3">
+<li>Data Sharing and Third Parties
+3.1 Open Food Facts</li>
+</ol>
+<p>Data Shared: Product barcodes, product images, ingredient information (when you contribute data)</p>
+<p>Purpose: Contributing to an open-source food product database</p>
+<p>License: Open Database License (ODbL)</p>
+<p>Privacy Policy: <a href="https://world.openfoodfacts.org/data">https://world.openfoodfacts.org/data</a></p>
+<p>Attribution: Product information powered by Open Food Facts
+3.2 OpenAI (Premium Feature)</p>
+<p>Data Shared: Ingredient text from product labels only</p>
+<p>Purpose: AI-powered allergen analysis and health insights</p>
+<p>Important Notes:</p>
+<pre><code>Only ingredient text and your allergens are transmitted
+No user identifiers or device information sent
+OpenAI processes data under Business Terms
+</code></pre>
+<p>Privacy Policy: <a href="https://openai.com/policies/privacy-policy">https://openai.com/policies/privacy-policy</a>
+3.3 Google AdMob (Non-Premium Users)</p>
+<p>Data Shared: Device identifiers, IP address, device model, app usage data</p>
+<p>Purpose: Serve personalized advertisements</p>
+<p>Important Notes:</p>
+<pre><code>We do not share, sell, or use your data for profiling
+Data collection is limited to ad delivery
+Premium subscribers do not see ads (AdMob does not collect their data)
+You can limit ad tracking in your device settings
+</code></pre>
+<p>Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+<p>Ad Personalization: <a href="https://adssettings.google.com">https://adssettings.google.com</a>
+3.4 Service Providers</p>
+<p>We may share data with trusted service providers who assist us in:</p>
+<pre><code>Hosting and infrastructure
+Analytics and crash reporting
+Customer support
+</code></pre>
+<p>Service providers may include hosting, analytics (such as TelemetryDeck), crash reporting, and customer support tools.</p>
+<p>All service providers are bound by confidentiality agreements and may only use your data as directed by us.
+3.5 Legal Requirements</p>
+<p>We may disclose your information if required to do so by law or in response to valid requests by public authorities (e.g., court orders, subpoenas).
+3.6 TelemetryDeck (Analytics)</p>
+<p>Data Shared: Anonymized analytics events (e.g., screens viewed, feature usage, app version, device type).</p>
+<p>Purpose: Understand how the app is used, monitor performance, and improve features.</p>
+<p>Important Notes:</p>
+<pre><code>No names, email addresses, or precise locations are sent.
+Data is aggregated and used only for analytics and app improvement.
+</code></pre>
+<p>Privacy Policy: <a href="https://telemetrydeck.com/privacy">https://telemetrydeck.com/privacy</a>
+4. Data Storage and Security
+4.1 Local Storage</p>
+<p>Most of your data is stored locally on your device:</p>
+<pre><code>Allergen preferences
+Scan history
+Favorite products
+Premium subscription status
+</code></pre>
+<p>Security: Protected by your device&#39;s security features (passcode, biometrics, encryption)
+4.2 Cloud Storage (Product Contributions Only)</p>
+<p>Product contributions are stored on our servers to improve the database:</p>
+<pre><code>Stored anonymously (no user identifiers)
+Secured using industry-standard encryption
+Access restricted to authorized personnel only
+</code></pre>
+<p>4.3 Data Retention</p>
+<pre><code>Local data: Retained until you delete the app or clear app data
+Product contributions: Retained indefinitely for database purposes
+Analytics data: Retained for 12 months, then anonymized or deleted
+</code></pre>
+<ol start="5">
+<li>Your Rights and Choices
+5.1 Access and Control</li>
+</ol>
+<p>You have the right to:</p>
+<pre><code>Access: Review your allergen preferences and scan history in the app
+Modify: Change your allergen selections at any time
+Delete: Clear your scan history or delete the app entirely
+</code></pre>
+<p>5.2 Data Deletion</p>
+<pre><code>Local data: Delete by clearing app data or uninstalling the app
+Product contributions: Submitted anonymously; cannot be individually deleted
+Account deletion: We do not maintain user accounts
+</code></pre>
+<p>5.3 Advertising Choices</p>
+<p>You can limit ad tracking:</p>
+<pre><code>iOS: Settings &gt; Privacy &gt; Advertising &gt; Limit Ad Tracking
+Android: Settings &gt; Google &gt; Ads &gt; Opt out of Ads Personalization
+Premium: Subscribe to remove ads entirely
+</code></pre>
+<p>5.4 Withdrawal of Consent</p>
+<p>You may withdraw consent for data collection by:</p>
+<pre><code>Uninstalling the app
+Disabling specific features (e.g., product contributions)
+Upgrading to Premium (stops ad data collection)
+</code></pre>
+<ol start="6">
+<li>Children&#39;s Privacy</li>
+</ol>
+<p>Allergify is intended for users aged 13 and older (16+ in the EU/EEA).</p>
+<p>We do not knowingly collect personal information from children under 13 (or 16 in the EU/EEA). If you are a parent or guardian and believe your child has provided us with personal information, please contact us, and we will delete such information.</p>
+<p>COPPA Compliance: We comply with the Children&#39;s Online Privacy Protection Act (COPPA).</p>
+<p>Age Verification: By using this app, you represent that you are at least 13 years old (or 16 in the EU/EEA).
+7. International Data Transfers</p>
+<p>Your information may be transferred to and processed in countries other than your own.</p>
+<p>These countries may have different data protection laws than your country. By using the App, you consent to the transfer of your information to these countries.</p>
+<p>We ensure appropriate safeguards are in place, such as:</p>
+<pre><code>Standard contractual clauses
+Privacy Shield frameworks (where applicable)
+Adequacy decisions by relevant authorities
+</code></pre>
+<ol start="8">
+<li>Regional Privacy Rights
+8.1 European Users (GDPR)</li>
+</ol>
+<p>If you are in the European Economic Area (EEA), UK, or Switzerland, you have additional rights:</p>
+<pre><code>Right to rectification: Correct inaccurate data
+Right to erasure: Request deletion of your data (&quot;right to be forgotten&quot;)
+Right to object: Object to certain data processing activities
+Right to withdraw consent: Withdraw consent at any time
+Right to lodge a complaint: File a complaint with your local data protection authority
+</code></pre>
+<p>Legal Basis for Processing:</p>
+<pre><code>Consent: Allergen preferences, product contributions, AI analysis
+Legitimate interests: Analytics, fraud prevention, app improvement
+Legal obligations: Compliance with applicable laws
+</code></pre>
+<p>8.2 California Users (CCPA/CPRA)</p>
+<p>If you are a California resident, you have the right to:</p>
+<pre><code>Know: What personal information we collect and how we use it
+Delete: Request deletion of your personal information
+Opt-out: Opt out of the &quot;sale&quot; of personal information (we do not sell data)
+Non-discrimination: Exercise your rights without discrimination
+</code></pre>
+<p>California Privacy Notice: We do not sell your personal information. We share data with third parties only as described in this policy.
+8.3 Other Jurisdictions</p>
+<p>We respect privacy rights under all applicable laws, including:</p>
+<pre><code>Canada (PIPEDA)
+Australia (Privacy Act)
+Brazil (LGPD)
+And other regional regulations
+</code></pre>
+<ol start="9">
+<li>Cookies and Tracking Technologies</li>
+</ol>
+<p>The App does not use cookies. However, third-party services may use similar technologies:</p>
+<pre><code>AdMob: Uses advertising identifiers for ad targeting
+Analytics: May use session identifiers for usage tracking
+</code></pre>
+<p>You can control these through your device settings.
+10. Changes to This Privacy Policy</p>
+<p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors.</p>
+<p>Notification of Changes:</p>
+<pre><code>Updated &quot;Last Updated&quot; date at the top of this policy
+In-app notification for material changes
+Continued use of the App constitutes acceptance of changes
+</code></pre>
+<p>Review Regularly: We encourage you to review this policy periodically.
+11. Medical Disclaimer</p>
+<p>IMPORTANT: Allergify is a tool to help identify potential allergens in food products. It is NOT a substitute for medical advice, diagnosis, or treatment.</p>
+<p>You Must:</p>
+<pre><code>Always read product labels yourself
+Consult your doctor or allergist before consuming any product
+Carry prescribed emergency medication (e.g., epinephrine)
+Seek immediate medical attention in case of allergic reactions
+</code></pre>
+<p>We Are Not Liable:</p>
+<pre><code>For incorrect allergen information
+For product formulation changes
+For cross-contamination risks
+For adverse health outcomes
+</code></pre>
+<p>Use at Your Own Risk: This app provides information for educational purposes only.
+12. Contact Us</p>
+<p>If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us.</p>
+<p>Response Time: We aim to respond within 7 days of receiving your request.
+13. Compliance and Certifications</p>
+<p>Allergify complies with:</p>
+<pre><code>General Data Protection Regulation (GDPR)
+California Consumer Privacy Act (CCPA/CPRA)
+Children&#39;s Online Privacy Protection Act (COPPA)
+Apple App Store Privacy Guidelines
+Google Play Store Privacy Guidelines
+</code></pre>
+<ol start="14">
+<li>Third-Party Links</li>
+</ol>
+<p>The App may contain links to third-party websites or services (e.g., Open Food Facts). We are not responsible for the privacy practices of these third parties. We encourage you to review their privacy policies.
+Summary</p>
+<p>What We Collect:</p>
+<pre><code>Allergen preferences (local only)
+Scan history (local only)
+Product contributions (anonymous)
+Usage analytics
+Ad data (non-premium users)
+Ingredient text for AI (premium users)
+</code></pre>
+<p>What We Don&#39;t Collect:</p>
+<pre><code>Name, email, or phone number
+Precise location
+Payment information (handled by Apple/Google)
+Biometric data
+Health records
+</code></pre>
+<p>Your Data, Your Control:</p>
+<pre><code>Most data stays on your device
+Delete anytime by uninstalling
+Upgrade to Premium for ad-free experience
+No user accounts required
+</code></pre>
+<ol start="15">
+<li>Apple Inc. as Third-Party Beneficiary</li>
+</ol>
+<p>You acknowledge and agree that Apple Inc., and Apple&#39;s subsidiaries, are third-party beneficiaries of these Terms, and that, upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary thereof.</p>
+<p>By using Allergify, you acknowledge that you have read and understood this Privacy Policy.</p>
+
+</div>
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">K<span>ura</span></div>
+      <p class="footer-tagline">A whistleblower tool. Not a diet app. The 1-second truth about what's in your food.</p>
+    </div>
+    <div>
+      <div class="footer-col-title">Product</div>
+      <div class="footer-links">
+        <a href="/#how-it-works">How it works</a>
+        <a href="/#features">Features</a>
+        <a href="/#science">Our science</a>
+        <a href="https://apps.apple.com/us/app/food-scanner-kura-allergify/id6755896152" target="_blank">iOS App</a>
+        <a href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" target="_blank">Android App</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Learn</div>
+      <div class="footer-links">
+        <a href="#">EU vs. FDA guide</a>
+        <a href="#">Additive decoder</a>
+        <a href="#">For families</a>
+        <a href="#">Scoring methodology</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Company</div>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="/privacy">Privacy policy</a>
+        <a href="/terms">Terms of use</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Kura. All rights reserved. Not medical advice.</span>
+    <span>Built for people who ask questions.</span>
+  </div>
+</footer>
+
+<script>
+  // Intersection Observer for .reveal elements
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
+
+  const revealEls = document.querySelectorAll('.reveal');
+  revealEls.forEach(el => observer.observe(el));
+
+  // Fallback: ensure everything visible after 800ms in case observer doesn't fire
+  setTimeout(() => {
+    revealEls.forEach(el => el.classList.add('visible'));
+  }, 800);
+
+  // FAQ accordion
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    // close all
+    document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+</script>
+</body>
+</html>

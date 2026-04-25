@@ -1,0 +1,488 @@
+Terms of Service
+
+Last Updated: December 11, 2025 · Effective Date: December 11, 2025
+Agreement to Terms
+
+By downloading, installing, or using the Allergify mobile application ("App," "Service," "we," "our," or "us"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
+
+These Terms constitute a legally binding agreement between you ("you," "your," or "User") and Allergify.
+1. Description of Service
+
+Allergify is a mobile application that helps users identify potential allergens in food products by:
+
+    Scanning product barcodes
+    Analyzing ingredient lists
+    Providing allergen alerts based on user preferences
+    Displaying nutritional information
+    Offering AI-powered health insights (Premium feature)
+
+We may collect anonymized usage analytics (e.g., via TelemetryDeck) to monitor performance and improve the Service.
+
+Important: Allergify is an informational tool only and does not replace professional medical advice.
+2. Eligibility and Account
+2.1 Age Requirements
+
+You must be at least 13 years old (or 16 years old if you are in the European Economic Area) to use this App.
+
+By using the App, you represent and warrant that you meet the age requirements.
+2.2 No Account Required
+
+Allergify does not require user registration or accounts. All data is stored locally on your device.
+2.3 Parental Consent
+
+If you are between 13-18 years old (or 16-18 in the EEA), you must have parental or guardian consent to use this App.
+3. License and Usage Rights
+3.1 Limited License
+
+We grant you a limited, non-exclusive, non-transferable, revocable license to:
+
+    Download and install the App on your personal device
+    Use the App for personal, non-commercial purposes
+    Access features available in your subscription tier (Free or Premium)
+
+3.2 Restrictions
+
+You may NOT:
+
+    Copy, modify, or create derivative works of the App
+    Reverse engineer, decompile, or disassemble the App
+    Remove or alter any copyright, trademark, or proprietary notices
+    Use the App for any illegal or unauthorized purpose
+    Attempt to gain unauthorized access to any part of the Service
+    Use automated systems (bots, scrapers) to access the App
+    Resell, rent, lease, or sublicense the App
+    Use the App in any way that could damage, disable, or impair the Service
+
+3.3 Updates and Modifications
+
+We may update, modify, or discontinue features of the App at any time without notice. We are not liable for any modifications or discontinuation of the Service.
+
+Allergify is solely responsible for providing any maintenance and support services for the App. You acknowledge that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.
+4. User Conduct and Responsibilities
+4.1 Your Responsibilities
+
+You are responsible for:
+
+    Maintaining the security of your device
+    All activity on your device using the App
+    Complying with all applicable laws and regulations
+    Reading product labels and making informed decisions
+
+4.2 Prohibited Conduct
+
+You agree NOT to:
+
+    Upload malicious code, viruses, or harmful content
+    Submit false or misleading product information
+    Harass, abuse, or harm other users or our staff
+    Violate any laws or regulations
+    Infringe on intellectual property rights
+    Use the App to harm yourself or others
+
+4.3 Product Contributions
+
+If you submit product information, images, or corrections:
+
+    You grant us a worldwide, royalty-free, perpetual license to use such content
+    You represent that you have the right to submit such content
+    You acknowledge contributions may be shared with Open Food Facts
+    Contributions are anonymous and cannot be individually deleted
+
+5. Premium Subscription
+5.1 Premium Features
+
+Premium subscription includes:
+
+    Unlimited AI allergen analysis
+    Ad-free experience
+    Advanced health scores and insights
+    Additional product information
+    Early access to new features
+
+5.2 Pricing and Payment
+
+    Premium subscription pricing is displayed in the App
+    Prices may vary by country and currency
+    Payment is processed through the Apple App Store or Google Play Store
+    We do not store your payment information
+
+5.3 Free Trial
+
+    New users may receive a 7-day free trial
+    You will not be charged during the trial period
+    Trial automatically converts to paid subscription unless canceled
+    Only one trial per user/device
+    Previous subscribers are not eligible for trials
+
+5.4 Billing and Renewal
+
+    Subscriptions automatically renew unless canceled at least 24 hours before the current period ends
+    Your account will be charged within 24 hours prior to the end of the current period
+    Renewal charges are equal to the original subscription price (unless we notify you of price changes)
+    You can manage or cancel subscriptions through your App Store or Google Play account settings
+
+5.5 Cancellation
+
+    You may cancel your subscription at any time
+    Cancellation takes effect at the end of the current billing period
+    No refunds for partial months or unused time
+    Access to Premium features continues until the end of the paid period
+
+To Cancel:
+
+    iOS: Settings > [Your Name] > Subscriptions > Allergify > Cancel Subscription
+    Android: Play Store > Menu > Subscriptions > Allergify > Cancel Subscription
+
+5.6 Price Changes
+
+We may change subscription prices at any time. Price changes will:
+
+    Be communicated in advance (at least 14 days notice)
+    Apply to new subscribers immediately
+    Apply to existing subscribers upon next renewal
+    Allow you to cancel before the price increase takes effect
+
+5.7 Refund Policy
+
+    All purchases are final
+    Refunds are handled by Apple App Store or Google Play Store
+    We cannot process refunds directly
+    You may request a refund from Apple or Google within their refund windows
+
+Exceptions: Refunds may be granted at our sole discretion for:
+
+    Technical issues preventing app use
+    Unauthorized charges
+    Other extraordinary circumstances
+
+6. Medical Disclaimer and Limitation of Liability
+6.1 Not Medical Advice
+
+CRITICAL DISCLAIMER:
+
+Allergify is a tool to help identify potential allergens. It is NOT a substitute for:
+
+    Professional medical advice
+    Diagnosis or treatment
+    Reading product labels yourself
+    Consulting with allergists or healthcare providers
+
+6.2 Accuracy and Reliability
+
+We strive for accuracy, but WE DO NOT GUARANTEE:
+
+    Accuracy or completeness of allergen information
+    Product information is up-to-date (manufacturers may change formulations)
+    All allergens will be detected
+    Freedom from errors or omissions
+
+6.3 Your Responsibilities
+
+YOU MUST:
+
+    ✅ Always read product labels yourself
+    ✅ Verify information with manufacturers if uncertain
+    ✅ Consult your doctor or allergist about your allergies
+    ✅ Carry prescribed emergency medication (e.g., epinephrine)
+    ✅ Seek immediate medical attention for allergic reactions
+    ✅ Make your own informed decisions about food consumption
+
+6.4 Assumption of Risk
+
+By using Allergify, you acknowledge and accept that:
+
+    You use the App at your own risk
+    We are not responsible for adverse health outcomes
+    Product information may be incomplete or inaccurate
+    Cross-contamination risks are not assessed
+    You are solely responsible for your health and safety decisions
+
+6.5 No Liability for Health Outcomes
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, we are NOT LIABLE for:
+
+    Allergic reactions or adverse health events
+    Injuries, illness, or death resulting from app use
+    Incorrect allergen information
+    Reliance on app data
+    Product formulation changes
+    Cross-contamination or manufacturing errors
+
+7. Intellectual Property Rights
+7.1 Our Property
+
+The App and all content, features, and functionality are owned by Allergify and are protected by:
+
+    Copyright laws
+    Trademark laws
+    Patent laws
+    Trade secret laws
+    Other intellectual property rights
+
+This includes:
+
+    App design, code, and architecture
+    Allergify name, logo, and branding
+    Content, text, and graphics
+    AI models and algorithms
+    Database structures
+
+7.2 Third-Party Content
+
+Some content is provided by third parties:
+
+    Open Food Facts: Product data (ODbL license)
+    OpenAI: AI processing technology
+    Icons and Images: Various sources with appropriate licenses
+
+7.3 Trademarks
+
+"Allergify" and associated logos are trademarks or registered trademarks. Unauthorized use is prohibited.
+7.4 Feedback
+
+If you provide feedback, suggestions, or ideas:
+
+    We may use them without compensation or attribution
+    You grant us an unlimited, perpetual license to use such feedback
+    You waive any claims to ownership or compensation
+
+8. Third-Party Services and Links
+8.1 Third-Party Services
+
+The App integrates with third-party services:
+
+    Open Food Facts (product database)
+    OpenAI (AI analysis)
+    Google AdMob (advertising)
+    Apple App Store / Google Play Store (payments)
+    TelemetryDeck (usage analytics)
+
+Each service has its own terms and privacy policies. We are not responsible for third-party services.
+8.2 External Links
+
+The App may contain links to external websites. We do not endorse or control external sites and are not responsible for their content or practices.
+9. Privacy and Data Protection
+
+Your privacy is important to us. Our collection and use of personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference.
+
+Key Points:
+
+    Most data is stored locally on your device
+    We do not collect personal information (name, email, etc.)
+    Product contributions are anonymous
+    Premium users: Ingredient text sent to OpenAI for analysis
+    Non-premium users: Ad data collected by AdMob
+    Usage analytics (e.g., via TelemetryDeck) as described in our Privacy Policy.
+
+Please review our Privacy Policy for complete details.
+10. Advertising
+10.1 Non-Premium Users
+
+Free users will see advertisements served by Google AdMob. By using the free version, you consent to viewing ads.
+10.2 Ad Content
+
+We do not control ad content. Ads are selected by Google AdMob based on:
+
+    App context
+    User demographics (general, not personal)
+    Device information
+
+10.3 Ad Interaction
+
+    Clicking ads may redirect you to external websites
+    We are not responsible for advertiser content or practices
+    Ad revenue supports free access to core features
+
+10.4 Opt-Out
+
+To remove ads, subscribe to Premium.
+11. Disclaimers and Warranties
+11.1 "AS IS" Basis
+
+THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, INCLUDING:
+
+    Merchantability
+    Fitness for a particular purpose
+    Non-infringement
+    Accuracy, reliability, or completeness
+    Uninterrupted or error-free operation
+    Freedom from viruses or harmful components
+
+11.2 No Guarantee of Availability
+
+We do not guarantee:
+
+    The App will always be available
+    Features will function without interruption
+    Errors will be corrected
+    The Service will meet your requirements
+
+11.3 Jurisdictional Variations
+
+Some jurisdictions do not allow exclusion of implied warranties. In such cases, the above exclusions may not apply to you.
+12. Limitation of Liability
+12.1 Exclusion of Damages
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR:
+
+    Direct, indirect, incidental, or consequential damages
+    Loss of profits, revenue, or business opportunities
+    Loss of data or information
+    Personal injury, illness, or death
+    Emotional distress
+    Any damages arising from app use or inability to use
+    Reliance on app content
+
+EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+12.2 Maximum Liability
+
+If we are found liable for any reason, our total liability shall not exceed the amount you paid for Premium subscription in the 12 months prior to the claim (or $100 if you are a free user).
+12.3 Jurisdictional Variations
+
+Some jurisdictions do not allow limitation of liability for certain damages. In such cases, our liability is limited to the extent permitted by law.
+13. Indemnification
+
+You agree to indemnify, defend, and hold harmless Allergify, its affiliates, officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses (including attorney fees) arising from:
+
+    Your use or misuse of the App
+    Your violation of these Terms
+    Your violation of any laws or regulations
+    Your violation of third-party rights
+    Content you submit or contribute
+    Health outcomes resulting from app use
+
+This indemnification obligation survives termination of these Terms.
+14. Termination
+14.1 By You
+
+You may stop using the App at any time by:
+
+    Uninstalling the App
+    Canceling your Premium subscription (if applicable)
+
+14.2 By Us
+
+We may suspend or terminate your access to the App at any time, with or without cause, with or without notice, for reasons including:
+
+    Violation of these Terms
+    Fraudulent or illegal activity
+    Abusive behavior
+    Non-payment (Premium users)
+    At our sole discretion
+
+14.3 Effect of Termination
+
+Upon termination:
+
+    Your license to use the App immediately ends
+    You must uninstall the App and cease all use
+    Premium subscriptions may be canceled (no refund)
+    Sections that by nature should survive (indemnification, disclaimers, etc.) will survive
+
+15. Dispute Resolution
+15.1 Governing Law
+
+These Terms are governed by the laws of the Republic of Poland, without regard to conflict of law principles.
+15.2 Informal Resolution
+
+Before filing a claim, you agree to contact us to attempt to resolve the dispute informally.
+15.3 Arbitration (US Users)
+
+PLEASE READ CAREFULLY: THIS SECTION CONTAINS AN ARBITRATION AGREEMENT.
+
+For US users, disputes will be resolved through binding arbitration rather than in court, except:
+
+    Small claims court matters
+    Intellectual property disputes
+    Injunctive relief requests
+
+Arbitration Rules:
+
+    Conducted by the American Arbitration Association (AAA)
+    AAA Consumer Arbitration Rules apply
+    Single arbitrator, neutral location
+    Each party pays their own costs
+    Arbitrator's decision is final and binding
+
+Class Action Waiver: You agree to resolve disputes individually, not as a class action.
+
+Opt-Out: You may opt out of arbitration by emailing us within 30 days of first use.
+15.4 Jurisdiction (Non-US Users)
+
+For non-US users, disputes will be resolved in the courts of the Republic of Poland. You consent to the exclusive jurisdiction of these courts.
+16. General Provisions
+16.1 Entire Agreement
+
+These Terms, together with our Privacy Policy, constitute the entire agreement between you and Allergify.
+16.2 Severability
+
+If any provision of these Terms is found invalid or unenforceable, the remaining provisions remain in full effect.
+16.3 Waiver
+
+Our failure to enforce any right or provision does not constitute a waiver of that right or provision.
+16.4 Assignment
+
+You may not assign or transfer these Terms. We may assign our rights and obligations without restriction.
+16.5 No Third-Party Beneficiaries
+
+These Terms do not create any third-party beneficiary rights.
+16.6 Force Majeure
+
+We are not liable for failure to perform due to circumstances beyond our reasonable control (e.g., natural disasters, pandemics, government actions, network failures).
+16.7 Export Control
+
+You agree to comply with all export and import laws and regulations.
+16.8 Survival
+
+Provisions that by their nature should survive termination will survive, including: disclaimers, limitations of liability, indemnification, and dispute resolution.
+17. Platform-Specific Terms
+17.1 Apple App Store
+
+If you download the App from the Apple App Store:
+
+    These Terms are between you and Allergify, not Apple
+    Apple is not responsible for the App or its content
+    Apple has no obligation to provide support
+    Apple is not liable for any claims related to the App
+    You represent you are not in a US-embargoed country
+    You will comply with third-party terms (e.g., wireless data agreement)
+
+17.2 Google Play Store
+
+If you download the App from Google Play Store:
+
+    These Terms are between you and Allergify, not Google
+    Google is not responsible for the App or its content
+    Google has no obligation to provide support
+    Google is not liable for any claims related to the App
+
+18. Changes to Terms
+
+We may update these Terms from time to time. Changes will be effective when:
+
+    We update the "Last Updated" date
+    We post the revised Terms in the App
+    We notify you of material changes (in-app notification or email if you're a Premium subscriber)
+
+Your Continued Use: Continued use of the App after changes constitutes acceptance of the new Terms.
+
+Review Regularly: We encourage you to review these Terms periodically.
+
+Disagree? If you do not agree to modified Terms, you must stop using the App.
+19. Contact Us
+
+If you have questions, concerns, or disputes regarding these Terms, please contact us.
+20. Acknowledgment
+
+BY USING ALLERGIFY, YOU ACKNOWLEDGE THAT:
+
+    ✅ You have read and understood these Terms of Service
+    ✅ You agree to be bound by these Terms
+    ✅ You understand the medical disclaimer and assumption of risk
+    ✅ You are at least 13 years old (or 16 in the EEA)
+    ✅ You will use the App responsibly and in accordance with these Terms
+    ✅ You understand that allergies can be life-threatening and Allergify is not a substitute for medical care
+
+Thank you for using Allergify. Stay safe!
