@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kura Methodology - Food and Cosmetic Ingredient Analysis</title>
+  <meta name="description" content="How Kura approaches food scans, cosmetic scans, ingredient explanations, scoring, public data sources, and health caveats.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&amp;family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../about/info-pages.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Kura Methodology",
+    "description": "A concise explanation of Kura's food and cosmetic ingredient analysis workflow.",
+    "dateModified": "2026-05-15",
+    "publisher": {"@type": "Organization", "name": "Kura"}
+  }
+  </script>
+</head>
+<body>
+  <nav aria-label="Main navigation">
+    <a href="/" class="nav-logo"><img src="../favicon.png" alt=""><span>K<em>ura</em></span></a>
+    <div class="nav-links">
+      <a href="/food-scanner/">Food scanner</a>
+      <a href="/cosmetic-scanner/">Cosmetics</a>
+      <a href="/methodology/">Methodology</a>
+      <a href="/data-sources/">Sources</a>
+      <a href="/faq/">FAQ</a>
+      <a href="https://apps.apple.com/us/app/food-scanner-kura-allergify/id6755896152" target="_blank" rel="noopener" class="nav-cta">Download free</a>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <div>
+      <div class="eyebrow">Methodology</div>
+      <h1>How Kura turns ingredient labels into useful context.</h1>
+      <p class="lede">Kura combines product lookup, label reading, ingredient normalization, public-source checks, and plain-language explanations. The goal is clarity, not certainty where the evidence does not support certainty.</p>
+      <div class="actions">
+        <a class="button primary" href="/data-sources/">Review sources</a>
+        <a class="button" href="/faq/">Read FAQ</a>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <ul class="mini-list">
+        <li>Identify the product by barcode or label when possible.</li>
+        <li>Extract and normalize ingredient names, including additive and INCI-style names.</li>
+        <li>Map ingredients to source references and explain the main caveats.</li>
+        <li>Show an understandable result while encouraging label verification.</li>
+      </ul>
+    </aside>
+  </header>
+
+  <main>
+    <section>
+      <div class="section-label">Core Workflow</div>
+      <h2>The scan is built in layers.</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>1. Product match</h3>
+          <p>Kura first tries to match the barcode or product details to available product data. Coverage varies by region, product category, and how recently a formula was updated.</p>
+        </article>
+        <article class="card">
+          <h3>2. Ingredient parsing</h3>
+          <p>Ingredient text is parsed into recognizable names, synonyms, additive codes, and cosmetic ingredient names where possible. Unclear or missing text should be checked against the package.</p>
+        </article>
+        <article class="card">
+          <h3>3. Source mapping</h3>
+          <p>Ingredients are compared with public references such as food additive resources, nutrition data, cosmetic ingredient databases, and regulator pages.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="two-col">
+      <div>
+        <div class="section-label">Food Scores</div>
+        <h2>Food analysis emphasizes ingredients, additives, processing cues, and label context.</h2>
+        <p>For food, Kura highlights ingredient-list signals such as additive categories, sweeteners, colorants, preservatives, common allergens, and processing indicators. Where a food score appears, it should be read as a summary of label-based signals rather than a full nutrition diagnosis.</p>
+        <p>A food can be acceptable for one person and inappropriate for another. Allergies, medical conditions, total diet, serving size, and age can change the practical meaning of a scan.</p>
+      </div>
+      <aside class="note">
+        <h3>What a score cannot prove</h3>
+        <p>A score cannot prove that a food is safe for every person, that a product is unsafe in all contexts, or that a single scan captures long-term dietary risk.</p>
+      </aside>
+    </section>
+
+    <section class="two-col">
+      <div>
+        <div class="section-label">Cosmetic Scans</div>
+        <h2>Cosmetic analysis separates ingredient concern from personal risk.</h2>
+        <p>For skincare, makeup, haircare, deodorant, fragrance, and other beauty products, Kura can explain ingredient roles and flag common concern categories such as fragrance terms, preservatives, colorants, exfoliating acids, UV filters, and potential allergens or irritants.</p>
+        <p>Cosmetic risk depends heavily on concentration, formulation, exposure, frequency of use, whether the product is rinse-off or leave-on, and a person's skin history. Kura does not diagnose allergies, acne, dermatitis, pregnancy safety, or medication interactions.</p>
+      </div>
+      <aside class="source-list">
+        <a href="https://www.fda.gov/cosmetics/cosmetics-laws-regulations/fda-authority-over-cosmetics-how-cosmetics-are-not-fda-approved-are-fda-regulated" target="_blank" rel="noopener">FDA cosmetics authority <span>US context for cosmetics regulation.</span></a>
+        <a href="https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en" target="_blank" rel="noopener">European Commission CosIng <span>EU cosmetic ingredient reference.</span></a>
+        <a href="https://www.fda.gov/cosmetics/cosmetic-ingredients/allergens-cosmetics" target="_blank" rel="noopener">FDA allergens in cosmetics <span>Consumer guidance on cosmetic allergens.</span></a>
+      </aside>
+    </section>
+
+    <section>
+      <div class="section-label">AI Assistance</div>
+      <h2>AI can explain labels, but sources and labels stay primary.</h2>
+      <p>Kura may use AI-assisted interpretation to make ingredient lists easier to read. AI output is treated as an explanation layer, not as an authority. The product package, public source references, and professional medical advice remain more important than a generated summary.</p>
+      <div class="callout">
+        <h3>Reviewed May 15, 2026</h3>
+        <p>This methodology page describes Kura's public information approach. Source pages and regulations can change, so Kura pages link to primary references where practical.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo">K<em>ura</em></div>
+        <p class="fine-print">Kura provides educational product-label information. It is not medical, nutrition, allergy, or dermatology advice.</p>
+      </div>
+      <div class="footer-links">
+        <a href="/about/">About</a>
+        <a href="/food-scanner/">Food scanner</a>
+        <a href="/cosmetic-scanner/">Cosmetics</a>
+        <a href="/data-sources/">Sources</a>
+        <a href="/contact/">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

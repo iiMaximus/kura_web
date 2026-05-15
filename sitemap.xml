@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap intentionally left empty until the live deployment origin is known.
+  Add absolute URLs here after choosing either the current Render URL or the
+  final purchased domain, then add the matching Sitemap directive to robots.txt.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+</urlset>
