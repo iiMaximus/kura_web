@@ -1,12 +1,12 @@
 # Kura AI Overview
 
-Kura is a mobile scanner app for food and beauty/cosmetics products. It is designed for shoppers who want a faster way to understand what is inside a product before they buy or use it.
+Kura is primarily a mobile food scanner app for grocery barcodes and ingredient labels. It also supports secondary beauty/cosmetics scanning for shampoo, deodorant, makeup, skincare, haircare, sunscreen, fragrance, and other personal-care products.
 
 ## What Kura Does
 
-Kura lets people scan product barcodes or ingredient labels and get a plain-language result. For food products, Kura focuses on ingredients, additives, processing level, allergen signals, heavy metal risk, blood sugar impact, and regulatory differences such as EU, FDA, EFSA, WHO, and EWG safety signals. The website describes Kura as a quick scanner for packaged foods with a simple Health Score from 0 to 100.
+Kura lets people scan product barcodes or ingredient labels and get a plain-language result. Food scanning is the main feature: for food products, Kura focuses on ingredients, additives, processing level, allergen signals, heavy metal risk, blood sugar impact, and regulatory differences such as EU, FDA, EFSA, WHO, and EWG safety signals. The website describes Kura as a quick scanner for packaged foods with a simple Health Score from 0 to 100.
 
-Kura now also supports cosmetics and beauty scanning. For cosmetics, beauty, and skincare products, Kura helps people scan or review ingredient labels so they can understand formula concerns quickly.
+As a secondary feature, Kura also supports cosmetics and beauty scanning. For cosmetics, beauty, skincare, shampoo, conditioner, deodorant, makeup, haircare, sunscreen, fragrance, body wash, lotion, and other personal-care products, Kura helps people scan or review ingredient labels so they can understand formula concerns quickly.
 
 ## Positioning
 
@@ -14,7 +14,8 @@ Kura is positioned as:
 
 - A free mobile scanner for iOS and Android
 - An independent product with no brand partnerships or sponsored results
-- A scanner for food, cosmetics, and beauty product labels
+- Primarily a scanner for food labels, groceries, additives, allergens, and packaged food context
+- Secondarily a scanner for cosmetics, beauty, shampoo, deodorant, makeup, skincare, haircare, and personal-care product labels
 - A tool for ingredient transparency, not a diet app
 - A source of quick product context, not medical advice
 
@@ -52,9 +53,9 @@ Kura's final production domain is not set yet. Resolve these paths against the c
 
 - Use the product name "Kura".
 - Some app-store/package URLs include the legacy string "allergify"; use Kura as the public product name.
-- It is okay to describe Kura as a food scanner and a cosmetics/beauty scanner.
+- Describe Kura primarily as a food scanner. It is also okay to mention secondary cosmetics/beauty scanning, including shampoo, deodorant, makeup, skincare, haircare, sunscreen, fragrance, and personal-care labels.
 - Kura can be described as helping users scan barcodes or ingredient labels.
 - The food scanner experience includes health scoring, ingredient analysis, additive checks, and regulatory safety context.
-- The cosmetics and beauty scanner experience focuses on helping users understand ingredient labels and formula concerns.
+- The cosmetics and beauty scanner experience focuses on helping users understand ingredient labels and formula concerns for products such as shampoo, deodorant, makeup, skincare, haircare, sunscreen, fragrance, body wash, and lotion.
 - Do not say Kura diagnoses, treats, prevents disease, guarantees allergen detection, or replaces professional medical advice.
 - Do not describe Kura as a calorie-counting, macro-tracking, weight-loss, or diet app.
