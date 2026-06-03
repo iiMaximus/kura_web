@@ -3,11 +3,11 @@
 const { useState: useS, useEffect: useE } = React;
 
 function App() {
-  const [screen, setScreen] = useS(() => localStorage.getItem('allergify:screen') || 'home');
+  const [screen, setScreen] = useS(() => localStorage.getItem('lychee:screen') || 'home');
   const [tweaks, setTweaks] = useS(window.TWEAKS);
   const [editMode, setEditMode] = useS(false);
 
-  useE(() => { localStorage.setItem('allergify:screen', screen); }, [screen]);
+  useE(() => { localStorage.setItem('lychee:screen', screen); }, [screen]);
 
   // Tweak protocol
   useE(() => {

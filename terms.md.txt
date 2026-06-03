@@ -3,12 +3,12 @@ Terms of Service
 Last Updated: December 11, 2025 · Effective Date: December 11, 2025
 Agreement to Terms
 
-By downloading, installing, or using the Allergify mobile application ("App," "Service," "we," "our," or "us"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
+By downloading, installing, or using the Lychee mobile application ("App," "Service," "we," "our," or "us"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
 
-These Terms constitute a legally binding agreement between you ("you," "your," or "User") and Allergify.
+These Terms constitute a legally binding agreement between you ("you," "your," or "User") and Lychee.
 1. Description of Service
 
-Allergify is a mobile application that helps users identify potential allergens in food products by:
+Lychee is a mobile application that helps users identify potential allergens in food products by:
 
     Scanning product barcodes
     Analyzing ingredient lists
@@ -18,7 +18,7 @@ Allergify is a mobile application that helps users identify potential allergens 
 
 We may collect anonymized usage analytics (e.g., via TelemetryDeck) to monitor performance and improve the Service.
 
-Important: Allergify is an informational tool only and does not replace professional medical advice.
+Important: Lychee is an informational tool only and does not replace professional medical advice.
 2. Eligibility and Account
 2.1 Age Requirements
 
@@ -27,7 +27,7 @@ You must be at least 13 years old (or 16 years old if you are in the European Ec
 By using the App, you represent and warrant that you meet the age requirements.
 2.2 No Account Required
 
-Allergify does not require user registration or accounts. All data is stored locally on your device.
+Lychee does not require user registration or accounts. All data is stored locally on your device.
 2.3 Parental Consent
 
 If you are between 13-18 years old (or 16-18 in the EEA), you must have parental or guardian consent to use this App.
@@ -57,7 +57,7 @@ You may NOT:
 
 We may update, modify, or discontinue features of the App at any time without notice. We are not liable for any modifications or discontinuation of the Service.
 
-Allergify is solely responsible for providing any maintenance and support services for the App. You acknowledge that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.
+Lychee is solely responsible for providing any maintenance and support services for the App. You acknowledge that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.
 4. User Conduct and Responsibilities
 4.1 Your Responsibilities
 
@@ -130,8 +130,8 @@ Premium subscription includes:
 
 To Cancel:
 
-    iOS: Settings > [Your Name] > Subscriptions > Allergify > Cancel Subscription
-    Android: Play Store > Menu > Subscriptions > Allergify > Cancel Subscription
+    iOS: Settings > [Your Name] > Subscriptions > Lychee > Cancel Subscription
+    Android: Play Store > Menu > Subscriptions > Lychee > Cancel Subscription
 
 5.6 Price Changes
 
@@ -160,7 +160,7 @@ Exceptions: Refunds may be granted at our sole discretion for:
 
 CRITICAL DISCLAIMER:
 
-Allergify is a tool to help identify potential allergens. It is NOT a substitute for:
+Lychee is a tool to help identify potential allergens. It is NOT a substitute for:
 
     Professional medical advice
     Diagnosis or treatment
@@ -189,7 +189,7 @@ YOU MUST:
 
 6.4 Assumption of Risk
 
-By using Allergify, you acknowledge and accept that:
+By using Lychee, you acknowledge and accept that:
 
     You use the App at your own risk
     We are not responsible for adverse health outcomes
@@ -211,7 +211,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, we are NOT LIABLE for:
 7. Intellectual Property Rights
 7.1 Our Property
 
-The App and all content, features, and functionality are owned by Allergify and are protected by:
+The App and all content, features, and functionality are owned by Lychee and are protected by:
 
     Copyright laws
     Trademark laws
@@ -222,7 +222,7 @@ The App and all content, features, and functionality are owned by Allergify and 
 This includes:
 
     App design, code, and architecture
-    Allergify name, logo, and branding
+    Lychee name, logo, and branding
     Content, text, and graphics
     AI models and algorithms
     Database structures
@@ -237,7 +237,7 @@ Some content is provided by third parties:
 
 7.3 Trademarks
 
-"Allergify" and associated logos are trademarks or registered trademarks. Unauthorized use is prohibited.
+"Lychee" and associated logos are trademarks or registered trademarks. Unauthorized use is prohibited.
 7.4 Feedback
 
 If you provide feedback, suggestions, or ideas:
@@ -344,7 +344,7 @@ If we are found liable for any reason, our total liability shall not exceed the 
 Some jurisdictions do not allow limitation of liability for certain damages. In such cases, our liability is limited to the extent permitted by law.
 13. Indemnification
 
-You agree to indemnify, defend, and hold harmless Allergify, its affiliates, officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses (including attorney fees) arising from:
+You agree to indemnify, defend, and hold harmless Lychee, its affiliates, officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses (including attorney fees) arising from:
 
     Your use or misuse of the App
     Your violation of these Terms
@@ -415,7 +415,7 @@ For non-US users, disputes will be resolved in the courts of the Republic of Pol
 16. General Provisions
 16.1 Entire Agreement
 
-These Terms, together with our Privacy Policy, constitute the entire agreement between you and Allergify.
+These Terms, together with our Privacy Policy, constitute the entire agreement between you and Lychee.
 16.2 Severability
 
 If any provision of these Terms is found invalid or unenforceable, the remaining provisions remain in full effect.
@@ -442,7 +442,7 @@ Provisions that by their nature should survive termination will survive, includi
 
 If you download the App from the Apple App Store:
 
-    These Terms are between you and Allergify, not Apple
+    These Terms are between you and Lychee, not Apple
     Apple is not responsible for the App or its content
     Apple has no obligation to provide support
     Apple is not liable for any claims related to the App
@@ -453,7 +453,7 @@ If you download the App from the Apple App Store:
 
 If you download the App from Google Play Store:
 
-    These Terms are between you and Allergify, not Google
+    These Terms are between you and Lychee, not Google
     Google is not responsible for the App or its content
     Google has no obligation to provide support
     Google is not liable for any claims related to the App
@@ -483,6 +483,6 @@ BY USING ALLERGIFY, YOU ACKNOWLEDGE THAT:
     ✅ You understand the medical disclaimer and assumption of risk
     ✅ You are at least 13 years old (or 16 in the EEA)
     ✅ You will use the App responsibly and in accordance with these Terms
-    ✅ You understand that allergies can be life-threatening and Allergify is not a substitute for medical care
+    ✅ You understand that allergies can be life-threatening and Lychee is not a substitute for medical care
 
-Thank you for using Allergify. Stay safe!
+Thank you for using Lychee. Stay safe!

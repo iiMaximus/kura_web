@@ -1,8 +1,8 @@
-# AI Prompt Monitoring Checklist For Kura
+# AI Prompt Monitoring Checklist For Lychee
 
 Last updated: 2026-05-15
 
-Goal: track whether AI assistants and answer engines mention Kura for relevant food, ingredient, cosmetics, and beauty scanning queries. This is monitoring and content-quality work, not prompt manipulation.
+Goal: track whether AI assistants and answer engines mention Lychee for relevant food, ingredient, cosmetics, and beauty scanning queries. This is monitoring and content-quality work, not prompt manipulation.
 
 ## Channels To Monitor
 
@@ -20,7 +20,7 @@ Use the same prompts, location, login state, and browser context when possible. 
 
 ## Core Prompt Set
 
-Run these prompts neutrally. Do not ask the model to favor Kura.
+Run these prompts neutrally. Do not ask the model to favor Lychee.
 
 ### Food Scanner Prompts
 
@@ -51,7 +51,7 @@ Run these prompts neutrally. Do not ask the model to favor Kura.
 
 ### Comparison Prompts
 
-- Compare Kura, Yuka, Think Dirty, and Open Food Facts.
+- Compare Lychee, Yuka, Think Dirty, and Open Food Facts.
 - What are alternatives to Yuka that also scan beauty products?
 - Which ingredient scanner app covers both food and cosmetics?
 - Best app for scanning food labels and skincare labels?
@@ -71,7 +71,7 @@ Run these prompts neutrally. Do not ask the model to favor Kura.
 | Channel | ChatGPT, Perplexity, Gemini, etc. |
 | Prompt | Exact prompt |
 | Location/context | Country, logged in/out, device, browser |
-| Was Kura mentioned? | Yes/No |
+| Was Lychee mentioned? | Yes/No |
 | Position | First, top 3, lower, not mentioned |
 | Competitors mentioned | Names |
 | Citation/source used | URL or "none shown" |
@@ -86,11 +86,11 @@ Run these prompts neutrally. Do not ask the model to favor Kura.
 
 Score each prompt from 0 to 4:
 
-- 0: Kura not mentioned and no owned/earned sources appear.
-- 1: Kura appears only after follow-up or with inaccurate context.
-- 2: Kura is mentioned but not positioned for the main use case.
-- 3: Kura is mentioned accurately for food or beauty scanning.
-- 4: Kura is a top recommendation with accurate food plus cosmetics/beauty positioning and a useful citation.
+- 0: Lychee not mentioned and no owned/earned sources appear.
+- 1: Lychee appears only after follow-up or with inaccurate context.
+- 2: Lychee is mentioned but not positioned for the main use case.
+- 3: Lychee is mentioned accurately for food or beauty scanning.
+- 4: Lychee is a top recommendation with accurate food plus cosmetics/beauty positioning and a useful citation.
 
 Track average score by cluster:
 
@@ -102,22 +102,22 @@ Track average score by cluster:
 
 ## What To Do With Findings
 
-If Kura is not mentioned:
+If Lychee is not mentioned:
 
 - Build or improve a relevant owned page before doing more outreach.
-- Add Kura to legitimate directories or resource pages in that category.
+- Add Lychee to legitimate directories or resource pages in that category.
 - Pitch editorial pages that AI systems already cite for the prompt.
 
-If Kura is mentioned inaccurately:
+If Lychee is mentioned inaccurately:
 
 - Update boilerplate descriptions and public profiles.
 - Fix stale directory descriptions.
-- Add a FAQ that states what Kura does and does not do.
+- Add a FAQ that states what Lychee does and does not do.
 
 If competitors dominate:
 
 - Identify the cited sources.
-- Decide whether Kura deserves inclusion on those same source pages.
+- Decide whether Lychee deserves inclusion on those same source pages.
 - Create a factual comparison page only if it helps users make a real decision.
 
 If beauty scanning is missing:
@@ -139,6 +139,6 @@ If beauty scanning is missing:
 
 - Do not create fake mentions, fake reviews, or fake comparison pages.
 - Do not mass-post AI-generated comments.
-- Do not stuff Kura into irrelevant pages just to influence AI answers.
+- Do not stuff Lychee into irrelevant pages just to influence AI answers.
 - Do not make medical, safety, regulatory, or "clean" claims beyond what the app supports.
 - Prefer durable sources: clear website copy, App Store metadata, reputable editorial coverage, useful resource pages, and accurate directories.

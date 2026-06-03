@@ -1,8 +1,8 @@
-# Kura Distribution And Indexing Playbook
+# Lychee Distribution And Indexing Playbook
 
 Last updated: 2026-05-15
 
-This playbook covers search indexing, distribution, app-store metadata alignment, backlink outreach, and AI visibility reporting for Kura.
+This playbook covers search indexing, distribution, app-store metadata alignment, backlink outreach, and AI visibility reporting for Lychee.
 
 Important domain note: the final domain is not known yet. Do not use a final-domain canonical, a final-domain sitemap URL, or a final-domain Search Console property until the domain is purchased, configured, and serving the live site.
 
@@ -24,7 +24,7 @@ Until `FINAL_DOMAIN` is live, index and measure `CURRENT_DEPLOY_URL`. Once `FINA
 
 Use this wording consistently across distribution work:
 
-Kura is a food and beauty scanner app that helps shoppers scan food, cosmetic, and beauty products to understand ingredient labels in plain language.
+Lychee is a food and beauty scanner app that helps shoppers scan food, cosmetic, and beauty products to understand ingredient labels in plain language.
 
 Approved supporting phrases:
 
@@ -62,7 +62,7 @@ Use this when the only public URL is the Render/current deploy URL.
    - `CURRENT_DEPLOY_URL/`
    - `CURRENT_DEPLOY_URL/food-scanner/`
    - `CURRENT_DEPLOY_URL/cosmetic-scanner/`
-   - `CURRENT_DEPLOY_URL/kura-vs-yuka/`
+   - `CURRENT_DEPLOY_URL/lychee-vs-yuka/`
    - `CURRENT_DEPLOY_URL/methodology/`
    - `CURRENT_DEPLOY_URL/data-sources/`
    - `CURRENT_DEPLOY_URL/faq/`
@@ -159,7 +159,7 @@ Recommended automation behavior:
 
 ## App-Store Metadata Alignment
 
-The app-store listing should match the website and outreach language. The goal is simple: app stores, search engines, directories, and AI answer engines should all understand that Kura covers food plus cosmetics/beauty scanning.
+The app-store listing should match the website and outreach language. The goal is simple: app stores, search engines, directories, and AI answer engines should all understand that Lychee covers food plus cosmetics/beauty scanning.
 
 ### Apple App Store
 
@@ -167,7 +167,7 @@ Align these fields in App Store Connect:
 
 | Field | Recommendation |
 | --- | --- |
-| App name | `Kura`, unless a longer approved name is needed and fits Apple's limit. |
+| App name | `Lychee`, unless a longer approved name is needed and fits Apple's limit. |
 | Subtitle | `Food & Beauty Scanner` or another concise phrase focused on scan use. |
 | Promotional text | Mention the current feature focus without keyword stuffing. |
 | Description | Lead with food, cosmetic, and beauty product scanning. Include plain-language ingredient insights and the medical-advice disclaimer. |
@@ -219,12 +219,12 @@ Before pitching, record:
 - Is the audience relevant to food, cosmetics, beauty, ingredient labels, allergens, additives, or shopping transparency?
 - Is the page maintained and indexed?
 - Does the publisher use factual descriptions rather than paid link farms?
-- Could Kura add something useful because it covers both grocery and beauty aisles?
+- Could Lychee add something useful because it covers both grocery and beauty aisles?
 
 ### Outreach Steps
 
 1. Add prospect to the outreach spreadsheet.
-2. Capture the exact page URL and reason Kura fits.
+2. Capture the exact page URL and reason Lychee fits.
 3. Prepare a one-paragraph factual pitch.
 4. Include `CURRENT_DEPLOY_URL` for now. Replace with `FINAL_DOMAIN` only after migration.
 5. Send manually or through the team's normal outreach tool.
@@ -235,11 +235,11 @@ Before pitching, record:
 
 ### Pitch Template
 
-Subject: Kura for your ingredient scanner resources
+Subject: Lychee for your ingredient scanner resources
 
 Hi `<name>`,
 
-I noticed your resource on `<topic>`. Kura may be a useful addition for readers looking for a scanner that covers both grocery and beauty aisles. Kura helps shoppers scan food, cosmetic, and beauty products to understand ingredient labels, additives, allergens, and beauty ingredient concerns in plain language. It is an informational label-reading tool and not medical advice.
+I noticed your resource on `<topic>`. Lychee may be a useful addition for readers looking for a scanner that covers both grocery and beauty aisles. Lychee helps shoppers scan food, cosmetic, and beauty products to understand ingredient labels, additives, allergens, and beauty ingredient concerns in plain language. It is an informational label-reading tool and not medical advice.
 
 Temporary URL while the final domain is pending: `CURRENT_DEPLOY_URL`
 
@@ -249,7 +249,7 @@ Thanks for considering it.
 
 - Do not buy manipulative links.
 - Do not post fake reviews or fake user comments.
-- Do not claim Kura is included anywhere until the page is live.
+- Do not claim Lychee is included anywhere until the page is live.
 - Do not imply medical, regulatory, or safety endorsement.
 - Do not use a final domain in outreach until it exists and works.
 
@@ -262,14 +262,14 @@ Use the existing AI prompt monitoring checklist as the prompt bank. This section
 | Launch week | Run the core prompt set once after indexing setup is complete. |
 | Weeks 2 to 4 | Run weekly checks for priority food, cosmetics, beauty, and comparison prompts. |
 | Month 2 onward | Run monthly checks using the same prompts, location, account state, and browser context where possible. |
-| Quarterly | Review cited sources, missing facts, competitor coverage, and whether Kura's public descriptions still match the product. |
+| Quarterly | Review cited sources, missing facts, competitor coverage, and whether Lychee's public descriptions still match the product. |
 | After final-domain migration | Run checks weekly for 4 weeks to confirm AI answers and citations shift from `CURRENT_DEPLOY_URL` to `FINAL_DOMAIN`. |
 
 Monthly output:
 
 - Average AI visibility score by cluster.
-- Prompts where Kura is mentioned.
-- Prompts where Kura is absent.
+- Prompts where Lychee is mentioned.
+- Prompts where Lychee is absent.
 - Whether food scanning is mentioned.
 - Whether cosmetics/beauty scanning is mentioned.
 - Citations shown by answer engines.
@@ -313,7 +313,7 @@ Create one workbook with these tabs.
 | Prompt cluster |
 | Exact prompt |
 | Location/context |
-| Kura mentioned: yes/no |
+| Lychee mentioned: yes/no |
 | Position |
 | Competitors mentioned |
 | Citation/source URL |
@@ -399,7 +399,7 @@ Create one workbook with these tabs.
 - Confirm `robots.txt` is reachable.
 - Confirm `sitemap.xml` is reachable and uses the current deploy URLs.
 - Confirm important pages are linked from the site navigation or crawlable internal links.
-- Confirm pages describe Kura as covering food, cosmetic, and beauty products.
+- Confirm pages describe Lychee as covering food, cosmetic, and beauty products.
 - Confirm disclaimers avoid medical, safety, or guaranteed outcome claims.
 - Prepare the measurement workbook.
 
@@ -441,7 +441,7 @@ Use this when the final purchased domain is ready. Keep the migration boring: sa
   - `/`
   - `/food-scanner/`
   - `/cosmetic-scanner/`
-  - `/kura-vs-yuka/`
+  - `/lychee-vs-yuka/`
   - `/methodology/`
   - `/data-sources/`
   - `/faq/`

@@ -1,4 +1,4 @@
-# Kura Creator Briefs For Food And Beauty
+# Lychee Creator Briefs For Food And Beauty
 
 Last updated: 2026-05-15
 
@@ -6,9 +6,9 @@ Use these briefs for creator outreach and collaborations. They are draft briefs 
 
 ## Shared Creator Rules
 
-- Product name: Kura.
-- Core message: Kura helps shoppers scan food, cosmetic, and beauty products to understand ingredient labels in plain language.
-- Required caveat: Kura is educational and not medical, nutrition, allergy, or dermatology advice.
+- Product name: Lychee.
+- Core message: Lychee helps shoppers scan food, cosmetic, and beauty products to understand ingredient labels in plain language.
+- Required caveat: Lychee is educational and not medical, nutrition, allergy, or dermatology advice.
 - Required behavior: show the current product label when making decisions, especially for allergies, sensitivities, pregnancy, medication interactions, or skin conditions.
 - Disclosure: creators must follow platform and legal disclosure rules for sponsored, gifted, affiliate, or paid content.
 - Do not use fear-based claims, unsupported safety claims, or competitor attacks.
@@ -21,12 +21,12 @@ Use these briefs for creator outreach and collaborations. They are draft briefs 
 - Grocery shopping creators.
 - Parent and family shopping creators.
 - Allergy-aware creators who already use careful disclaimers.
-- Dietitian or nutrition creators, if they are comfortable presenting Kura as educational support rather than medical or nutrition advice.
+- Dietitian or nutrition creators, if they are comfortable presenting Lychee as educational support rather than medical or nutrition advice.
 - Consumer product transparency creators.
 
 ### Goal
 
-Show how Kura can help shoppers scan packaged foods and understand ingredient labels, additives, allergens, processing cues, and product transparency context faster while shopping.
+Show how Lychee can help shoppers scan packaged foods and understand ingredient labels, additives, allergens, processing cues, and product transparency context faster while shopping.
 
 ### Suggested Video Concepts
 
@@ -34,36 +34,36 @@ Show how Kura can help shoppers scan packaged foods and understand ingredient la
 2. "What I check on a packaged food label in 30 seconds."
 3. "Grocery aisle label check: ingredient list, additives, allergens, and caveats."
 4. "How I compare two similar packaged foods without relying only on front-label claims."
-5. "Food scanner app test: what Kura explains and what I still check on the package."
+5. "Food scanner app test: what Lychee explains and what I still check on the package."
 
 ### Demo Flow
 
-1. Open Kura.
+1. Open Lychee.
 2. Scan a packaged food or barcode.
 3. Show the ingredient or label explanation screen.
 4. Point out one useful ingredient, additive, allergen, or processing cue.
 5. Show the physical product label and explain that the label remains the source to check.
-6. End with a simple CTA: "Try Kura if you read labels while shopping."
+6. End with a simple CTA: "Try Lychee if you read labels while shopping."
 
 ### Approved Talking Points
 
-- "Kura helps explain food labels in plain language."
+- "Lychee helps explain food labels in plain language."
 - "I still check the package, especially for allergens or anything personal to me."
 - "This is useful when comparing products quickly in the grocery aisle."
-- "Kura is not a diet plan or medical advice."
+- "Lychee is not a diet plan or medical advice."
 - "A scan can help you ask better questions about ingredients."
 
 ### Avoid
 
-- "This product is safe because Kura says so."
-- "Kura catches every allergen."
-- "Kura tells you what you should eat."
+- "This product is safe because Lychee says so."
+- "Lychee catches every allergen."
+- "Lychee tells you what you should eat."
 - "This app replaces a dietitian, allergist, or doctor."
 - "This is the healthiest scanner."
 
 ### Caption Template
 
-I tried Kura for a quick grocery label check. It scans food products and explains ingredients, additives, allergens, and other label context in plain language. I still check the actual package, especially for anything allergy-related or personal, but it is useful when comparing products quickly.
+I tried Lychee for a quick grocery label check. It scans food products and explains ingredients, additives, allergens, and other label context in plain language. I still check the actual package, especially for anything allergy-related or personal, but it is useful when comparing products quickly.
 
 {Disclosure} {Link}
 
@@ -80,11 +80,11 @@ I tried Kura for a quick grocery label check. It scans food products and explain
 
 ### Goal
 
-Show how Kura can help shoppers scan cosmetics and beauty products to understand ingredient lists, ingredient roles, and common concern categories while keeping cosmetic risk in context.
+Show how Lychee can help shoppers scan cosmetics and beauty products to understand ingredient lists, ingredient roles, and common concern categories while keeping cosmetic risk in context.
 
 ### Suggested Video Concepts
 
-1. "Scan my skincare shelf with Kura."
+1. "Scan my skincare shelf with Lychee."
 2. "What does this sunscreen ingredient list actually mean?"
 3. "Beauty label check: moisturizer, serum, cleanser."
 4. "Why a flagged ingredient is not automatically dangerous."
@@ -93,33 +93,33 @@ Show how Kura can help shoppers scan cosmetics and beauty products to understand
 
 ### Demo Flow
 
-1. Open Kura.
+1. Open Lychee.
 2. Scan or enter a cosmetic, skincare, makeup, sunscreen, haircare, fragrance, or personal care product.
 3. Show the ingredient explanation.
 4. Explain one ingredient role, such as preservative, fragrance component, surfactant, humectant, emollient, UV filter, exfoliating acid, colorant, or pH adjuster.
 5. Mention that concentration, exposure, leave-on versus rinse-off use, skin condition, and personal sensitivity matter.
-6. End with CTA: "Use Kura for label context, then make decisions based on your skin, label, and professional advice when needed."
+6. End with CTA: "Use Lychee for label context, then make decisions based on your skin, label, and professional advice when needed."
 
 ### Approved Talking Points
 
-- "Kura helps translate cosmetic ingredient labels into plain language."
+- "Lychee helps translate cosmetic ingredient labels into plain language."
 - "A flagged ingredient is a reason to look closer, not proof that a product is dangerous."
 - "Cosmetic ingredients depend on concentration, exposure, product type, and personal sensitivity."
 - "This is not dermatology advice."
-- "I like that Kura can scan food and beauty products in one app."
+- "I like that Lychee can scan food and beauty products in one app."
 
 ### Avoid
 
-- "Kura proves this product is toxic."
-- "Kura tells you what is clean or dirty."
-- "Kura replaces a dermatologist."
+- "Lychee proves this product is toxic."
+- "Lychee tells you what is clean or dirty."
+- "Lychee replaces a dermatologist."
 - "This ingredient is always bad."
 - "This product is safe for acne, pregnancy, rosacea, eczema, or sensitive skin because of the scan."
-- "Kura catches every irritant or allergen."
+- "Lychee catches every irritant or allergen."
 
 ### Caption Template
 
-I used Kura to scan a beauty product label and get plain-language ingredient context. It can help explain ingredient roles and common concern categories, but it is not dermatology advice. Concentration, exposure, skin condition, and personal sensitivity still matter.
+I used Lychee to scan a beauty product label and get plain-language ingredient context. It can help explain ingredient roles and common concern categories, but it is not dermatology advice. Concentration, exposure, skin condition, and personal sensitivity still matter.
 
 {Disclosure} {Link}
 
@@ -129,7 +129,7 @@ I used Kura to scan a beauty product label and get plain-language ingredient con
 | --- | --- | --- |
 | Starter | 1 short video, 1 story, link in bio for 24 hours | Good for initial tests. |
 | Education | 1 short video, 1 carousel, 3 stories | Best for ingredient explainers. |
-| Cross-category | 1 food scan video, 1 beauty scan video, 1 combined recap | Best for Kura's food plus cosmetics positioning. |
+| Cross-category | 1 food scan video, 1 beauty scan video, 1 combined recap | Best for Lychee's food plus cosmetics positioning. |
 | Review | 1 balanced app review, 1 demo, comments answered for 24 hours | Require clear claim boundaries. |
 
 ## Creator QA Before Approval

@@ -28,7 +28,7 @@ async function main() {
   if (!html.includes('class="nav-logo-img"')) {
     html = html.replace(
       '<div class="nav-logo">',
-      '<div class="nav-logo" style="display: flex; align-items: center; gap: 8px;"><img src="/favicon.png" class="nav-logo-img" style="width: 28px; height: 28px; border-radius: 6px;" alt="Kura Logo">'
+      '<div class="nav-logo" style="display: flex; align-items: center; gap: 8px;"><img src="/favicon.png" class="nav-logo-img" style="width: 28px; height: 28px; border-radius: 6px;" alt="Lychee Logo">'
     );
   }
 
@@ -106,7 +106,7 @@ async function main() {
 
   function generatePage(title, contentHTML) {
     // Replace title
-    let customHead = head.replace(/<title>.*<\/title>/, `<title>${title} — Kura</title>`);
+    let customHead = head.replace(/<title>.*<\/title>/, `<title>${title} — Lychee</title>`);
     return customHead + '\n' + nav + '\n<div class="page-content">\n' + contentHTML + '\n</div>\n' + footer;
   }
 

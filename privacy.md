@@ -3,9 +3,9 @@ Privacy Policy
 Last Updated: December 11, 2025 · Effective Date: December 11, 2025
 Introduction
 
-Welcome to Allergify ("we," "our," or "us"). We are committed to protecting your privacy and being transparent about how we handle your data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your personal information.
+Welcome to Lychee ("we," "our," or "us"). We are committed to protecting your privacy and being transparent about how we handle your data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your personal information.
 
-By using the Allergify mobile application ("App"), you agree to the collection and use of information in accordance with this policy.
+By using the Lychee mobile application ("App"), you agree to the collection and use of information in accordance with this policy.
 1. Information We Collect
 1.1 Information You Provide Directly
 
@@ -215,7 +215,7 @@ You may withdraw consent for data collection by:
 
 6. Children's Privacy
 
-Allergify is intended for users aged 13 and older (16+ in the EU/EEA).
+Lychee is intended for users aged 13 and older (16+ in the EU/EEA).
 
 We do not knowingly collect personal information from children under 13 (or 16 in the EU/EEA). If you are a parent or guardian and believe your child has provided us with personal information, please contact us, and we will delete such information.
 
@@ -291,7 +291,7 @@ Notification of Changes:
 Review Regularly: We encourage you to review this policy periodically.
 11. Medical Disclaimer
 
-IMPORTANT: Allergify is a tool to help identify potential allergens in food products. It is NOT a substitute for medical advice, diagnosis, or treatment.
+IMPORTANT: Lychee is a tool to help identify potential allergens in food products. It is NOT a substitute for medical advice, diagnosis, or treatment.
 
 You Must:
 
@@ -315,7 +315,7 @@ If you have questions, concerns, or requests regarding this Privacy Policy or yo
 Response Time: We aim to respond within 7 days of receiving your request.
 13. Compliance and Certifications
 
-Allergify complies with:
+Lychee complies with:
 
     General Data Protection Regulation (GDPR)
     California Consumer Privacy Act (CCPA/CPRA)
@@ -356,4 +356,4 @@ Your Data, Your Control:
 
 You acknowledge and agree that Apple Inc., and Apple's subsidiaries, are third-party beneficiaries of these Terms, and that, upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary thereof.
 
-By using Allergify, you acknowledge that you have read and understood this Privacy Policy.
+By using Lychee, you acknowledge that you have read and understood this Privacy Policy.

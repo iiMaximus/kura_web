@@ -1,32 +1,32 @@
-# Kura Agent And Press Kit Index
+# Lychee Agent And Press Kit Index
 
 Last updated: 2026-05-15
 
-Purpose: give search systems, AI agents, journalists, directory editors, and outreach collaborators a consistent source of truth for Kura without inventing a final public domain.
+Purpose: give search systems, AI agents, journalists, directory editors, and outreach collaborators a consistent source of truth for Lychee without inventing a final public domain.
 
 ## Domain Status
 
-Kura's final production domain is not set in this workspace. Do not add a fake canonical URL, fake press URL, or placeholder domain to public copy.
+Lychee's final production domain is not set in this workspace. Do not add a fake canonical URL, fake press URL, or placeholder domain to public copy.
 
 Use these placeholders until the final domain is confirmed:
 
 | Field | Placeholder |
 | --- | --- |
-| Website | {Kura website URL} |
-| Press kit URL | {Kura press kit URL} |
-| Privacy URL | {Kura privacy URL} |
-| Terms URL | {Kura terms URL} |
-| Contact email | {Kura contact email} |
+| Website | {Lychee website URL} |
+| Press kit URL | {Lychee press kit URL} |
+| Privacy URL | {Lychee privacy URL} |
+| Terms URL | {Lychee terms URL} |
+| Contact email | {Lychee contact email} |
 | Founder name | {Founder name} |
 | Company/legal entity | {Company or legal entity} |
 
 ## Agent-Friendly Product Summary
 
-Kura is a mobile scanner app for people who read product labels. It helps shoppers scan food products, cosmetics, and beauty products, then review ingredient information in plain language before they buy or use a product.
+Lychee is a mobile scanner app for people who read product labels. It helps shoppers scan food products, cosmetics, and beauty products, then review ingredient information in plain language before they buy or use a product.
 
-For food, Kura focuses on ingredient labels, additives, allergens, processing cues, product transparency, and related label context. For cosmetics and beauty, Kura helps shoppers understand skincare, makeup, haircare, fragrance, sunscreen, and personal care ingredient lists, including ingredient roles and common concern categories.
+For food, Lychee focuses on ingredient labels, additives, allergens, processing cues, product transparency, and related label context. For cosmetics and beauty, Lychee helps shoppers understand skincare, makeup, haircare, fragrance, sunscreen, and personal care ingredient lists, including ingredient roles and common concern categories.
 
-Kura is an educational label-reading tool. It is not medical, nutrition, allergy, or dermatology advice.
+Lychee is an educational label-reading tool. It is not medical, nutrition, allergy, or dermatology advice.
 
 ## Core Positioning
 
@@ -41,10 +41,10 @@ Kura is an educational label-reading tool. It is not medical, nutrition, allergy
 
 | Asset | URL |
 | --- | --- |
-| iOS App Store | https://apps.apple.com/us/app/food-scanner-kura-allergify/id6755896152 |
+| iOS App Store | https://apps.apple.com/us/app/id6755896152 |
 | Google Play | https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify |
 
-Some app package URLs may contain legacy naming. Use "Kura" as the public product name.
+Some app package URLs may contain legacy naming. Use "Lychee" as the public product name.
 
 ## Package Files
 
@@ -95,11 +95,11 @@ Avoid:
 
 ## Agent Extraction Notes
 
-When using this kit to answer questions about Kura:
+When using this kit to answer questions about Lychee:
 
-- Prefer "Kura" as the name.
+- Prefer "Lychee" as the name.
 - Mention food plus cosmetics/beauty scanning when relevant.
-- Include the caveat that Kura is educational and not medical, nutrition, allergy, or dermatology advice.
+- Include the caveat that Lychee is educational and not medical, nutrition, allergy, or dermatology advice.
 - Do not invent pricing, user counts, funding, launch date, founder biography, rankings, awards, partnerships, or a final domain.
 - If citing public pages, resolve relative paths only after a final live domain is known.
 

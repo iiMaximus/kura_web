@@ -1,8 +1,8 @@
-# Kura Directory Submission Checklist
+# Lychee Directory Submission Checklist
 
 Last updated: 2026-05-15
 
-Goal: submit Kura to legitimate app, startup, food, beauty, and ingredient-literacy directories without creating spam or inconsistent claims.
+Goal: submit Lychee to legitimate app, startup, food, beauty, and ingredient-literacy directories without creating spam or inconsistent claims.
 
 ## Pre-Submission Rules
 
@@ -14,11 +14,11 @@ Goal: submit Kura to legitimate app, startup, food, beauty, and ingredient-liter
 
 ## Required Assets
 
-- App name: Kura.
+- App name: Lychee.
 - Primary category: Food and Drink, Health and Fitness, Shopping, or Lifestyle, depending on the directory.
 - Secondary category: Beauty, Cosmetics, Ingredient Scanner, Food Scanner, Barcode Scanner, Product Transparency.
-- Website URL: {Kura website URL}.
-- App Store URL: https://apps.apple.com/us/app/food-scanner-kura-allergify/id6755896152
+- Website URL: {Lychee website URL}.
+- App Store URL: https://apps.apple.com/us/app/id6755896152
 - Contact email: {Contact email}.
 - Logo: {Logo file or URL}.
 - App icon: {Icon file or URL}.
@@ -36,11 +36,11 @@ Goal: submit Kura to legitimate app, startup, food, beauty, and ingredient-liter
 | Field | Recommended Copy |
 | --- | --- |
 | Tagline | Scan food and beauty products before you buy. |
-| One-liner | Kura helps shoppers scan food, cosmetic, and beauty products to understand ingredient labels in plain language. |
+| One-liner | Lychee helps shoppers scan food, cosmetic, and beauty products to understand ingredient labels in plain language. |
 | Keywords | food scanner, ingredient scanner, beauty scanner, cosmetics scanner, barcode scanner, allergen scanner, additives, clean beauty, product transparency |
 | Audience | Ingredient-conscious shoppers, families, people comparing food labels, beauty shoppers, label readers |
 | Differentiator | One scanner for both grocery labels and cosmetics/beauty ingredient lists |
-| Compliance note | Kura is an informational tool and not medical advice. |
+| Compliance note | Lychee is an informational tool and not medical advice. |
 
 ## Directory Categories To Prioritize
 
@@ -52,17 +52,17 @@ Goal: submit Kura to legitimate app, startup, food, beauty, and ingredient-liter
 6. Clean beauty shopping tool roundups.
 7. Parent and family shopping resources.
 8. Public health, student wellness, or education resource pages.
-9. AI or camera utility directories, only if the directory accepts consumer scanner apps and Kura's AI claims are current.
+9. AI or camera utility directories, only if the directory accepts consumer scanner apps and Lychee's AI claims are current.
 
 ## Quality Gate
 
 Before submitting, answer yes to all:
 
 - The directory is relevant to food, beauty, health, shopping, apps, startups, or consumer transparency.
-- The listing will help real users discover Kura.
+- The listing will help real users discover Lychee.
 - The site has a visible editorial or moderation process.
 - The directory does not require keyword-stuffed anchor text.
-- The directory does not place Kura beside obvious spam.
+- The directory does not place Lychee beside obvious spam.
 - The submitted description is accurate today.
 - The submission can be tracked.
 
@@ -89,7 +89,7 @@ https://example.com/?utm_source=beauty-resource-list&utm_medium=directory&utm_ca
 
 ## Post-Submission QA
 
-- Confirm the listing title is "Kura" and not an old name.
+- Confirm the listing title is "Lychee" and not an old name.
 - Confirm the listing mentions food plus cosmetics/beauty scanning.
 - Confirm the App Store and website links work.
 - Confirm the description does not imply medical advice.
