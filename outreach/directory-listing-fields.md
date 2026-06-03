@@ -81,7 +81,7 @@ food scanner, ingredient scanner, barcode scanner, food label app, allergen scan
 
 ## UTM Template
 
-Use only after the final public website URL is confirmed.
+Use with the production website URL, `https://lychee.fit`.
 
 ```text
 ?utm_source={directory-slug}&utm_medium=directory&utm_campaign=ai-search-visibility
@@ -105,4 +105,3 @@ After acceptance:
 - Check whether the listing is indexed.
 - Check whether the link is followed, nofollow, sponsored, or redirect-only.
 - Add the directory to monitoring only after a real listing exists.
-

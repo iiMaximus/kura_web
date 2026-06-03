@@ -77,8 +77,8 @@ Use a simple UTM scheme when allowed:
 Examples:
 
 ```text
-https://example.com/?utm_source=producthunt&utm_medium=directory&utm_campaign=backlinks-ai-visibility
-https://example.com/?utm_source=beauty-resource-list&utm_medium=directory&utm_campaign=backlinks-ai-visibility
+https://lychee.fit/?utm_source=producthunt&utm_medium=directory&utm_campaign=backlinks-ai-visibility
+https://lychee.fit/?utm_source=beauty-resource-list&utm_medium=directory&utm_campaign=backlinks-ai-visibility
 ```
 
 ## Submission Log

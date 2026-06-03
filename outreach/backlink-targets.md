@@ -53,7 +53,7 @@ Use this table structure in a spreadsheet or CRM.
 | Contact | editor@example.com |
 | Relevance score | 15/18 |
 | Suggested angle | Add Lychee to label-reading tools section |
-| Target URL | {Lychee website URL} |
+| Target URL | https://lychee.fit/ |
 | Asset needed | Screenshot, 60-word description |
 | Status | Not contacted / Sent / Followed up / Won / Declined |
 | Notes | Mentioned cosmetics scanning in recent article |

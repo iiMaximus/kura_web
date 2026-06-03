@@ -21,6 +21,9 @@ Lychee is positioned as:
 
 ## Public Pages
 
+Production website: https://lychee.fit
+
+
 - Homepage: /
 - About Lychee: /about/
 - Food scanner: /food-scanner/
@@ -38,11 +41,11 @@ Lychee is positioned as:
 - Privacy policy: /privacy/
 - Terms of use: /terms/
 - Contact: /contact/
-- Empty sitemap placeholder: /sitemap.xml
-- Full sitemap template: /docs/seo/sitemap-template.xml
+- Sitemap: https://lychee.fit/sitemap.xml
+- Sitemap source: https://lychee.fit/docs/seo/sitemap-template.xml
 - LLM guide: /llms.txt
 
-Lychee's final production domain is not set yet. Resolve these paths against the current live deployment URL until the final domain is purchased and configured.
+Production domain: https://lychee.fit. Resolve relative public paths against this origin.
 
 ## App Store Links
 

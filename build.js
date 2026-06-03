@@ -2,6 +2,8 @@ const fs = require('fs');
 const sharp = require('sharp');
 const marked = require('marked');
 
+const SITE_ORIGIN = 'https://lychee.fit';
+
 async function main() {
   console.log("Processing icon...");
   const roundedCorners = Buffer.from(
@@ -104,9 +106,11 @@ async function main() {
   let nav = html.substring(navStart, navEnd);
   let footer = html.substring(footerStart);
 
-  function generatePage(title, contentHTML) {
+  function generatePage(title, contentHTML, pathname) {
     // Replace title
     let customHead = head.replace(/<title>.*<\/title>/, `<title>${title} — Lychee</title>`);
+    const canonicalUrl = `${SITE_ORIGIN}${pathname}`;
+    customHead = customHead.replace('</head>', `  <link rel="canonical" href="${canonicalUrl}">\n  <meta property="og:url" content="${canonicalUrl}">\n</head>`);
     return customHead + '\n' + nav + '\n<div class="page-content">\n' + contentHTML + '\n</div>\n' + footer;
   }
 
@@ -115,14 +119,14 @@ async function main() {
   const privacyMd = fs.readFileSync('privacy.md', 'utf-8');
   const privacyHtmlContent = marked.parse(privacyMd);
   fs.mkdirSync('privacy', { recursive: true });
-  fs.writeFileSync('privacy/index.html', generatePage('Privacy Policy', privacyHtmlContent));
+  fs.writeFileSync('privacy/index.html', generatePage('Privacy Policy', privacyHtmlContent, '/privacy/'));
 
   // Build /terms
   console.log("Processing Terms...");
   const termsMd = fs.readFileSync('terms.md.txt', 'utf-8');
   const termsHtmlContent = marked.parse(termsMd);
   fs.mkdirSync('terms', { recursive: true });
-  fs.writeFileSync('terms/index.html', generatePage('Terms of Use', termsHtmlContent));
+  fs.writeFileSync('terms/index.html', generatePage('Terms of Use', termsHtmlContent, '/terms/'));
 
   // Build /contact
   console.log("Processing Contact...");
@@ -135,7 +139,7 @@ async function main() {
     </div>
   `;
   fs.mkdirSync('contact', { recursive: true });
-  fs.writeFileSync('contact/index.html', generatePage('Contact Us', contactHtmlContent));
+  fs.writeFileSync('contact/index.html', generatePage('Contact Us', contactHtmlContent, '/contact/'));
 
   console.log("All done.");
 }

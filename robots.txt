@@ -37,5 +37,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-# Add a Sitemap directive after the final production domain is chosen.
-# Example: Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://lychee.fit/sitemap.xml
