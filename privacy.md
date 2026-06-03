@@ -1,359 +1,327 @@
-Privacy Policy
+# Privacy Policy for Lychee
 
-Last Updated: December 11, 2025 · Effective Date: December 11, 2025
-Introduction
+**Last Updated:** June 3, 2026
 
-Welcome to Lychee ("we," "our," or "us"). We are committed to protecting your privacy and being transparent about how we handle your data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your personal information.
+**Effective Date:** June 3, 2026
 
-By using the Lychee mobile application ("App"), you agree to the collection and use of information in accordance with this policy.
-1. Information We Collect
-1.1 Information You Provide Directly
+---
 
-Allergen Preferences:
+## Introduction
 
-    Selected allergens and dietary restrictions
-    Stored locally on your device only
-    Not transmitted to our servers
+Welcome to Lychee ("we," "our," or "us"). This Privacy Policy explains what information Lychee collects, how we use it, what third-party services we rely on, and the choices you have.
 
-Product Contributions:
+Lychee is a product scanner and ingredient explainer for food and cosmetic products. The App helps users review allergens, dietary preferences, ingredient lists, nutrition labels, additives, processing signals, cosmetic ingredient concerns, and product database information. Lychee is not a medical service, allergy-management service, diet program, nutrition coach, or cosmetic safety certification service.
 
-    Product barcodes
-    Product images
-    Ingredient label images
-    Submitted voluntarily to improve our database
+By using the Lychee mobile application ("App"), you agree to the practices described in this Privacy Policy.
 
-1.2 Automatically Collected Information
+---
 
-Scan Data:
+## 1. Information We Collect
 
-    Scanned product barcodes
-    Scan timestamps
-    Scan results (allergen matches)
-    Stored locally on your device
+### 1.1 Information You Provide
 
-Usage Data:
+**Preferences and profiles**
+- Selected allergens, dietary restrictions, and product preferences
+- Optional onboarding answers, family/profile labels, and app settings
+- Saved products, favorites, pantry items, and scan history
 
-    App version
-    Device model and operating system
-    Crash reports and performance data
-    Feature usage statistics
-    Anonymized analytics events collected via TelemetryDeck
+**Product contributions and corrections**
+- Product barcodes
+- Product images and label images
+- Ingredient, nutrition, packaging, or cosmetic label information
+- Product names, brands, categories, and correction details you submit voluntarily
 
-1.3 Third-Party Data Collection
+### 1.2 Information Collected Automatically
 
-Google AdMob (Non-Premium Users Only):
+**Scan and product data**
+- Scanned product barcodes
+- Scan timestamps
+- Product information returned from Open Food Facts, Open Beauty Facts, or Lychee's own product coverage systems
+- Scan results such as allergen matches, ingredient explanations, nutrition information, cosmetic ingredient analysis, and product score summaries
 
-    Advertising identifier (IDFA on iOS, AAID on Android)
-    IP address (for location-based advertising)
-    Device model and operating system version
-    App usage patterns and session duration
+Scan history is primarily stored locally on your device unless you use AI analysis, submit a contribution or report, or limited analytics as described below.
 
-OpenAI API (Premium Users Only):
+**Usage and device data**
+- App version
+- Device model and operating system
+- Crash, diagnostic, and performance data
+- Feature usage statistics
+- Product analytics events collected through PostHog, such as onboarding progress, feature usage, scan mode, app version, and coarse platform details
+- App install, app launch, checkout, trial, and subscription events collected through the Meta/Facebook SDK for ad attribution, campaign measurement, and advertising optimization
 
-    Ingredient text from product labels (for AI analysis)
-    Your allergy information
-    Product name and category (for context)
-    No personal identifiers, location data, or device information
+**Subscription data**
+- Subscription status, entitlement status, product identifiers, trial status, purchase/renewal status, cancellation status, and receipt metadata processed through Apple, Google, and RevenueCat
+- We do not receive or store your full payment card details
 
-2. How We Use Your Information
-2.1 Core Functionality
+---
 
-    Detect allergens in scanned products
-    Provide personalized allergen alerts
-    Display product information and nutritional data
-    Save scan history and favorites locally
+## 2. How We Use Information
 
-2.2 Product Database Improvement
+### 2.1 Core App Functionality
+- Detect allergens and dietary restriction conflicts in scanned products
+- Provide personalized product warnings based on your selected preferences
+- Display product information, ingredient explanations, nutrition data, food processing/additive signals, and cosmetic ingredient analysis
+- Save scan history, pantry items, favorites, and settings
 
-    Enhance allergen detection accuracy
-    Expand product database coverage
-    Contribute to Open Food Facts (open-source food database)
+### 2.2 Product and Ingredient Coverage
+- Improve allergen and ingredient detection
+- Expand food and cosmetic product database coverage
+- Contribute food product data to Open Food Facts and cosmetic product data to Open Beauty Facts when you choose to submit it
+- Record missing or unknown ingredients so we can improve Lychee's ingredient dictionaries and product coverage
 
-2.3 AI-Powered Analysis (Premium Feature)
+### 2.3 AI-Powered Analysis
+- Analyze ingredient lists, label text, and product context
+- Provide allergen, ingredient, nutrition, and cosmetic explanations
+- Generate product explanations and suggestions based on your selected preferences
+- Processed through OpenAI's API under OpenAI's applicable business/API terms
 
-    Analyze ingredient lists for allergen detection
-    Provide health scores and nutritional insights
-    Generate personalized recommendations
-    Processed via OpenAI's API under their Business Terms
+### 2.4 Subscriptions and Trials
+- Display subscription offers and trial eligibility
+- Process purchases, renewals, cancellations, and restored purchases through Apple, Google, and RevenueCat
+- Maintain your Premium entitlement status
 
-2.4 Advertising (Non-Premium Users)
+### 2.5 Advertising and Attribution
+- Display ads to non-Premium users through Google AdMob
+- Measure whether Instagram/Facebook ads lead to app installs or subscription events through the Meta/Facebook SDK
+- Support free access to core features
 
-    Display relevant advertisements via Google AdMob
-    Support free access to core features
-    Fund ongoing app development and maintenance
+### 2.6 Analytics and Improvement
+- Monitor app performance and stability
+- Identify bugs, crashes, and onboarding drop-off points
+- Understand feature usage and improve the App
+- We do not intentionally send product photos, raw ingredient text, scan results, allergen selections, health scores, or precise location to Meta
+- We do not intentionally send product photos, raw ingredient text, or precise location to PostHog
 
-2.5 Analytics and Improvement
+---
 
-    Monitor app performance and stability
-    Identify and fix bugs and crashes
-    Understand feature usage and user preferences
-    Improve user experience
-    We use TelemetryDeck and similar analytics services to monitor app performance, understand feature usage, and improve user experience.
+## 3. Third-Party Services
 
-3. Data Sharing and Third Parties
-3.1 Open Food Facts
+### 3.1 Open Food Facts
+**Data shared:** Product barcodes, product images, ingredient information, nutrition information, packaging information, and corrections when you contribute food product data.
 
-Data Shared: Product barcodes, product images, ingredient information (when you contribute data)
+**Purpose:** Lookup and contribution to an open food product database.
 
-Purpose: Contributing to an open-source food product database
+**License:** Open Database License (ODbL)
 
-License: Open Database License (ODbL)
+**Data information:** https://world.openfoodfacts.org/data
 
-Privacy Policy: https://world.openfoodfacts.org/data
+### 3.2 Open Beauty Facts
+**Data shared:** Cosmetic product barcodes, product images, ingredient label images, ingredient information, and corrections when you contribute cosmetic product data.
 
-Attribution: Product information powered by Open Food Facts
-3.2 OpenAI (Premium Feature)
+**Purpose:** Lookup and contribution to an open cosmetic product database.
 
-Data Shared: Ingredient text from product labels only
+**License:** Open Database License (ODbL)
 
-Purpose: AI-powered allergen analysis and health insights
+**Data information:** https://world.openbeautyfacts.org/data
 
-Important Notes:
+### 3.3 OpenAI
+**Data shared:** Ingredient text, label text, selected allergens/preferences, and product context needed for AI analysis.
 
-    Only ingredient text and your allergens are transmitted
-    No user identifiers or device information sent
-    OpenAI processes data under Business Terms
+**Purpose:** AI-powered allergen, ingredient, nutrition, and cosmetic product explanations.
 
-Privacy Policy: https://openai.com/policies/privacy-policy
-3.3 Google AdMob (Non-Premium Users)
+**Important notes:**
+- We send only the text and context needed for the analysis
+- We do not send payment card information or precise location data
 
-Data Shared: Device identifiers, IP address, device model, app usage data
+**Privacy Policy:** https://openai.com/policies/privacy-policy
 
-Purpose: Serve personalized advertisements
+### 3.4 Google AdMob
+**Data shared:** Device identifiers, advertising identifiers, IP address, device model, app usage data, and ad interaction data as required for ad delivery.
 
-Important Notes:
+**Purpose:** Serve ads to non-Premium users and support free access to the App.
 
-    We do not share, sell, or use your data for profiling
-    Data collection is limited to ad delivery
-    Premium subscribers do not see ads (AdMob does not collect their data)
-    You can limit ad tracking in your device settings
+**Privacy Policy:** https://policies.google.com/privacy
 
-Privacy Policy: https://policies.google.com/privacy
+**Ad Personalization:** https://adssettings.google.com
 
-Ad Personalization: https://adssettings.google.com
-3.4 Service Providers
+### 3.5 Meta/Facebook SDK
+**Data shared:** App install and app activation events, limited marketing events such as completed onboarding, checkout started, trial started, and subscription started, device/app information, and advertising identifiers where permitted.
 
-We may share data with trusted service providers who assist us in:
+**Purpose:** Measure whether Meta and Instagram ads lead to app installs or subscription events, optimize advertising campaigns, and understand campaign performance.
 
-    Hosting and infrastructure
-    Analytics and crash reporting
-    Customer support
+**Important notes:**
+- We do not intentionally send product names, raw ingredient text, product photos, allergen selections, scan results, health scores, or precise location to Meta
+- On iOS, access to the advertising identifier depends on Apple's App Tracking Transparency permission and your device settings
 
-Service providers may include hosting, analytics (such as TelemetryDeck), crash reporting, and customer support tools.
+**Privacy Policy:** https://www.facebook.com/privacy/policy/
 
-All service providers are bound by confidentiality agreements and may only use your data as directed by us.
-3.5 Legal Requirements
+### 3.6 PostHog
+**Data shared:** Limited product analytics events, such as onboarding progress, onboarding answers, feature usage, scan behavior, app version, device platform, and anonymous usage identifiers.
 
-We may disclose your information if required to do so by law or in response to valid requests by public authorities (e.g., court orders, subpoenas).
-3.6 TelemetryDeck (Analytics)
+**Purpose:** Understand how the App is used, monitor performance, identify onboarding drop-off points, and improve features.
 
-Data Shared: Anonymized analytics events (e.g., screens viewed, feature usage, app version, device type).
+**Important notes:**
+- No names, email addresses, product photos, raw ingredient text, or precise locations are intentionally sent to PostHog
+- Analytics data is used only for product analytics, debugging, and app improvement
 
-Purpose: Understand how the app is used, monitor performance, and improve features.
+**Privacy Policy:** https://posthog.com/privacy
 
-Important Notes:
+### 3.7 RevenueCat
+**Data shared:** App user identifier, product identifiers, entitlement status, purchase/renewal status, Apple or Google receipt metadata, and restore-purchase information.
 
-    No names, email addresses, or precise locations are sent.
-    Data is aggregated and used only for analytics and app improvement.
+**Purpose:** Manage subscription offers, trials, purchases, renewals, cancellations, and restored purchases.
 
-Privacy Policy: https://telemetrydeck.com/privacy
-4. Data Storage and Security
-4.1 Local Storage
+**Important notes:**
+- Payment card details are processed by Apple or Google, not by Lychee
+- RevenueCat helps us verify whether Premium should be active
 
-Most of your data is stored locally on your device:
+**Privacy Policy:** https://www.revenuecat.com/privacy/
 
-    Allergen preferences
-    Scan history
-    Favorite products
-    Premium subscription status
+### 3.8 Apple App Store and Google Play Store
+**Data shared:** Purchase, trial, subscription, renewal, cancellation, refund, and billing information as required by the platform.
 
-Security: Protected by your device's security features (passcode, biometrics, encryption)
-4.2 Cloud Storage (Product Contributions Only)
+**Purpose:** Process in-app purchases and subscriptions.
 
-Product contributions are stored on our servers to improve the database:
+**Important notes:**
+- We do not receive your full payment card details
+- Your purchases are also subject to Apple or Google's terms and privacy policies
 
-    Stored anonymously (no user identifiers)
-    Secured using industry-standard encryption
-    Access restricted to authorized personnel only
+### 3.9 Supabase / Hosted Storage
+**Data shared:** Missing ingredient reports, product correction metadata, product import data, and other operational records you submit or that are needed to maintain product coverage.
 
-4.3 Data Retention
+**Purpose:** Store product and ingredient improvement data, support product catalog/import workflows, and improve recognition of unknown ingredients.
 
-    Local data: Retained until you delete the app or clear app data
-    Product contributions: Retained indefinitely for database purposes
-    Analytics data: Retained for 12 months, then anonymized or deleted
+**Important notes:**
+- We avoid storing direct personal identifiers in these reports where possible
+- Do not submit information in product contributions that you do not want included in public product databases
 
-5. Your Rights and Choices
-5.1 Access and Control
+### 3.10 Service Providers and Legal Requirements
+We may use trusted service providers for hosting, analytics, subscription management, crash reporting, product lookup, product contribution, storage, and customer support. These providers may only use data as directed by us.
 
-You have the right to:
+We may disclose information if required by law, court order, subpoena, or another valid legal request.
 
-    Access: Review your allergen preferences and scan history in the app
-    Modify: Change your allergen selections at any time
-    Delete: Clear your scan history or delete the app entirely
+---
 
-5.2 Data Deletion
+## 4. Data Storage and Retention
 
-    Local data: Delete by clearing app data or uninstalling the app
-    Product contributions: Submitted anonymously; cannot be individually deleted
-    Account deletion: We do not maintain user accounts
+### 4.1 Local Storage
+Most day-to-day App data is stored locally on your device, including:
+- Allergen and dietary preferences
+- Scan history
+- Favorites and pantry items
+- App settings
+- Cached subscription status
 
-5.3 Advertising Choices
+### 4.2 Cloud and Third-Party Storage
+Some data is stored with third-party services or hosted infrastructure when needed:
+- Product contributions and corrections
+- Missing ingredient reports and product coverage data
+- Subscription entitlement and receipt metadata
+- Analytics and advertising attribution events
 
+### 4.3 Retention
+- **Local data:** Retained until you delete it, clear app data, or uninstall the App
+- **Product contributions:** May be retained indefinitely by Open Food Facts, Open Beauty Facts, or Lychee for database purposes
+- **Missing ingredient and product coverage reports:** Retained as long as needed to improve coverage and maintain auditability
+- **Subscription records:** Retained as needed to manage purchases, renewals, refunds, disputes, and legal/accounting obligations
+- **Analytics data:** Retained for up to 12 months, then deleted or anonymized where practical
+
+---
+
+## 5. Your Choices
+
+### 5.1 Access and Control
+You can review and change your allergen preferences, product preferences, saved products, and scan history inside the App.
+
+### 5.2 Deletion
+- **Local data:** Delete by clearing App data or uninstalling the App
+- **Product contributions:** May be submitted to public databases and may not be individually removable by us
+- **Analytics, subscription, and reporting data:** Contact us if you want to request access, deletion, or correction where applicable
+- **Accounts:** Lychee does not currently require user accounts
+
+### 5.3 Advertising Choices
 You can limit ad tracking:
+- **iOS:** Settings > Privacy & Security > Tracking, and Settings > Privacy & Security > Apple Advertising
+- **Android:** Settings > Google > Ads > Opt out of Ads Personalization
+- **Premium:** Subscribe to remove ads entirely
 
-    iOS: Settings > Privacy > Advertising > Limit Ad Tracking
-    Android: Settings > Google > Ads > Opt out of Ads Personalization
-    Premium: Subscribe to remove ads entirely
+### 5.4 Consent Withdrawal
+You may withdraw consent by:
+- Uninstalling the App
+- Disabling features such as contributions
+- Adjusting device privacy settings
+- Upgrading to Premium to remove in-app ads
 
-5.4 Withdrawal of Consent
+---
 
-You may withdraw consent for data collection by:
+## 6. Children's Privacy
 
-    Uninstalling the app
-    Disabling specific features (e.g., product contributions)
-    Upgrading to Premium (stops ad data collection)
+Lychee is intended for users aged 13 and older, or 16 and older in the EU/EEA where required.
 
-6. Children's Privacy
+We do not knowingly collect personal information from children under 13, or under 16 in the EU/EEA. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.
 
-Lychee is intended for users aged 13 and older (16+ in the EU/EEA).
+---
 
-We do not knowingly collect personal information from children under 13 (or 16 in the EU/EEA). If you are a parent or guardian and believe your child has provided us with personal information, please contact us, and we will delete such information.
+## 7. International Data Transfers
 
-COPPA Compliance: We comply with the Children's Online Privacy Protection Act (COPPA).
+Your information may be processed in countries other than your own. These countries may have different data protection laws. Where required, we rely on appropriate safeguards such as contractual protections, standard contractual clauses, or other lawful transfer mechanisms.
 
-Age Verification: By using this app, you represent that you are at least 13 years old (or 16 in the EU/EEA).
-7. International Data Transfers
+---
 
-Your information may be transferred to and processed in countries other than your own.
+## 8. Regional Privacy Rights
 
-These countries may have different data protection laws than your country. By using the App, you consent to the transfer of your information to these countries.
+Depending on where you live, you may have rights to access, correct, delete, restrict, or object to certain processing of your personal information, and to withdraw consent where processing is based on consent.
 
-We ensure appropriate safeguards are in place, such as:
+If you are in California or another jurisdiction with similar rights, you may have the right to know what personal information we collect, request deletion, and opt out of certain sharing. We do not sell personal information for money.
 
-    Standard contractual clauses
-    Privacy Shield frameworks (where applicable)
-    Adequacy decisions by relevant authorities
+---
 
-8. Regional Privacy Rights
-8.1 European Users (GDPR)
+## 9. Cookies and Tracking Technologies
 
-If you are in the European Economic Area (EEA), UK, or Switzerland, you have additional rights:
+The App does not use browser cookies. Third-party mobile SDKs may use similar technologies:
+- **AdMob and Meta/Facebook SDK:** Advertising identifiers where permitted for ad delivery, attribution, and campaign measurement
+- **PostHog:** Anonymous identifiers for product analytics
+- **RevenueCat:** App user identifiers and receipt metadata for subscription management
 
-    Right to rectification: Correct inaccurate data
-    Right to erasure: Request deletion of your data ("right to be forgotten")
-    Right to object: Object to certain data processing activities
-    Right to withdraw consent: Withdraw consent at any time
-    Right to lodge a complaint: File a complaint with your local data protection authority
+---
 
-Legal Basis for Processing:
+## 10. Medical and Safety Disclaimer
 
-    Consent: Allergen preferences, product contributions, AI analysis
-    Legitimate interests: Analytics, fraud prevention, app improvement
-    Legal obligations: Compliance with applicable laws
+Lychee is an informational product scanner. It may explain allergens, ingredients, nutrition labels, food processing signals, and cosmetic ingredients, but it is not a substitute for medical advice, allergy diagnosis or management, dietetic advice, cosmetic safety advice, diagnosis, or treatment.
 
-8.2 California Users (CCPA/CPRA)
+You must always read product labels yourself, verify important food or cosmetic information with the manufacturer, consult qualified professionals when needed, and carry prescribed emergency medication if applicable.
 
-If you are a California resident, you have the right to:
+We are not liable for incorrect allergen, ingredient, nutrition, cosmetic, or product database information; product formulation changes; cross-contamination; or adverse health outcomes.
 
-    Know: What personal information we collect and how we use it
-    Delete: Request deletion of your personal information
-    Opt-out: Opt out of the "sale" of personal information (we do not sell data)
-    Non-discrimination: Exercise your rights without discrimination
+---
 
-California Privacy Notice: We do not sell your personal information. We share data with third parties only as described in this policy.
-8.3 Other Jurisdictions
+## 11. Changes to This Policy
 
-We respect privacy rights under all applicable laws, including:
+We may update this Privacy Policy from time to time. We will update the "Last Updated" date above and may provide in-app notice for material changes.
 
-    Canada (PIPEDA)
-    Australia (Privacy Act)
-    Brazil (LGPD)
-    And other regional regulations
+---
 
-9. Cookies and Tracking Technologies
+## 12. Contact Us
 
-The App does not use cookies. However, third-party services may use similar technologies:
+If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us through the contact link in the App or on our website.
 
-    AdMob: Uses advertising identifiers for ad targeting
-    Analytics: May use session identifiers for usage tracking
+---
 
-You can control these through your device settings.
-10. Changes to This Privacy Policy
+## Summary
 
-We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors.
+**What we collect**
+- Allergen, dietary, and product preferences
+- Scan history and saved products
+- Product contributions and corrections
+- Usage analytics
+- Ad data for non-Premium users
+- Limited advertising attribution events
+- Ingredient or label text for AI analysis
+- Subscription status and receipt metadata
+- Missing ingredient and product coverage reports
 
-Notification of Changes:
+**What we do not collect directly**
+- Full payment card information
+- Biometric data
+- Medical records
+- Precise location, unless a third-party provider independently infers approximate location from IP address for its own service purposes
 
-    Updated "Last Updated" date at the top of this policy
-    In-app notification for material changes
-    Continued use of the App constitutes acceptance of changes
+Most everyday App data stays on your device. You can delete local data by clearing App data or uninstalling Lychee.
 
-Review Regularly: We encourage you to review this policy periodically.
-11. Medical Disclaimer
+---
 
-IMPORTANT: Lychee is a tool to help identify potential allergens in food products. It is NOT a substitute for medical advice, diagnosis, or treatment.
+**By using Lychee, you acknowledge that you have read and understood this Privacy Policy.**
 
-You Must:
+---
 
-    Always read product labels yourself
-    Consult your doctor or allergist before consuming any product
-    Carry prescribed emergency medication (e.g., epinephrine)
-    Seek immediate medical attention in case of allergic reactions
-
-We Are Not Liable:
-
-    For incorrect allergen information
-    For product formulation changes
-    For cross-contamination risks
-    For adverse health outcomes
-
-Use at Your Own Risk: This app provides information for educational purposes only.
-12. Contact Us
-
-If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us.
-
-Response Time: We aim to respond within 7 days of receiving your request.
-13. Compliance and Certifications
-
-Lychee complies with:
-
-    General Data Protection Regulation (GDPR)
-    California Consumer Privacy Act (CCPA/CPRA)
-    Children's Online Privacy Protection Act (COPPA)
-    Apple App Store Privacy Guidelines
-    Google Play Store Privacy Guidelines
-
-14. Third-Party Links
-
-The App may contain links to third-party websites or services (e.g., Open Food Facts). We are not responsible for the privacy practices of these third parties. We encourage you to review their privacy policies.
-Summary
-
-What We Collect:
-
-    Allergen preferences (local only)
-    Scan history (local only)
-    Product contributions (anonymous)
-    Usage analytics
-    Ad data (non-premium users)
-    Ingredient text for AI (premium users)
-
-What We Don't Collect:
-
-    Name, email, or phone number
-    Precise location
-    Payment information (handled by Apple/Google)
-    Biometric data
-    Health records
-
-Your Data, Your Control:
-
-    Most data stays on your device
-    Delete anytime by uninstalling
-    Upgrade to Premium for ad-free experience
-    No user accounts required
-
-15. Apple Inc. as Third-Party Beneficiary
-
-You acknowledge and agree that Apple Inc., and Apple's subsidiaries, are third-party beneficiaries of these Terms, and that, upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary thereof.
-
-By using Lychee, you acknowledge that you have read and understood this Privacy Policy.
+© 2026 Lychee. All rights reserved.
