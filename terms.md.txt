@@ -205,13 +205,13 @@ To the maximum extent permitted by law, we disclaim all warranties, including me
 
 To the maximum extent permitted by law, we are not liable for direct, indirect, incidental, consequential, special, punitive, or exemplary damages; loss of data; loss of profits; personal injury; illness; death; emotional distress; or damages arising from use of or inability to use the App.
 
-If we are found liable for any reason, our total liability will not exceed the amount you paid for Premium in the 12 months before the claim, or $100 if you are a free user, unless applicable law requires otherwise.
+Nothing in these Terms creates liability where the law does not impose it, and nothing limits rights that cannot legally be limited. If, despite the disclaimers above, applicable law allows a claim and requires us to be responsible, our total liability will not exceed the amount you actually paid Lychee for Premium in the 3 months before the claim. If you used only free features, our total liability is limited to $10, unless applicable law requires otherwise.
 
 ---
 
 ## 14. Indemnification
 
-You agree to indemnify, defend, and hold harmless Lychee, its affiliates, officers, directors, employees, and agents from claims, damages, losses, liabilities, and expenses arising from your use or misuse of the App, your violation of these Terms, your violation of law, your violation of third-party rights, content you submit, or health/safety outcomes related to your use of App information.
+You agree to indemnify, defend, and hold harmless Lychee, its affiliates, officers, directors, employees, and agents from third-party claims, damages, losses, liabilities, and expenses arising from your misuse of the App, your violation of these Terms, your violation of law, your violation of third-party rights, content you submit, or your use of App information to advise someone else as if it were professional medical, nutrition, allergy, cosmetic, or safety advice.
 
 ---
 
