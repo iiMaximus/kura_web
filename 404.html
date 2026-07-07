@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Not Found — Lychee</title>
+  <meta name="robots" content="noindex,follow">
+  <meta name="theme-color" content="#F5EEE4">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <style>
+    :root {
+      --cream: #F5EEE4; --surface: #FFFBF5; --ink: #2B2420;
+      --ink-soft: #6B5D54; --terra: #D07A50; --sage: #7D9169;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--cream); color: var(--ink);
+      font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      padding: 24px; text-align: center;
+    }
+    .card { max-width: 520px; }
+    img.logo { width: 72px; height: 72px; border-radius: 16px; margin-bottom: 24px; }
+    h1 { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; font-size: 40px; letter-spacing: -0.02em; margin-bottom: 12px; }
+    p { color: var(--ink-soft); font-size: 17px; line-height: 1.6; margin-bottom: 28px; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+    a.btn {
+      display: inline-block; padding: 12px 22px; border-radius: 999px;
+      text-decoration: none; font-weight: 700; font-size: 15px;
+      background: var(--surface); color: var(--ink); border: 1px solid rgba(43,36,32,0.12);
+    }
+    a.btn.primary { background: var(--terra); color: #fff; border-color: var(--terra); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="/assets/logo-64.png" alt="Lychee logo" class="logo" width="72" height="72">
+    <h1>This page doesn&rsquo;t exist.</h1>
+    <p>The page you&rsquo;re looking for may have moved. Lychee is the free food scanner app for ingredients, additives, and allergens — here are some useful places to go instead.</p>
+    <div class="links">
+      <a class="btn primary" href="/">Lychee home</a>
+      <a class="btn" href="/food-scanner/">Food scanner</a>
+      <a class="btn" href="/ultra-processed-food-scanner/">Ultra-processed food scanner</a>
+      <a class="btn" href="/faq/">FAQ</a>
+    </div>
+  </div>
+</body>
+</html>

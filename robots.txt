@@ -1,40 +1,66 @@
 User-agent: *
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: GPTBot
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: Claude-SearchBot
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: Claude-User
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: Perplexity-User
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: Googlebot
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 User-agent: CCBot
 Allow: /
+Disallow: /outreach/
+Disallow: /docs/
 
 Sitemap: https://lychee.fit/sitemap.xml

@@ -1,3 +1,8 @@
+// NOTE (2026-07-07): this script is stale — it consumes landing.html, which no
+// longer exists, and would overwrite privacy/terms/contact pages that now carry
+// hand-tuned SEO metadata (og:image, JSON-LD graph, smart app banner, etc.).
+// index.html and all subpages are now edited directly. Do not re-run without
+// porting those head upgrades into the templates first.
 const fs = require('fs');
 const sharp = require('sharp');
 const marked = require('marked');

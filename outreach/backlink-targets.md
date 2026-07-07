@@ -1,6 +1,6 @@
 # Lychee Backlink Target List And Categories
 
-Last updated: 2026-05-15
+Last updated: 2026-07-07
 
 Purpose: build legitimate backlinks and brand mentions for Lychee as a food scanner app that also supports cosmetics and beauty scanning. Use this as a prospecting map, not a license for bulk posting. Every target should have a real reason to mention Lychee.
 
@@ -10,7 +10,7 @@ Purpose: build legitimate backlinks and brand mentions for Lychee as a food scan
 - Food angle: ingredient-label clarity, additives, allergens, barcode scanning, product transparency, and plain-language scoring.
 - Beauty angle: cosmetic ingredient scanning, beauty product label literacy, clean beauty research, and faster comparison while shopping.
 - Trust angle: independent, practical, not a diet app, not medical advice, and not a replacement for professional health guidance.
-- Best link destination: use the homepage, App Store listing, relevant methodology page, or a focused future page for "food and beauty ingredient scanner" when available.
+- Best link destination: use the homepage (https://lychee.fit), the press kit (https://lychee.fit/press/), the App Store listing, or the most relevant topic page (/ultra-processed-food-scanner/, /food-scanner/, /lychee-vs-yuka/, /methodology/).
 
 ## Target Categories
 
@@ -58,14 +58,20 @@ Use this table structure in a spreadsheet or CRM.
 | Status | Not contacted / Sent / Followed up / Won / Declined |
 | Notes | Mentioned cosmetics scanning in recent article |
 
-## Linkable Asset Ideas To Build Later
+## Linkable Assets
 
-- "Food and beauty ingredient scanner" landing page.
-- "How Lychee's score works" methodology page with sources and update cadence.
-- "Lychee vs Yuka vs Think Dirty" comparison page, written fairly and factually.
+Built and live (link to these in outreach):
+
+- Media/press kit with logo, screenshots, founder info, and approved descriptions: https://lychee.fit/press/
+- "How Lychee's score works" methodology page: https://lychee.fit/methodology/
+- Lychee vs Yuka comparison page: https://lychee.fit/lychee-vs-yuka/
+- Topic landing pages: /food-scanner/, /ultra-processed-food-scanner/, /food-additive-scanner/, /cosmetic-ingredient-scanner/, /barcode-scanner-app/
+
+Still to build:
+
+- "Lychee vs Yuka vs Think Dirty" three-way comparison page.
 - "Ingredient label glossary" for food additives and cosmetic ingredients.
 - "School or family label-reading worksheet" that educators can link to.
-- "Media kit" with logo, screenshots, founder bio, and approved descriptions.
 
 ## Avoid
 

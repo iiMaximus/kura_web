@@ -1,6 +1,6 @@
 # Lychee Directory Listing Fields
 
-Last updated: 2026-05-15
+Last updated: 2026-07-07
 
 Use these fields when submitting Lychee to legitimate app directories, startup directories, food label resources, beauty ingredient resources, AI tool directories, creator resource pages, and newsletter roundups. This file is copy-ready, but each field should be verified before submission.
 
@@ -13,21 +13,23 @@ This file does not mean any external directory submission has been completed. Tr
 | Field | Copy Or Placeholder |
 | --- | --- |
 | Product name | Lychee |
-| Subtitle | Food & Beauty Scanner |
+| Subtitle | Free Food Scanner (App Store listing name: "Lychee - Clean Food Scanner") |
 | Tagline | Scan food and beauty labels before you buy. |
-| One-liner | Lychee helps shoppers scan food, cosmetic, and beauty products to understand ingredient labels in plain language. |
-| Website | {Lychee website URL} |
+| One-liner | Lychee is a free food scanner app that turns any barcode into a plain-language ingredient breakdown in about a second. |
+| Website | https://lychee.fit |
 | iOS App Store | https://apps.apple.com/us/app/id6755896152 |
 | Google Play | https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify |
-| Contact email | {Lychee contact email} |
-| Founder | {Founder name} |
-| Company | {Company or legal entity} |
-| Pricing | {Verify current pricing} |
-| Launch date | {Launch date} |
-| Logo or icon | {Logo/icon file or URL} |
-| Screenshots | {Food scan screenshot}; {Beauty scan screenshot}; {Ingredient detail screenshot} |
-| Privacy policy | {Lychee privacy URL} |
-| Terms | {Lychee terms URL} |
+| Contact email | Use https://lychee.fit/contact/ (form); avoid publishing a raw email in listings |
+| Founder | Maksym Horoszczak |
+| Company | Independent developer (Maksym Horoszczak) |
+| Pricing | Free — core scanning has no account, ads, or subscription |
+| Launch date | December 4, 2025 (iOS) |
+| Logo or icon | https://lychee.fit/icon.png (1024 square); https://lychee.fit/favicon.png (512 rounded) |
+| Screenshots | https://lychee.fit/assets/product_scan.png (scan result); https://lychee.fit/assets/pantry_tab.png (pantry tab); web-optimized .webp versions at same paths |
+| Social banner | https://lychee.fit/og-image.png (1200×630) |
+| Press kit | https://lychee.fit/press/ |
+| Privacy policy | https://lychee.fit/privacy/ |
+| Terms | https://lychee.fit/terms/ |
 
 ## Short Listing Description
 

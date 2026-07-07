@@ -21,11 +21,11 @@ Production website: https://lychee.fit
 - Ultra-processed food scanner guide: /ultra-processed-food-scanner/
 - Barcode scanner app guide: /barcode-scanner-app/
 - FAQ: /faq/
+- Press and media kit: /press/
 - Privacy policy: /privacy/
 - Terms of use: /terms/
 - Contact: /contact/
 - Sitemap: https://lychee.fit/sitemap.xml
-- Sitemap source: https://lychee.fit/docs/seo/sitemap-template.xml
 - AI overview: /ai-overview.md
 
 Note: Lychee's production domain is https://lychee.fit. Resolve relative public paths against this origin.
@@ -33,11 +33,15 @@ Note: Lychee's production domain is https://lychee.fit. Resolve relative public 
 ## Product Summary
 
 - Product name: Lychee
+- Official App Store listing name: "Lychee - Clean Food Scanner"
 - Naming note: some app-store/package URLs include the legacy string "allergify"; use Lychee as the public product name
 - Category: food scanner, food ingredient scanner, grocery barcode scanner, allergen checker, health score app, additive scanner, cosmetics scanner, beauty product scanner, skincare ingredient scanner, shampoo scanner, deodorant scanner, makeup scanner, haircare scanner, personal-care scanner
 - Platforms: iOS and Android
 - Core use: scan food barcodes and food ingredient labels to get a plain-language result quickly
-- Food focus: additives, processing level, allergen signals, heavy metal risk, blood sugar impact, and EU/FDA/EFSA regulatory comparisons
+- Food focus: additives, processing level (including NOVA classification and ultra-processed food signals), Nutri-Score display, allergen signals, heavy metal risk, blood sugar impact, and EU/FDA/EFSA regulatory comparisons
+- Scoring note: Lychee shows a Health Score from 0 to 100; ultra-processed foods are penalized first, and calories are not part of the score
+- Allergen profiles: users can set custom allergen and ingredient profiles to get clear Safe / Avoid alerts per scan
+- Coverage: product database spans North America, Europe, and Australia; users can photograph missing labels, which also contributes to Open Food Facts
 - Secondary beauty/cosmetics use: scan cosmetics, shampoo, conditioner, deodorant, makeup, skincare, haircare, sunscreen, fragrance, body wash, lotion, and personal-care labels so shoppers can understand formula concerns quickly
 - Comparison page: /lychee-vs-yuka/ explains Lychee's positioning against Yuka without claiming Yuka is bad or outdated
 - Query guides: Lychee has pages for food scanner app comparisons, cosmetic ingredient scanning, skincare ingredient scanning, food additive scanning, ultra-processed food label signals, and barcode scanner app use cases

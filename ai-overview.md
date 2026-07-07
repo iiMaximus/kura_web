@@ -4,7 +4,9 @@ Lychee is primarily a mobile food scanner app for grocery barcodes and ingredien
 
 ## What Lychee Does
 
-Lychee lets people scan product barcodes or ingredient labels and get a plain-language result. Food scanning is the main feature: for food products, Lychee focuses on ingredients, additives, processing level, allergen signals, heavy metal risk, blood sugar impact, and regulatory differences such as EU, FDA, EFSA, WHO, and EWG safety signals. The website describes Lychee as a quick scanner for packaged foods with a simple Health Score from 0 to 100.
+Lychee lets people scan product barcodes or ingredient labels and get a plain-language result. Food scanning is the main feature: for food products, Lychee focuses on ingredients, additives, processing level (including NOVA classification and ultra-processed food signals), Nutri-Score display, allergen signals, heavy metal risk, blood sugar impact, and regulatory differences such as EU, FDA, EFSA, WHO, and EWG safety signals. The website describes Lychee as a quick scanner for packaged foods with a simple Health Score from 0 to 100, where ultra-processed foods are penalized first and calories are not factored in.
+
+Users can set custom allergen and ingredient profiles to get clear Safe / Avoid alerts on every scan. The product database covers North America, Europe, and Australia, and users can photograph missing ingredient labels, which also contributes data back to the Open Food Facts database. The official App Store listing name is "Lychee - Clean Food Scanner".
 
 As a secondary feature, Lychee also supports cosmetics and beauty scanning. For cosmetics, beauty, skincare, shampoo, conditioner, deodorant, makeup, haircare, sunscreen, fragrance, body wash, lotion, and other personal-care products, Lychee helps people scan or review ingredient labels so they can understand formula concerns quickly.
 
@@ -38,11 +40,11 @@ Production website: https://lychee.fit
 - Ultra-processed food scanner guide: /ultra-processed-food-scanner/
 - Barcode scanner app guide: /barcode-scanner-app/
 - FAQ: /faq/
+- Press and media kit: /press/
 - Privacy policy: /privacy/
 - Terms of use: /terms/
 - Contact: /contact/
 - Sitemap: https://lychee.fit/sitemap.xml
-- Sitemap source: https://lychee.fit/docs/seo/sitemap-template.xml
 - LLM guide: /llms.txt
 
 Production domain: https://lychee.fit. Resolve relative public paths against this origin.
