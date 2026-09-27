@@ -1,18 +1,20 @@
 # Privacy Policy for Lychee
 
-**Last Updated:** June 3, 2026
+**Last Updated:** September 27, 2026
 
-**Effective Date:** June 3, 2026
+**Effective Date:** September 27, 2026
 
 ---
 
 ## Introduction
 
-Welcome to Lychee ("we," "our," or "us"). This Privacy Policy explains what information Lychee collects, how we use it, what third-party services we rely on, and the choices you have.
+The controller responsible for Lychee ("we," "our," or "us") is Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. Email: [allergify@proton.me](mailto:allergify@proton.me). Telephone: [+39 3934652025](tel:+393934652025).
+
+Welcome to Lychee. This Privacy Policy explains what information Lychee collects, how we use it, what third-party services we rely on, and the choices you have.
 
 Lychee is a product scanner and ingredient explainer for food and cosmetic products. The App helps users review allergens, dietary preferences, ingredient lists, nutrition labels, additives, processing signals, cosmetic ingredient concerns, and product database information. Lychee is not a medical service, allergy-management service, diet program, nutrition coach, or cosmetic safety certification service.
 
-By using the Lychee mobile application ("App"), you agree to the practices described in this Privacy Policy.
+This policy covers the Lychee mobile application ("App"), website, and web checkout. It explains data processing; it does not replace a consent request where consent is required.
 
 ---
 
@@ -50,7 +52,9 @@ Scan history is primarily stored locally on your device unless you use AI analys
 - App install, app launch, checkout, trial, and subscription events collected through the Meta/Facebook SDK for ad attribution, campaign measurement, and advertising optimization
 
 **Subscription data**
-- Subscription status, entitlement status, product identifiers, trial status, purchase/renewal status, cancellation status, and receipt metadata processed through Apple, Google, and RevenueCat
+- Subscription status, entitlement status, product identifiers, trial status, purchases, renewals, cancellations, refunds, disputes, and receipt/transaction metadata processed through Apple, Google, RevenueCat, and Stripe as appropriate to the payment route
+- For web checkout: email address, billing/contact information provided at checkout, purchase and customer identifiers, and payment method information processed by RevenueCat and Stripe
+- Information you send to billing or customer support, such as your purchase email and support reference
 - We do not receive or store your full payment card details
 
 ---
@@ -77,7 +81,9 @@ Scan history is primarily stored locally on your device unless you use AI analys
 
 ### 2.4 Subscriptions and Trials
 - Display subscription offers and trial eligibility
-- Process purchases, renewals, cancellations, and restored purchases through Apple, Google, and RevenueCat
+- Process purchases, renewals, cancellations, refunds, and restored purchases through Apple, Google, RevenueCat, and Stripe as appropriate
+- Send transactional receipts and subscription messages, provide password-free email recovery, help with billing problems, and prevent fraud
+- We do not use a checkout email for marketing without an appropriate separate legal basis
 - Maintain your Premium entitlement status
 
 ### 2.5 Advertising and Attribution
@@ -115,12 +121,12 @@ Scan history is primarily stored locally on your device unless you use AI analys
 **Data information:** https://world.openbeautyfacts.org/data
 
 ### 3.3 OpenAI
-**Data shared:** Ingredient text, label text, selected allergens/preferences, and product context needed for AI analysis.
+**Data shared:** Label photos when you use AI image scanning or photo enrichment, ingredient/label text, questions you submit, selected allergens/preferences, and product context needed for AI analysis.
 
 **Purpose:** AI-powered allergen, ingredient, nutrition, and cosmetic product explanations.
 
 **Important notes:**
-- We send only the text and context needed for the analysis
+- We send the images, text, and context needed for the requested analysis; avoid including faces, addresses, medical records, or other private information in label photos or questions
 - We do not send payment card information or precise location data
 
 **Privacy Policy:** https://openai.com/policies/privacy-policy
@@ -156,16 +162,16 @@ Scan history is primarily stored locally on your device unless you use AI analys
 
 **Privacy Policy:** https://posthog.com/privacy
 
-### 3.7 RevenueCat
-**Data shared:** App user identifier, product identifiers, entitlement status, purchase/renewal status, Apple or Google receipt metadata, and restore-purchase information.
+### 3.7 RevenueCat and Stripe
+**Data shared:** App customer identifier, product identifiers, purchase/renewal status, trial and entitlement status, cancellation/refund/dispute status, transaction and receipt metadata, and restore/recovery information. For web purchases, this also includes checkout email, billing/contact information, and payment information entered into hosted checkout.
 
-**Purpose:** Manage subscription offers, trials, purchases, renewals, cancellations, and restored purchases.
+**Purpose:** RevenueCat manages subscription offers, Premium access, web billing, transactional messages, password-free purchase redemption/recovery, and the customer billing portal. Stripe processes web payments and related fraud checks, refunds, and disputes. Lychee can access necessary customer and billing records to provide support and meet accounting and legal obligations. Full card numbers and security codes are handled by the payment provider, not received or stored by the Lychee app.
 
-**Important notes:**
-- Payment card details are processed by Apple or Google, not by Lychee
-- RevenueCat helps us verify whether Premium should be active
+Web checkout email is used for receipts, service and billing messages, subscription management, and recovery. With Apple Pay, the contact email selected in the payment flow may be used. Protect recovery links: opening one may grant subscription access on another device.
 
-**Privacy Policy:** https://www.revenuecat.com/privacy/
+**Privacy policies:** [RevenueCat](https://www.revenuecat.com/privacy/) and [Stripe](https://stripe.com/privacy). Providers may also process some information for their own legal, security, and fraud-prevention responsibilities, as described in their policies.
+
+---
 
 ### 3.8 Apple App Store and Google Play Store
 **Data shared:** Purchase, trial, subscription, renewal, cancellation, refund, and billing information as required by the platform.
@@ -186,7 +192,7 @@ Scan history is primarily stored locally on your device unless you use AI analys
 - Do not submit information in product contributions that you do not want included in public product databases
 
 ### 3.10 Service Providers and Legal Requirements
-We may use trusted service providers for hosting, analytics, subscription management, crash reporting, product lookup, product contribution, storage, and customer support. These providers may only use data as directed by us.
+We may use trusted service providers for hosting, analytics, subscription management, crash reporting, product lookup, product contribution, storage, and customer support. We require providers processing data on our behalf to protect it and use it for the agreed services under applicable data-protection terms. Some providers, including payment platforms, also act independently for their own legal, security, or fraud-prevention purposes as described in their policies.
 
 We may disclose information if required by law, court order, subpoena, or another valid legal request.
 
@@ -214,7 +220,8 @@ Some data is stored with third-party services or hosted infrastructure when need
 - **Product contributions:** May be retained indefinitely by Open Food Facts, Open Beauty Facts, or Lychee for database purposes
 - **Missing ingredient and product coverage reports:** Retained as long as needed to improve coverage and maintain auditability
 - **Subscription records:** Retained as needed to manage purchases, renewals, refunds, disputes, and legal/accounting obligations
-- **Analytics data:** Retained for up to 12 months, then deleted or anonymized where practical
+- **Analytics and diagnostic data:** Retained for the period needed to investigate reliability, assess experiments, and understand usage trends; retention depends on provider settings. Contact us to request deletion or details about records linked to your installation
+- **Billing email, transactions and support records:** Retained while needed to provide subscription access, recovery and support, and afterward as required for refunds, disputes, accounting, tax, or other legal duties. A deletion request does not require deletion of records we must lawfully retain
 
 ---
 
@@ -227,7 +234,7 @@ You can review and change your allergen preferences, product preferences, saved 
 - **Local data:** Delete by clearing App data or uninstalling the App
 - **Product contributions:** May be submitted to public databases and may not be individually removable by us
 - **Analytics, subscription, and reporting data:** Contact us if you want to request access, deletion, or correction where applicable
-- **Accounts:** Lychee does not currently require user accounts
+- **Accounts:** Lychee does not require a password-based user account. A web subscription still creates billing/customer records with RevenueCat and Stripe; a lack of an app account does not mean no personal data is processed
 
 ### 5.3 Advertising Choices
 You can limit ad tracking:
@@ -235,12 +242,10 @@ You can limit ad tracking:
 - **Android:** Settings > Google > Ads > Opt out of Ads Personalization
 - **Premium:** Subscribe to remove ads entirely
 
-### 5.4 Consent Withdrawal
-You may withdraw consent by:
-- Uninstalling the App
-- Disabling features such as contributions
-- Adjusting device privacy settings
-- Upgrading to Premium to remove in-app ads
+### 5.4 Consent and other legal bases
+Where EU/EEA data protection law applies, we rely on performance of a contract for requested App features, purchases, subscription access, recovery, and support; legal obligations for required billing/accounting records; and legitimate interests for proportionate security, fraud prevention, and service reliability, subject to your rights. Where consent is required, including certain advertising/tracking or processing of sensitive information, it must be obtained separately. A purchase is not consent to marketing.
+
+You may withdraw consent using the relevant device or service privacy settings, stop using an optional feature, or contact us. You may also object to processing based on legitimate interests. Withdrawal does not affect prior lawful processing. Uninstalling stops use of the App but does not cancel a subscription or automatically delete third-party billing records. Premium removes in-app ads; it does not remove necessary billing processing or automatically disable all analytics/attribution.
 
 ---
 
@@ -262,16 +267,19 @@ Your information may be processed in countries other than your own. These countr
 
 Depending on where you live, you may have rights to access, correct, delete, restrict, or object to certain processing of your personal information, and to withdraw consent where processing is based on consent.
 
+You can contact the controller at the address below. You may also complain to your local data-protection authority; in Poland this is the President of the Personal Data Protection Office (UODO), [uodo.gov.pl](https://uodo.gov.pl).
+
 If you are in California or another jurisdiction with similar rights, you may have the right to know what personal information we collect, request deletion, and opt out of certain sharing. We do not sell personal information for money.
 
 ---
 
 ## 9. Cookies and Tracking Technologies
 
-The App does not use browser cookies. Third-party mobile SDKs may use similar technologies:
+The native App primarily uses device storage and SDK identifiers. Our website, hosted web checkout, recovery pages, and customer billing portal may use cookies or browser storage for operation, payment security, fraud prevention, and session continuity. Third-party mobile SDKs may use similar technologies:
 - **AdMob and Meta/Facebook SDK:** Advertising identifiers where permitted for ad delivery, attribution, and campaign measurement
 - **PostHog:** Anonymous identifiers for product analytics
-- **RevenueCat:** App user identifiers and receipt metadata for subscription management
+- **RevenueCat and Stripe:** Customer and transaction identifiers, checkout/portal session data, and payment-security information for billing, recovery, and subscription management
+- **Contact form:** If you choose our embedded Tally form, the information you submit is processed to handle your request; you can instead email us directly. See [Tally’s privacy policy](https://tally.so/help/privacy-policy)
 
 ---
 
@@ -293,7 +301,9 @@ We may update this Privacy Policy from time to time. We will update the "Last Up
 
 ## 12. Contact Us
 
-If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us through the contact link in the App or on our website.
+Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. Email: [allergify@proton.me](mailto:allergify@proton.me). Telephone: [+39 3934652025](tel:+393934652025).
+
+Contact us for access, correction, deletion, restriction, objection, or consent-withdrawal requests. To find relevant records we may ask for a purchase email or the app’s support reference, and proportionate proof that the request is yours. Do not send payment card numbers, security codes, or passwords. You can also use [our contact page](https://lychee.fit/contact/).
 
 ---
 
@@ -306,15 +316,15 @@ If you have questions, concerns, or requests regarding this Privacy Policy or yo
 - Usage analytics
 - Ad data for non-Premium users
 - Limited advertising attribution events
-- Ingredient or label text for AI analysis
-- Subscription status and receipt metadata
+- Label photos, ingredient or label text, questions and relevant preferences for requested AI analysis
+- Subscription status, transaction metadata, and web checkout email/billing information
 - Missing ingredient and product coverage reports
 
 **What we do not collect directly**
 - Full payment card information
 - Biometric data
 - Medical records
-- Precise location, unless a third-party provider independently infers approximate location from IP address for its own service purposes
+- Precise GPS location (service providers may derive an approximate location from an IP address)
 
 Most everyday App data stays on your device. You can delete local data by clearing App data or uninstalling Lychee.
 
