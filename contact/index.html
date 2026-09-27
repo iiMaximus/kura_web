@@ -691,9 +691,23 @@
       margin-bottom: 16px;
       padding-left: 24px;
     }
-    /* Simple utility to ensure Tally form fits well */
-    .tally-container {
-      margin-top: 40px;
+    .page-content h1 { margin-bottom: 16px; }
+    .page-content .contact-button { display: inline-flex; align-items: center; justify-content: center; gap: 24px; min-height: 54px; padding: 14px 24px; margin-top: 8px; border-radius: 28px; background: var(--ink); color: var(--cream, #fffbf5); font-size: 16px; font-weight: 600; text-decoration: none; }
+    .contact-button:hover { opacity: .85; }
+    .contact-button:focus-visible { outline: 3px solid var(--terra); outline-offset: 4px; }
+    .page-content .form-note, .page-content .privacy-note { font-size: 14px; }
+    .form-note { margin-top: 12px; }
+    .billing-help { margin-top: 40px; }
+    .billing-help details { border-bottom: 1px solid var(--border, #ded8ce); }
+    .billing-help summary { cursor: pointer; padding: 18px 0; color: var(--ink); font-size: 17px; font-weight: 600; }
+    .billing-help details p { padding-right: 16px; }
+    .privacy-note { margin-top: 24px; }
+    .seller-details { border-top: 1px solid var(--border, #ded8ce); margin-top: 48px; padding-top: 16px; }
+    .page-content .seller-details h2 { font-family: inherit; font-size: 15px; margin-top: 8px; }
+    .page-content .seller-details p { font-size: 13px; line-height: 1.8; }
+    @media (max-width: 600px) {
+      .page-content { margin-top: 112px; padding: 0 24px; }
+      .page-content h1 { font-size: 36px; }
     }
   </style>
     <script type="application/ld+json">
@@ -789,18 +803,30 @@
 </nav>
 <div class="page-content">
 
-    <h1>Contact Us</h1>
-    <p>Questions about Lychee, subscription access, a charge, a refund, or your privacy? Email <a href="mailto:allergify@proton.me">allergify@proton.me</a> or use the form below.</p>
-    <h2>Seller and service provider</h2>
-    <p>Maksym Horoszczak<br>Domaniewska 47<br>02-672 Warszawa, Poland<br>Telephone: <a href="tel:+393934652025">+39 3934652025</a></p>
-    <h2>Subscription help</h2>
-    <p>For web subscriptions, open <strong>Manage or cancel</strong> in Lychee’s subscription help or use the management link in your purchase email. To recover access on a new device, open the recovery link in that email. Cancellation stops future renewal; contact us separately to request a web refund.</p>
-    <p>For App Store subscriptions, cancel in Apple’s subscription settings and request refunds through <a href="https://reportaproblem.apple.com">Apple</a>. Google Play subscriptions are managed through Google Play.</p>
-    <p>Include your purchase email or support reference if relevant. <strong>Never send a full card number, security code, or password.</strong> Read our <a href="/terms/">Terms</a> and <a href="/privacy/">Privacy Policy</a> for details.</p>
-    <div class="tally-container">
-      <iframe data-tally-src="https://tally.so/r/q4YPvg?transparentBackground=1" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" title="Contact Us"></iframe>
-      <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
-    </div>
+    <h1>How can we help?</h1>
+    <p>Have a question, a payment issue or need help restoring Premium? Send us a message through our contact form.</p>
+    <a class="contact-button" href="https://tally.so/r/q4YPvg">Open contact form <span aria-hidden="true">↗</span></a>
+    <p class="form-note">For support, refunds and feedback.</p>
+    <section class="billing-help" aria-labelledby="billing-help-title">
+      <h2 id="billing-help-title">Subscription help</h2>
+      <details>
+        <summary>Restore a purchase</summary>
+        <p>In Lychee, choose <strong>Restore Premium</strong>. For App Store purchases, use the same Apple Account. For a web purchase, open the recovery link in your Lychee purchase email on the device you want to use. You don’t need to buy another subscription.</p>
+      </details>
+      <details>
+        <summary>Cancel a subscription</summary>
+        <p>Choose <strong>Manage subscription</strong> in Lychee. For a web subscription, you can also use the management link in your purchase email. App Store and Google Play subscriptions can be canceled in your store settings. Canceling stops the next payment; access continues until your trial or paid period ends. Deleting the app does not cancel your subscription.</p>
+      </details>
+      <details>
+        <summary>Request a refund</summary>
+        <p>Paid on the web? Use our contact form and include your purchase email. For an App Store payment, <a href="https://reportaproblem.apple.com/">request a refund from Apple</a>. A refund request is separate from canceling a subscription.</p>
+      </details>
+      <p class="privacy-note">For payment help, include your purchase email or support reference. Never send a full card number, security code or password. See our <a href="/terms/">Terms</a> and <a href="/privacy/">Privacy Policy</a>.</p>
+    </section>
+    <section class="seller-details" aria-labelledby="seller-title">
+      <h2 id="seller-title">Legal contact details</h2>
+      <p>Maksym Horoszczak<br>Domaniewska 47<br>02-672 Warszawa, Poland<br>Email: <a href="mailto:allergify@proton.me">allergify@proton.me</a><br>Telephone: <a href="tel:+393934652025">+39 3934652025</a></p>
+    </section>
   
 </div>
 <footer>
