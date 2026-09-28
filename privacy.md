@@ -8,9 +8,9 @@
 
 ## Introduction
 
-The controller responsible for Lychee ("we," "our," or "us") is Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. For support and privacy requests, use the [Lychee support form](https://tally.so/r/q4YPvg). Full contact details are in Section 12.
-
 Welcome to Lychee. This Privacy Policy explains what information Lychee collects, how we use it, what third-party services we rely on, and the choices you have.
+
+For support and privacy requests, use the [Lychee support form](https://tally.so/r/q4YPvg). The controller’s identity and contact details are in Section 12.
 
 Lychee is a product scanner and ingredient explainer for food and cosmetic products. The App helps users review allergens, dietary preferences, ingredient lists, nutrition labels, additives, processing signals, cosmetic ingredient concerns, and product database information. Lychee is not a medical service, allergy-management service, diet program, nutrition coach, or cosmetic safety certification service.
 
