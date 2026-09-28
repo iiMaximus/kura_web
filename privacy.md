@@ -1,14 +1,14 @@
 # Privacy Policy for Lychee
 
-**Last Updated:** September 27, 2026
+**Last Updated:** September 28, 2026
 
-**Effective Date:** September 27, 2026
+**Effective Date:** September 28, 2026
 
 ---
 
 ## Introduction
 
-The controller responsible for Lychee ("we," "our," or "us") is Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. Email: [allergify@proton.me](mailto:allergify@proton.me). Telephone: [+39 3934652025](tel:+393934652025).
+The controller responsible for Lychee ("we," "our," or "us") is Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. For support and privacy requests, use the [Lychee support form](https://tally.so/r/q4YPvg). Full contact details are in Section 12.
 
 Welcome to Lychee. This Privacy Policy explains what information Lychee collects, how we use it, what third-party services we rely on, and the choices you have.
 
@@ -24,7 +24,7 @@ This policy covers the Lychee mobile application ("App"), website, and web check
 
 **Preferences and profiles**
 - Selected allergens, dietary restrictions, and product preferences
-- Optional onboarding answers, family/profile labels, and app settings
+- Optional onboarding answers, including selected health goals and concerns, family/profile labels, and app settings
 - Saved products, favorites, pantry items, and scan history
 
 **Product contributions and corrections**
@@ -48,14 +48,14 @@ Scan history is primarily stored locally on your device unless you use AI analys
 - Device model and operating system
 - Crash, diagnostic, and performance data
 - Feature usage statistics
-- Product analytics events collected through PostHog, such as onboarding progress, feature usage, scan mode, app version, and coarse platform details
+- Product analytics events collected through PostHog, such as onboarding progress, selected goal/concern identifiers, feature usage, scan mode, response times, error categories, app version, and platform details, associated with a persistent pseudonymous identifier
 - App install, app launch, checkout, trial, and subscription events collected through the Meta/Facebook SDK for ad attribution, campaign measurement, and advertising optimization
 
 **Subscription data**
 - Subscription status, entitlement status, product identifiers, trial status, purchases, renewals, cancellations, refunds, disputes, and receipt/transaction metadata processed through Apple, Google, RevenueCat, and Stripe as appropriate to the payment route
-- For web checkout: email address, billing/contact information provided at checkout, purchase and customer identifiers, and payment method information processed by RevenueCat and Stripe
+- For web checkout: email address, billing name/address when supplied by you or your payment wallet, purchase and customer identifiers, and payment method information processed by RevenueCat and Stripe
 - Information you send to billing or customer support, such as your purchase email and support reference
-- We do not receive or store your full payment card details
+- We do not receive or store your full payment card number or security code. We may access limited billing records, such as payment method type, card brand and last four digits, to handle payments and support
 
 ---
 
@@ -121,7 +121,7 @@ Scan history is primarily stored locally on your device unless you use AI analys
 **Data information:** https://world.openbeautyfacts.org/data
 
 ### 3.3 OpenAI
-**Data shared:** Label photos when you use AI image scanning or photo enrichment, ingredient/label text, questions you submit, selected allergens/preferences, and product context needed for AI analysis.
+**Data shared:** Label photos when you use AI image scanning or photo enrichment, ingredient/label text, questions you submit, selected health goals and concerns, and product context needed for AI analysis.
 
 **Purpose:** AI-powered allergen, ingredient, nutrition, and cosmetic product explanations.
 
@@ -132,7 +132,7 @@ Scan history is primarily stored locally on your device unless you use AI analys
 **Privacy Policy:** https://openai.com/policies/privacy-policy
 
 ### 3.4 Google AdMob
-**Data shared:** Device identifiers, advertising identifiers, IP address, device model, app usage data, and ad interaction data as required for ad delivery.
+**Data shared:** Device and advertising identifiers where permitted, IP address and approximate location derived from it, device model, app/ad interactions, crash, diagnostic, and performance information used for advertising delivery, measurement, and reliability.
 
 **Purpose:** Serve ads to non-Premium users and support free access to the App.
 
@@ -152,7 +152,7 @@ Scan history is primarily stored locally on your device unless you use AI analys
 **Privacy Policy:** https://www.facebook.com/privacy/policy/
 
 ### 3.6 PostHog
-**Data shared:** Limited product analytics events, such as onboarding progress, onboarding answers, feature usage, scan behavior, app version, device platform, and anonymous usage identifiers.
+**Data shared:** Product analytics events, such as onboarding progress and answers (including selected health-goal and concern identifiers), feature usage, scan behavior, timing/error information, app version, and device platform. Events use persistent pseudonymous installation/user identifiers; this does not make the records fully anonymous.
 
 **Purpose:** Understand how the App is used, monitor performance, identify onboarding drop-off points, and improve features.
 
@@ -216,7 +216,7 @@ Some data is stored with third-party services or hosted infrastructure when need
 - Analytics and advertising attribution events
 
 ### 4.3 Retention
-- **Local data:** Retained until you delete it, clear app data, or uninstall the App
+- **Local data:** Retained until you delete it or clear local App data. Uninstalling removes ordinary local data, but operating-system backups, secure identifiers, store purchase records, and provider billing records can persist
 - **Product contributions:** May be retained indefinitely by Open Food Facts, Open Beauty Facts, or Lychee for database purposes
 - **Missing ingredient and product coverage reports:** Retained as long as needed to improve coverage and maintain auditability
 - **Subscription records:** Retained as needed to manage purchases, renewals, refunds, disputes, and legal/accounting obligations
@@ -231,7 +231,7 @@ Some data is stored with third-party services or hosted infrastructure when need
 You can review and change your allergen preferences, product preferences, saved products, and scan history inside the App.
 
 ### 5.2 Deletion
-- **Local data:** Delete by clearing App data or uninstalling the App
+- **Local data:** Delete history and saved products in the App, or clear ordinary local data by uninstalling. Uninstalling is not a billing-data deletion or subscription reset
 - **Product contributions:** May be submitted to public databases and may not be individually removable by us
 - **Analytics, subscription, and reporting data:** Contact us if you want to request access, deletion, or correction where applicable
 - **Accounts:** Lychee does not require a password-based user account. A web subscription still creates billing/customer records with RevenueCat and Stripe; a lack of an app account does not mean no personal data is processed
@@ -277,9 +277,9 @@ If you are in California or another jurisdiction with similar rights, you may ha
 
 The native App primarily uses device storage and SDK identifiers. Our website, hosted web checkout, recovery pages, and customer billing portal may use cookies or browser storage for operation, payment security, fraud prevention, and session continuity. Third-party mobile SDKs may use similar technologies:
 - **AdMob and Meta/Facebook SDK:** Advertising identifiers where permitted for ad delivery, attribution, and campaign measurement
-- **PostHog:** Anonymous identifiers for product analytics
+- **PostHog:** Persistent pseudonymous identifiers for product analytics
 - **RevenueCat and Stripe:** Customer and transaction identifiers, checkout/portal session data, and payment-security information for billing, recovery, and subscription management
-- **Contact form:** If you choose our embedded Tally form, the information you submit is processed to handle your request; you can instead email us directly. See [Tally’s privacy policy](https://tally.so/help/privacy-policy)
+- **Contact form:** Our support link opens a Tally-hosted form. Tally processes the contact details, message, and any attachments you submit to handle your request. Email is also available in Section 12. See [Tally’s privacy policy](https://tally.so/help/privacy-policy)
 
 ---
 
@@ -301,9 +301,9 @@ We may update this Privacy Policy from time to time. We will update the "Last Up
 
 ## 12. Contact Us
 
-Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. Email: [allergify@proton.me](mailto:allergify@proton.me). Telephone: [+39 3934652025](tel:+393934652025).
+Use the [Lychee support form](https://tally.so/r/q4YPvg) for access, correction, deletion, restriction, objection, consent-withdrawal, or billing requests. To find relevant records we may ask for a purchase email or the app’s support reference, and proportionate proof that the request is yours. Do not send payment card numbers, security codes, or passwords. You can also use [our contact page](https://lychee.fit/contact/).
 
-Contact us for access, correction, deletion, restriction, objection, or consent-withdrawal requests. To find relevant records we may ask for a purchase email or the app’s support reference, and proportionate proof that the request is yours. Do not send payment card numbers, security codes, or passwords. You can also use [our contact page](https://lychee.fit/contact/).
+Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. Email: [allergify@proton.me](mailto:allergify@proton.me). Telephone: [+39 3934652025](tel:+393934652025).
 
 ---
 
@@ -326,7 +326,7 @@ Contact us for access, correction, deletion, restriction, objection, or consent-
 - Medical records
 - Precise GPS location (service providers may derive an approximate location from an IP address)
 
-Most everyday App data stays on your device. You can delete local data by clearing App data or uninstalling Lychee.
+Most everyday App data stays on your device. You can delete local history and saved products in the App. Uninstalling does not cancel payments, erase provider billing records, or guarantee a new subscription identity.
 
 ---
 

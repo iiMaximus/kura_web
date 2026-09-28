@@ -1,8 +1,8 @@
 # Terms of Service for Lychee
 
-**Last Updated:** September 27, 2026
+**Last Updated:** September 28, 2026
 
-**Effective Date:** September 27, 2026
+**Effective Date:** September 28, 2026
 
 ---
 
@@ -10,7 +10,7 @@
 
 By downloading, installing, or using the Lychee mobile application ("App," "Service," "we," "our," or "us"), you agree to these Terms of Service ("Terms"). If you do not agree, do not use the App.
 
-Lychee is provided by Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. Email: [allergify@proton.me](mailto:allergify@proton.me). Telephone: [+39 3934652025](tel:+393934652025).
+Lychee is provided by Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. For help, use the [Lychee support form](https://tally.so/r/q4YPvg). Full legal contact details are in Section 18.
 
 These Terms form an agreement between you and Maksym Horoszczak. For purchases made through Apple or Google, the relevant store’s purchase terms also apply. For web purchases, Maksym Horoszczak is the seller; RevenueCat and Stripe provide billing and payment infrastructure, not the Lychee service.
 
@@ -107,12 +107,12 @@ For Apple subscriptions, cancel at least 24 hours before the end of the trial or
 Cancellation stops future renewal; it does not itself request a refund. Access normally continues through the paid period, or through the trial where the provider permits it. A refund, chargeback, or failure to pay may end access earlier. If a renewal payment fails, access may end after any applicable grace period. Deleting the App does not cancel a subscription.
 
 ### 6.4 Restore and new-device recovery
-Use Restore for App Store and Google Play purchases with the same store account. For a web purchase, open the purchase recovery/redemption link from your email on the device where you want to use Lychee. You do not need a Lychee password. Keep access to the email address used at checkout, including the address selected with Apple Pay. Treat recovery links as private: they can grant access to your subscription.
+Use Restore for App Store and Google Play purchases with the same store account. For a web purchase, open the purchase recovery/redemption link from your email on the device where you want to use Lychee. You do not need a Lychee password. Keep access to the email address used at checkout, including the address selected with Apple Pay. Treat recovery links as private: they can grant access to your subscription. Restoring Premium restores subscription access; it does not transfer locally stored scan history, profiles, or saved products.
 
-If you cannot recover access, contact [allergify@proton.me](mailto:allergify@proton.me) with your purchase email or support reference. Do not buy another subscription to restore an existing one. Uninstalling the App does not delete billing records or cancel payments.
+If you cannot recover access, use the [Lychee support form](https://tally.so/r/q4YPvg) with your purchase email or support reference. Do not buy another subscription to restore an existing one. Uninstalling the App does not delete billing records or cancel payments.
 
 ### 6.5 Refunds, billing problems and consumer rights
-App Store refund requests are handled by Apple through [reportaproblem.apple.com](https://reportaproblem.apple.com). For Google Play purchases, use Google’s refund process or contact us for assistance. For web payments, duplicate charges, failed access, or refund requests, contact [allergify@proton.me](mailto:allergify@proton.me). Include your purchase email or support reference, but never send a full card number, security code, or password.
+App Store refund requests are handled by Apple through [reportaproblem.apple.com](https://reportaproblem.apple.com). For Google Play purchases, use Google’s refund process or contact us for assistance. For web payments, duplicate charges, failed access, or refund requests, use the [Lychee support form](https://tally.so/r/q4YPvg). Include your purchase email or support reference, but never send a full card number, security code, or password.
 
 We review web refund requests under applicable law and the circumstances of the purchase. We will explain whether access and future renewals will end when a refund is made. No term here limits mandatory consumer rights, including any applicable withdrawal or remedies for a non-conforming digital service. A trial does not replace those rights.
 
@@ -271,9 +271,9 @@ We may update these Terms from time to time. We will update the "Last Updated" d
 
 ## 18. Contact Us
 
-Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. Email: [allergify@proton.me](mailto:allergify@proton.me). Telephone: [+39 3934652025](tel:+393934652025).
+For subscription help, refunds, privacy requests, or complaints, use the [Lychee support form](https://tally.so/r/q4YPvg) or [our contact page](https://lychee.fit/contact/). Please describe the issue and include the purchase email or support reference if relevant. We will respond without undue delay and within any legally required period.
 
-For subscription help, refunds, privacy requests, or complaints, contact us by email or through [our contact page](https://lychee.fit/contact/). Please describe the issue and include the purchase email or support reference if relevant. We will respond without undue delay and within any legally required period.
+Maksym Horoszczak, operating Lychee, Domaniewska 47, 02-672 Warszawa, Poland. Email: [allergify@proton.me](mailto:allergify@proton.me). Telephone: [+39 3934652025](tel:+393934652025).
 
 ---
 
