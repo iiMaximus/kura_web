@@ -1,85 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ultra-Processed Food Scanner App (NOVA Signals) — Lychee</title>
-  <meta name="description" content="Check if a food is ultra-processed in one scan. Lychee shows NOVA processing signals, additive patterns, and label context for any packaged food — free on iOS and Android.">
-  <link rel="canonical" href="https://lychee.fit/ultra-processed-food-scanner/">
-  <meta property="og:url" content="https://lychee.fit/ultra-processed-food-scanner/">
-  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-  <meta property="og:site_name" content="Lychee">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="Ultra-Processed Food Scanner App (NOVA Signals) — Lychee">
-  <meta property="og:description" content="Check if a food is ultra-processed in one scan. Lychee shows NOVA processing signals, additive patterns, and label context for any packaged food — free on iOS and Android.">
-  <meta property="og:image" content="https://lychee.fit/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Lychee — the free food scanner app for iOS and Android">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ultra-Processed Food Scanner App (NOVA Signals) — Lychee">
-  <meta name="twitter:description" content="Check if a food is ultra-processed in one scan. Lychee shows NOVA processing signals, additive patterns, and label context for any packaged food — free on iOS and Android.">
-  <meta name="twitter:image" content="https://lychee.fit/og-image.png">
-  <meta name="apple-itunes-app" content="app-id=6755896152">
-  <meta name="theme-color" content="#F5EEE4">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&amp;family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../about/info-pages.css">
-  <script type="application/ld+json">
-{
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ultra-Processed Food Scanner &amp; NOVA Context — Lychee</title><meta name="description" content="Use Lychee to inspect processing, ingredients and nutrition together. Its food score puts processing first, with NOVA data and ingredient-list evidence when available.">
+<link rel="canonical" href="https://lychee.fit/ultra-processed-food-scanner/"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta property="og:site_name" content="Lychee"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:title" content="Ultra-Processed Food Scanner &amp; NOVA Context — Lychee"><meta property="og:description" content="Use Lychee to inspect processing, ingredients and nutrition together. Its food score puts processing first, with NOVA data and ingredient-list evidence when available."><meta property="og:url" content="https://lychee.fit/ultra-processed-food-scanner/"><meta property="og:image" content="https://lychee.fit/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Lychee food and cosmetic ingredient scanner">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Ultra-Processed Food Scanner &amp; NOVA Context — Lychee"><meta name="twitter:description" content="Use Lychee to inspect processing, ingredients and nutrition together. Its food score puts processing first, with NOVA data and ingredient-list evidence when available."><meta name="twitter:image" content="https://lychee.fit/og-image.png">
+<meta name="apple-itunes-app" content="app-id=6755896152"><meta name="theme-color" content="#F5EEE4"><meta name="application-name" content="Lychee">
+<link rel="icon" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="alternate" type="application/json" href="/app-facts.json" title="Lychee product facts">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&amp;family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="/about/info-pages.css">
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://lychee.fit/#founder",
+      "name": "Maksym Horoszczak",
+      "url": "https://lychee.fit/about/"
+    },
     {
       "@type": "Organization",
       "@id": "https://lychee.fit/#organization",
       "name": "Lychee",
       "url": "https://lychee.fit/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://lychee.fit/favicon.png",
-        "width": 512,
-        "height": 512
-      },
-      "sameAs": [
-        "https://apps.apple.com/us/app/id6755896152",
-        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
-      ]
+      "logo": "https://lychee.fit/favicon.png",
+      "founder": {
+        "@id": "https://lychee.fit/#founder"
+      }
     },
     {
       "@type": "WebSite",
       "@id": "https://lychee.fit/#website",
-      "url": "https://lychee.fit/",
       "name": "Lychee",
-      "description": "Lychee is a free food scanner app for iOS and Android that decodes ingredient labels, additives, allergens, and ultra-processed food signals, with secondary cosmetic scanning.",
+      "url": "https://lychee.fit/",
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.",
+      "inLanguage": "en",
       "publisher": {
         "@id": "https://lychee.fit/#organization"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://lychee.fit/#app",
+      "name": "Lychee",
+      "alternateName": "Lychee - Clean Food Scanner",
+      "url": "https://lychee.fit/",
+      "image": "https://lychee.fit/favicon.png",
+      "screenshot": "https://lychee.fit/assets/product_scan.webp",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS, Android",
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns. Free to download with core barcode scanning and product scores. Optional Lychee Premium unlocks additional analysis and features. The free experience may include ads; Premium includes ad-free scanning.",
+      "featureList": [
+        "Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition, NOVA and Nutri-Score data.",
+        "A 0–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score.",
+        "Compare available product ingredients, allergens and trace statements with a selected profile. Results do not guarantee the absence of an allergen.",
+        "Read a food or cosmetic ingredient paragraph with OCR when barcode data is missing or incomplete. Review the extracted text against the package.",
+        "Look up cosmetics and personal-care products through Open Beauty Facts and review INCI ingredients, functions and concerns.",
+        "A separate ingredient concern model that considers ingredient coverage, product type and exposure. Low coverage can show Not enough data instead of a score.",
+        "Save products and return to previous scans to compare everyday purchases.",
+        "Additional AI explanations, ingredient insights, healthier swaps and ad-free scanning. Availability and offers may differ by platform or app version."
+      ],
+      "installUrl": [
+        "https://apps.apple.com/us/app/id6755896152",
+        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/us/app/id6755896152",
+        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "description": "Free app download; optional in-app purchases and subscriptions."
       },
-      "inLanguage": "en"
+      "creator": {
+        "@id": "https://lychee.fit/#founder"
+      },
+      "publisher": {
+        "@id": "https://lychee.fit/#organization"
+      }
     },
     {
       "@type": "WebPage",
       "@id": "https://lychee.fit/ultra-processed-food-scanner/#webpage",
       "url": "https://lychee.fit/ultra-processed-food-scanner/",
-      "name": "Ultra-Processed Food Scanner App (NOVA Signals) — Lychee",
-      "description": "Check if a food is ultra-processed in one scan. Lychee shows NOVA processing signals, additive patterns, and label context for any packaged food — free on iOS and Android.",
+      "name": "Ultra-Processed Food Scanner & NOVA Context — Lychee",
+      "description": "Use Lychee to inspect processing, ingredients and nutrition together. Its food score puts processing first, with NOVA data and ingredient-list evidence when available.",
       "isPartOf": {
         "@id": "https://lychee.fit/#website"
       },
-      "breadcrumb": {
-        "@id": "https://lychee.fit/ultra-processed-food-scanner/#breadcrumb"
+      "about": {
+        "@id": "https://lychee.fit/#app"
+      },
+      "dateModified": "2026-10-08",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://lychee.fit/#organization"
       },
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://lychee.fit/og-image.png",
-        "width": 1200,
-        "height": 630
+        "url": "https://lychee.fit/og-image.png"
       },
-      "dateModified": "2026-07-07",
-      "inLanguage": "en"
+      "breadcrumb": {
+        "@id": "https://lychee.fit/ultra-processed-food-scanner/#breadcrumb"
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -88,13 +113,13 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Home",
+          "name": "Lychee",
           "item": "https://lychee.fit/"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Ultra-processed food scanner",
+          "name": "Processing-first scanning",
           "item": "https://lychee.fit/ultra-processed-food-scanner/"
         }
       ]
@@ -102,164 +127,38 @@
     {
       "@type": "FAQPage",
       "@id": "https://lychee.fit/ultra-processed-food-scanner/#faq",
+      "isPartOf": {
+        "@id": "https://lychee.fit/ultra-processed-food-scanner/#webpage"
+      },
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What counts as ultra-processed food?",
+          "name": "How does Lychee score food?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ultra-processed foods are industrial formulations typically made with ingredients you would not use in a home kitchen, such as emulsifiers, colorants, artificial sweeteners, and flavor compounds. Researchers often group foods with the NOVA scale, where NOVA group 4 is the most processed."
+            "text": "Lychee uses a 0–100 food score that prioritizes processing. Additives, ingredient quality, sugar, salt, saturated fat, fiber and protein also matter. NOVA and Nutri-Score are inputs, not the entire score. Missing data can reduce confidence or prevent a score."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I check if a food is ultra-processed?",
+          "name": "What if my product is missing from the database?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Scan the barcode with Lychee. The app shows processing-level context, including NOVA classification signals, and flags additive patterns that are common in ultra-processed products."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Lychee’s ultra-processed food check free?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Lychee is free on iOS and Android, and processing-level context is part of the core scan — no account or subscription needed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is every ultra-processed food unhealthy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Not automatically. Processing level is one useful signal among many. Serving size, frequency, overall diet, and individual health needs all matter, which is why Lychee pairs processing signals with caveats instead of verdicts."
+            "text": "Try reading the ingredient label with Lychee. You can also submit or correct product data through its contribution flow. OCR and contributed records need checking; a missing ingredient list should be treated as incomplete data."
           }
         }
       ]
     }
   ]
-}
-  </script>
-</head>
-<body>
-  <nav aria-label="Main navigation">
-    <a href="/" class="nav-logo"><img src="/assets/logo-64.png" alt="Lychee logo" width="28" height="28"><span>L<em>ychee</em></span></a>
-    <div class="nav-links">
-      <a href="/food-scanner/">Food scanner</a>
-      <a href="/cosmetic-scanner/">Cosmetics</a>
-      <a href="/methodology/">Methodology</a>
-      <a href="/data-sources/">Sources</a>
-      <a href="/about/">About</a>
-      <a href="https://apps.apple.com/us/app/id6755896152" target="_blank" rel="noopener" class="nav-cta">Download free</a>
-    </div>
-  </nav>
-
-  <header class="page-hero">
-    <div>
-      <div class="eyebrow">Ultra-Processed Food Scanner</div>
-      <h1>Scan packaged foods for ultra-processed ingredient signals.</h1>
-      <p class="lede">Lychee helps inspect ingredient lists for patterns often discussed around ultra-processed foods, while keeping the result grounded in label context and practical caveats.</p>
-      <div class="actions">
-        <a class="button primary" href="/food-scanner/">Explore food scanning</a>
-        <a class="button" href="/methodology/">Read methodology</a>
-      </div>
-    </div>
-    <aside class="hero-card" aria-label="Processing scan reminders">
-      <ul class="mini-list">
-        <li>Reviews long ingredient lists, additives, sweeteners, colors, flavors, and texture agents.</li>
-        <li>Treats processing as a label signal, not a diagnosis of individual health risk.</li>
-        <li>Encourages comparison with the package, serving size, and overall diet context.</li>
-      </ul>
-    </aside>
-  </header>
-
-  <main>
-    <section>
-      <div class="section-label">Processing Signals</div>
-      <h2>What Lychee can help surface from a packaged food label.</h2>
-      <div class="card-grid">
-        <article class="card">
-          <h3>Additive patterns</h3>
-          <p>Multiple emulsifiers, stabilizers, gums, flavor terms, colors, or sweeteners can be useful signals to review.</p>
-        </article>
-        <article class="card">
-          <h3>Ingredient complexity</h3>
-          <p>A long or unfamiliar ingredient list may deserve closer reading, especially when front-of-package claims are simple.</p>
-        </article>
-        <article class="card">
-          <h3>Context limits</h3>
-          <p>A scan cannot measure total diet, dose, frequency, medical needs, or whether a product is appropriate for one person.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="two-col">
-      <div>
-        <div class="section-label">Use With Care</div>
-        <h2>Ultra-processed is a useful lens, not a complete food judgment.</h2>
-        <p>Processing-related categories can help shoppers ask better questions about packaged foods. They do not replace nutrition labels, ingredient review, allergy checks, serving-size context, or professional guidance.</p>
-        <p>Lychee focuses on visible label signals. It cannot know every manufacturing step, exact formulation detail, or personal dietary need from a barcode alone.</p>
-      </div>
-      <aside class="callout">
-        <h3>No medical claims</h3>
-        <p>Lychee provides educational label information and should not be used to diagnose, treat, prevent, or manage a health condition.</p>
-      </aside>
-    </section>
-
-    <section class="two-col">
-      <div>
-        <div class="section-label">Related Lychee Pages</div>
-        <h2>Learn how Lychee handles food scans and evidence limits.</h2>
-        <p>The broader Lychee pages explain food scanning, cosmetic scanning, data sources, and how the app frames uncertainty.</p>
-      </div>
-      <aside class="source-list" aria-label="Related Lychee pages">
-        <a href="/food-scanner/">Food scanner <span>Ingredients, additives, allergens, and processing cues.</span></a>
-        <a href="/cosmetic-scanner/">Cosmetic scanner <span>Beauty product ingredient context.</span></a>
-        <a href="/methodology/">Methodology <span>How Lychee summarizes scan signals.</span></a>
-        <a href="/data-sources/">Data sources <span>Public references and source limitations.</span></a>
-        <a href="/about/">About Lychee <span>Food and beauty label scanning overview.</span></a>
-      </aside>
-    </section>
-  
-    <section>
-      <div class="section-label">FAQ</div>
-      <h2>Frequently asked questions.</h2>
-      <div class="faq-list">
-        <details>
-          <summary>What counts as ultra-processed food?</summary>
-          <p>Ultra-processed foods are industrial formulations typically made with ingredients you would not use in a home kitchen, such as emulsifiers, colorants, artificial sweeteners, and flavor compounds. Researchers often group foods with the NOVA scale, where NOVA group 4 is the most processed.</p>
-        </details>
-        <details>
-          <summary>How do I check if a food is ultra-processed?</summary>
-          <p>Scan the barcode with Lychee. The app shows processing-level context, including NOVA classification signals, and flags additive patterns that are common in ultra-processed products.</p>
-        </details>
-        <details>
-          <summary>Is Lychee’s ultra-processed food check free?</summary>
-          <p>Yes. Lychee is free on iOS and Android, and processing-level context is part of the core scan — no account or subscription needed.</p>
-        </details>
-        <details>
-          <summary>Is every ultra-processed food unhealthy?</summary>
-          <p>Not automatically. Processing level is one useful signal among many. Serving size, frequency, overall diet, and individual health needs all matter, which is why Lychee pairs processing signals with caveats instead of verdicts.</p>
-        </details>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-inner">
-      <div>
-        <div class="footer-logo">L<em>ychee</em></div>
-        <p class="fine-print">Lychee provides educational product-label information. It is not medical, nutrition, allergy, or dermatology advice.</p>
-      </div>
-      <div class="footer-links">
-        <a href="/">Lychee food scanner app</a>
-        <a href="/about/">About</a>
-        <a href="/methodology/">Methodology</a>
-        <a href="/data-sources/">Sources</a>
-        <a href="/food-scanner/">Food scanner</a>
-        <a href="/cosmetic-scanner/">Cosmetics</a>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
+}</script>
+</head><body><a class="skip-link" href="#main">Skip to content</a><nav aria-label="Main navigation"><a href="/" class="nav-logo"><img src="/assets/logo-64.png" width="28" height="28" alt=""><span>L<em>ychee</em></span></a><div class="nav-links"><a href="/food-scanner/">Food</a><a href="/cosmetic-scanner/">Beauty</a><a href="/methodology/">How we score</a><a href="/faq/">FAQ</a><a href="/download/" class="nav-cta">Get Lychee</a></div></nav>
+<main id="main" class="content-main">
+<header class="page-hero"><div><div class="breadcrumbs"><a href="/">Lychee</a> / Processing-first scanning</div><span class="eyebrow">Processing-first scanning</span><h1>Look past the healthy-looking front label.</h1><p class="lede">Use Lychee to inspect processing, ingredients and nutrition together. Its food score puts processing first, with NOVA data and ingredient-list evidence when available.</p><div class="actions"><a class="button primary" href="https://apps.apple.com/us/app/id6755896152" data-store="ios">Download on the App Store</a><a class="button" href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" data-store="android">Get it on Google Play</a></div><p class="access-note">Free download · Optional Premium · iOS &amp; Android</p></div><aside class="hero-card"><img class="fact-icon" src="/favicon.png" width="64" height="64" alt=""><ul class="mini-list"><li>NOVA classification where available; ingredient-based estimates where supported.</li><li>Additives and formulation signals alongside nutrition.</li><li>Processing-first scoring with category context.</li><li>A missing NOVA field does not mean a food is minimally processed.</li></ul><p class="reviewed">Updated <time datetime="2026-10-08">October 8, 2026</time> · By Lychee</p></aside></header>
+<div class="content-body"><section><div class="section-label">Read processing in context</div><h2>NOVA is a useful input, not the whole verdict.</h2><p>NOVA groups foods by the nature and purpose of processing. Lychee uses available NOVA information and can estimate processing from ingredient signals when database information is absent and the evidence supports an estimate.</p><p>Ingredient names, formulations and product categories matter. The model has category-specific checks and can use label evidence to challenge an inconsistent catalog tag. Read <a href="/methodology/">the food scoring methodology</a> for the approach.</p></section>
+<section><div class="section-label">Compare similar products</div><h2>Start with the food you already buy.</h2><div class="card-grid"><article class="card"><h3>Breakfast cereal</h3><p>Compare the ingredient lists and processing signals of cereals used for a similar breakfast. Review sugar and fiber too.</p></article><article class="card"><h3>Snacks and bars</h3><p>Look beyond protein, low-sugar and vitamin claims. Read the formulation, sweeteners and additive information.</p></article><article class="card"><h3>Sauces and pantry staples</h3><p>Check the ingredients and available nutrition, save what you buy and compare alternatives over time.</p></article></div></section>
+<section><div class="section-label">When information is thin</div><h2>Ask for evidence before a number.</h2><p>A missing ingredient list or nutrition field should reduce confidence. Lychee can withhold a food score when information is insufficient. A long label alone is not proof of harm, and a short one does not resolve allergies or portion context.</p></section>
+<section id="faq"><div class="section-label">Common questions</div><h2>Before you scan.</h2><div class="faq-list"><details class="faq-detail"><summary>How does Lychee score food?</summary><p>Lychee uses a 0–100 food score that prioritizes processing. Additives, ingredient quality, sugar, salt, saturated fat, fiber and protein also matter. NOVA and Nutri-Score are inputs, not the entire score. Missing data can reduce confidence or prevent a score.</p></details>
+<details class="faq-detail"><summary>What if my product is missing from the database?</summary><p>Try reading the ingredient label with Lychee. You can also submit or correct product data through its contribution flow. OCR and contributed records need checking; a missing ingredient list should be treated as incomplete data.</p></details></div></section>
+<section><div class="section-label">Keep exploring</div><h2>More detail, when you need it.</h2><div class="card-grid related-grid"><a class="card related-card" href="/food-scanner/"><h3>Food scanner</h3><p>Lychee scans packaged food barcodes and ingredient labels. See a processing-first score, additives, allergen information and available nutrition in one place, then compare your next purchase.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/food-additive-scanner/"><h3>Additive scanner</h3><p>Lychee helps identify food additives and explain their role and concern context alongside the product’s processing and nutrition. Scan the barcode or a readable ingredient list.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/lychee-vs-yuka/"><h3>Lychee vs Yuka</h3><p>Both Lychee and Yuka scan food and cosmetics. The clearest difference is how they approach food scoring: Lychee puts processing first; Yuka publishes a method built around nutrition, additives and organic status.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/methodology/"><h3>Scoring methodology</h3><p>Lychee uses a processing-first food model and a separate beta cosmetic ingredient model. Both depend on the information available; a missing or uncertain label should not produce fake confidence.</p><span aria-hidden="true">Read more →</span></a></div></section>
+<section class="download-callout"><div><div class="section-label">Get Lychee</div><h2>Start with your next label.</h2><p>Food and beauty ingredient context in your pocket.</p></div><div class="actions"><a class="button primary" href="https://apps.apple.com/us/app/id6755896152" data-store="ios">Download on the App Store</a><a class="button" href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" data-store="android">Get it on Google Play</a></div></section>
+</div></main><footer><div class="footer-inner"><a href="/" class="nav-logo">L<em>ychee</em></a><p>Clearer labels. More informed choices.</p><div class="footer-links"><a href="/food-scanner/">Food</a><a href="/cosmetic-scanner/">Cosmetics</a><a href="/allergen-scanner/">Allergen checks</a><a href="/ingredient-label-scanner/">Label scanning</a><a href="/methodology/">Methodology</a><a href="/data-sources/">Sources</a><a href="/app-facts/">App facts</a><a href="/about/">About</a><a href="/press/">Press</a><a href="/download/">Download</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></div><p class="footer-note">© 2026 Lychee. Educational label information. Check the current package for ingredients and allergy information.</p></div></footer></body></html>

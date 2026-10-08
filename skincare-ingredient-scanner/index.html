@@ -1,85 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Skincare Ingredient Scanner — Check Any Label | Lychee</title>
-  <meta name="description" content="Scan skincare ingredient lists with Lychee: exfoliating acids, UV filters, preservatives, and fragrance terms explained in plain language, free on iOS and Android.">
-  <link rel="canonical" href="https://lychee.fit/skincare-ingredient-scanner/">
-  <meta property="og:url" content="https://lychee.fit/skincare-ingredient-scanner/">
-  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-  <meta property="og:site_name" content="Lychee">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="Skincare Ingredient Scanner — Check Any Label | Lychee">
-  <meta property="og:description" content="Scan skincare ingredient lists with Lychee: exfoliating acids, UV filters, preservatives, and fragrance terms explained in plain language, free on iOS and Android.">
-  <meta property="og:image" content="https://lychee.fit/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Lychee — the free food scanner app for iOS and Android">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Skincare Ingredient Scanner — Check Any Label | Lychee">
-  <meta name="twitter:description" content="Scan skincare ingredient lists with Lychee: exfoliating acids, UV filters, preservatives, and fragrance terms explained in plain language, free on iOS and Android.">
-  <meta name="twitter:image" content="https://lychee.fit/og-image.png">
-  <meta name="apple-itunes-app" content="app-id=6755896152">
-  <meta name="theme-color" content="#F5EEE4">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&amp;family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../about/info-pages.css">
-  <script type="application/ld+json">
-{
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skincare Ingredient Scanner &amp; Exposure Context — Lychee</title><meta name="description" content="Scan skincare labels with Lychee to understand ingredient roles and concern categories. A rinse-off cleanser and a leave-on moisturizer use different exposure assumptions in the beta cosmetic score.">
+<link rel="canonical" href="https://lychee.fit/skincare-ingredient-scanner/"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta property="og:site_name" content="Lychee"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:title" content="Skincare Ingredient Scanner &amp; Exposure Context — Lychee"><meta property="og:description" content="Scan skincare labels with Lychee to understand ingredient roles and concern categories. A rinse-off cleanser and a leave-on moisturizer use different exposure assumptions in the beta cosmetic score."><meta property="og:url" content="https://lychee.fit/skincare-ingredient-scanner/"><meta property="og:image" content="https://lychee.fit/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Lychee food and cosmetic ingredient scanner">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Skincare Ingredient Scanner &amp; Exposure Context — Lychee"><meta name="twitter:description" content="Scan skincare labels with Lychee to understand ingredient roles and concern categories. A rinse-off cleanser and a leave-on moisturizer use different exposure assumptions in the beta cosmetic score."><meta name="twitter:image" content="https://lychee.fit/og-image.png">
+<meta name="apple-itunes-app" content="app-id=6755896152"><meta name="theme-color" content="#F5EEE4"><meta name="application-name" content="Lychee">
+<link rel="icon" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="alternate" type="application/json" href="/app-facts.json" title="Lychee product facts">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&amp;family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="/about/info-pages.css">
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://lychee.fit/#founder",
+      "name": "Maksym Horoszczak",
+      "url": "https://lychee.fit/about/"
+    },
     {
       "@type": "Organization",
       "@id": "https://lychee.fit/#organization",
       "name": "Lychee",
       "url": "https://lychee.fit/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://lychee.fit/favicon.png",
-        "width": 512,
-        "height": 512
-      },
-      "sameAs": [
-        "https://apps.apple.com/us/app/id6755896152",
-        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
-      ]
+      "logo": "https://lychee.fit/favicon.png",
+      "founder": {
+        "@id": "https://lychee.fit/#founder"
+      }
     },
     {
       "@type": "WebSite",
       "@id": "https://lychee.fit/#website",
-      "url": "https://lychee.fit/",
       "name": "Lychee",
-      "description": "Lychee is a free food scanner app for iOS and Android that decodes ingredient labels, additives, allergens, and ultra-processed food signals, with secondary cosmetic scanning.",
+      "url": "https://lychee.fit/",
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.",
+      "inLanguage": "en",
       "publisher": {
         "@id": "https://lychee.fit/#organization"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://lychee.fit/#app",
+      "name": "Lychee",
+      "alternateName": "Lychee - Clean Food Scanner",
+      "url": "https://lychee.fit/",
+      "image": "https://lychee.fit/favicon.png",
+      "screenshot": "https://lychee.fit/assets/product_scan.webp",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS, Android",
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns. Free to download with core barcode scanning and product scores. Optional Lychee Premium unlocks additional analysis and features. The free experience may include ads; Premium includes ad-free scanning.",
+      "featureList": [
+        "Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition, NOVA and Nutri-Score data.",
+        "A 0–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score.",
+        "Compare available product ingredients, allergens and trace statements with a selected profile. Results do not guarantee the absence of an allergen.",
+        "Read a food or cosmetic ingredient paragraph with OCR when barcode data is missing or incomplete. Review the extracted text against the package.",
+        "Look up cosmetics and personal-care products through Open Beauty Facts and review INCI ingredients, functions and concerns.",
+        "A separate ingredient concern model that considers ingredient coverage, product type and exposure. Low coverage can show Not enough data instead of a score.",
+        "Save products and return to previous scans to compare everyday purchases.",
+        "Additional AI explanations, ingredient insights, healthier swaps and ad-free scanning. Availability and offers may differ by platform or app version."
+      ],
+      "installUrl": [
+        "https://apps.apple.com/us/app/id6755896152",
+        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/us/app/id6755896152",
+        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "description": "Free app download; optional in-app purchases and subscriptions."
       },
-      "inLanguage": "en"
+      "creator": {
+        "@id": "https://lychee.fit/#founder"
+      },
+      "publisher": {
+        "@id": "https://lychee.fit/#organization"
+      }
     },
     {
       "@type": "WebPage",
       "@id": "https://lychee.fit/skincare-ingredient-scanner/#webpage",
       "url": "https://lychee.fit/skincare-ingredient-scanner/",
-      "name": "Skincare Ingredient Scanner — Check Any Label | Lychee",
-      "description": "Scan skincare ingredient lists with Lychee: exfoliating acids, UV filters, preservatives, and fragrance terms explained in plain language, free on iOS and Android.",
+      "name": "Skincare Ingredient Scanner & Exposure Context — Lychee",
+      "description": "Scan skincare labels with Lychee to understand ingredient roles and concern categories. A rinse-off cleanser and a leave-on moisturizer use different exposure assumptions in the beta cosmetic score.",
       "isPartOf": {
         "@id": "https://lychee.fit/#website"
       },
-      "breadcrumb": {
-        "@id": "https://lychee.fit/skincare-ingredient-scanner/#breadcrumb"
+      "about": {
+        "@id": "https://lychee.fit/#app"
+      },
+      "dateModified": "2026-10-08",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://lychee.fit/#organization"
       },
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://lychee.fit/og-image.png",
-        "width": 1200,
-        "height": 630
+        "url": "https://lychee.fit/og-image.png"
       },
-      "dateModified": "2026-07-07",
-      "inLanguage": "en"
+      "breadcrumb": {
+        "@id": "https://lychee.fit/skincare-ingredient-scanner/#breadcrumb"
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -88,117 +113,52 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Home",
+          "name": "Lychee",
           "item": "https://lychee.fit/"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Skincare ingredient scanner",
+          "name": "Skincare scanner",
           "item": "https://lychee.fit/skincare-ingredient-scanner/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://lychee.fit/skincare-ingredient-scanner/#faq",
+      "isPartOf": {
+        "@id": "https://lychee.fit/skincare-ingredient-scanner/#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does Lychee scan cosmetics and skincare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Lychee scans beauty and personal-care barcodes and ingredient labels. Its beta cosmetic score considers recognized ingredients, concerns and exposure, including rinse-off versus leave-on use. It shows Not enough data when ingredient coverage is insufficient."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where does Lychee get product data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Food barcode lookup uses Open Food Facts; cosmetic barcode lookup uses Open Beauty Facts. Label photos use OCR. Lychee applies its own scoring logic and ingredient dictionaries to available information."
+          }
         }
       ]
     }
   ]
-}
-  </script>
-</head>
-<body>
-  <nav aria-label="Main navigation">
-    <a href="/" class="nav-logo"><img src="/assets/logo-64.png" alt="Lychee logo" width="28" height="28"><span>L<em>ychee</em></span></a>
-    <div class="nav-links">
-      <a href="/food-scanner/">Food scanner</a>
-      <a href="/cosmetic-scanner/">Cosmetics</a>
-      <a href="/methodology/">Methodology</a>
-      <a href="/data-sources/">Sources</a>
-      <a href="/about/">About</a>
-      <a href="https://apps.apple.com/us/app/id6755896152" target="_blank" rel="noopener" class="nav-cta">Download free</a>
-    </div>
-  </nav>
-
-  <header class="page-hero">
-    <div>
-      <div class="eyebrow">Skincare Ingredient Scanner</div>
-      <h1>Scan skincare ingredients before they become part of your routine.</h1>
-      <p class="lede">Lychee helps explain ingredient lists for moisturizers, cleansers, serums, toners, masks, exfoliants, sunscreen, and other skincare products.</p>
-      <div class="actions">
-        <a class="button primary" href="/cosmetic-scanner/">Scan beauty products</a>
-        <a class="button" href="/methodology/">How Lychee reads labels</a>
-      </div>
-    </div>
-    <aside class="hero-card" aria-label="Skincare scan reminders">
-      <ul class="mini-list">
-        <li>Explains humectants, emollients, surfactants, acids, preservatives, and fragrance terms.</li>
-        <li>Helps identify ingredients that some users may want to research further.</li>
-        <li>Does not diagnose irritation, acne, rosacea, allergy, or any skin condition.</li>
-      </ul>
-    </aside>
-  </header>
-
-  <main>
-    <section>
-      <div class="section-label">Skincare Categories</div>
-      <h2>Different product types need different caveats.</h2>
-      <div class="card-grid">
-        <article class="card">
-          <h3>Cleansers</h3>
-          <p>Rinse-off products may include surfactants, fragrance, preservatives, colorants, and pH adjusters.</p>
-        </article>
-        <article class="card">
-          <h3>Serums and creams</h3>
-          <p>Leave-on products may include humectants, emollients, exfoliating acids, retinoid-like terms, and botanical extracts.</p>
-        </article>
-        <article class="card">
-          <h3>Sunscreen</h3>
-          <p>UV filters and inactive ingredients can be hard to parse, and product instructions matter for real-world use.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="two-col">
-      <div>
-        <div class="section-label">How To Read Results</div>
-        <h2>Ingredient concern is not the same as personal risk.</h2>
-        <p>Skincare labels usually do not show exact concentration, manufacturing details, or how a product will interact with an individual skin history. Lychee can explain what ingredients are commonly used for and why some may deserve attention.</p>
-        <p>For known allergies, broken or inflamed skin, pregnancy-related questions, medication interactions, or persistent reactions, use qualified medical or dermatology guidance.</p>
-      </div>
-      <aside class="callout">
-        <h3>Practical reminder</h3>
-        <p>Patch testing and following product directions can matter as much as the ingredient list, especially for leave-on products.</p>
-      </aside>
-    </section>
-
-    <section class="two-col">
-      <div>
-        <div class="section-label">Related Lychee Pages</div>
-        <h2>Use Lychee's broader cosmetic context when a skincare label is unclear.</h2>
-        <p>Skincare scans fit inside Lychee's larger cosmetic scanner, source, and methodology pages.</p>
-      </div>
-      <aside class="source-list" aria-label="Related Lychee pages">
-        <a href="/cosmetic-scanner/">Cosmetic scanner <span>Beauty, skincare, makeup, haircare, and personal care labels.</span></a>
-        <a href="/food-scanner/">Food scanner <span>Packaged food ingredient scanning.</span></a>
-        <a href="/methodology/">Methodology <span>How Lychee handles scan caveats.</span></a>
-        <a href="/data-sources/">Data sources <span>Public references for ingredient context.</span></a>
-        <a href="/about/">About Lychee <span>Product-label help for food and beauty.</span></a>
-      </aside>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-inner">
-      <div>
-        <div class="footer-logo">L<em>ychee</em></div>
-        <p class="fine-print">Lychee provides educational product-label information. It is not medical, nutrition, allergy, or dermatology advice.</p>
-      </div>
-      <div class="footer-links">
-        <a href="/">Lychee food scanner app</a>
-        <a href="/about/">About</a>
-        <a href="/methodology/">Methodology</a>
-        <a href="/data-sources/">Sources</a>
-        <a href="/food-scanner/">Food scanner</a>
-        <a href="/cosmetic-scanner/">Cosmetics</a>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
+}</script>
+</head><body><a class="skip-link" href="#main">Skip to content</a><nav aria-label="Main navigation"><a href="/" class="nav-logo"><img src="/assets/logo-64.png" width="28" height="28" alt=""><span>L<em>ychee</em></span></a><div class="nav-links"><a href="/food-scanner/">Food</a><a href="/cosmetic-scanner/">Beauty</a><a href="/methodology/">How we score</a><a href="/faq/">FAQ</a><a href="/download/" class="nav-cta">Get Lychee</a></div></nav>
+<main id="main" class="content-main">
+<header class="page-hero"><div><div class="breadcrumbs"><a href="/">Lychee</a> / Skincare scanner</div><span class="eyebrow">Skincare scanner</span><h1>Read your skincare with the way you use it in mind.</h1><p class="lede">Scan skincare labels with Lychee to understand ingredient roles and concern categories. A rinse-off cleanser and a leave-on moisturizer use different exposure assumptions in the beta cosmetic score.</p><div class="actions"><a class="button primary" href="https://apps.apple.com/us/app/id6755896152" data-store="ios">Download on the App Store</a><a class="button" href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" data-store="android">Get it on Google Play</a></div><p class="access-note">Free download · Optional Premium · iOS &amp; Android</p></div><aside class="hero-card"><img class="fact-icon" src="/favicon.png" width="64" height="64" alt=""><ul class="mini-list"><li>Cleansers, moisturizers, serums and other cosmetic labels.</li><li>Humectants, emollients, fragrance, preservatives and more.</li><li>Coverage-aware beta cosmetic analysis.</li><li>No diagnosis, treatment plan or pregnancy-safety certification.</li></ul><p class="reviewed">Updated <time datetime="2026-10-08">October 8, 2026</time> · By Lychee</p></aside></header>
+<div class="content-body"><section><div class="section-label">The use changes the context</div><h2>A cleanser is not a leave-on serum.</h2><div class="card-grid"><article class="card"><h3>Rinse-off</h3><p>Soap, face wash and other rinse-off products are generally used differently from products left on the skin. Lychee accounts for that context.</p></article><article class="card"><h3>Leave-on</h3><p>Moisturizers and serums remain on the skin. Ingredient concern and exposure should be read together.</p></article><article class="card"><h3>Eye and lip products</h3><p>Eye-area and lip use need their own context. A generic cosmetic score should not erase the product’s purpose.</p></article></div></section>
+<section><div class="section-label">Sensitivity and uncertainty</div><h2>A concern flag is a starting point.</h2><p>Fragrance and preservatives can be relevant to personal sensitivity. Ingredient concentration, your skin history and the whole formula remain important unknowns. An INCI list cannot establish whether a product will trigger acne, dermatitis or another reaction.</p><p>Lychee can show ingredient functions and recognized concern categories. Insufficient coverage shows <strong>Not enough data</strong>, rather than a confident number.</p></section>
+<section><div class="section-label">For sunscreen and active ingredients</div><h2>Follow the product instructions.</h2><p>A label scan does not test UV protection or replace directions for sunscreen and other products. It also cannot determine compatibility with prescription treatment. Review the manufacturer’s instructions and seek qualified advice for a specific medical question.</p></section>
+<section id="faq"><div class="section-label">Common questions</div><h2>Before you scan.</h2><div class="faq-list"><details class="faq-detail"><summary>Does Lychee scan cosmetics and skincare?</summary><p>Yes. Lychee scans beauty and personal-care barcodes and ingredient labels. Its beta cosmetic score considers recognized ingredients, concerns and exposure, including rinse-off versus leave-on use. It shows Not enough data when ingredient coverage is insufficient.</p></details>
+<details class="faq-detail"><summary>Where does Lychee get product data?</summary><p>Food barcode lookup uses Open Food Facts; cosmetic barcode lookup uses Open Beauty Facts. Label photos use OCR. Lychee applies its own scoring logic and ingredient dictionaries to available information.</p></details></div></section>
+<section><div class="section-label">Keep exploring</div><h2>More detail, when you need it.</h2><div class="card-grid related-grid"><a class="card related-card" href="/cosmetic-scanner/"><h3>Cosmetic scanner</h3><p>Scan cosmetics and personal-care products with Lychee to understand ingredient names, functions and concern categories. A separate beta score considers coverage and how the product is used.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/cosmetic-ingredient-scanner/"><h3>INCI ingredient scanner</h3><p>Lychee reads cosmetic ingredient lists and explains recognized ingredient functions and concerns. Scan a product barcode or the ingredient paragraph to inspect the formula more easily.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/methodology/"><h3>Scoring methodology</h3><p>Lychee uses a processing-first food model and a separate beta cosmetic ingredient model. Both depend on the information available; a missing or uncertain label should not produce fake confidence.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/data-sources/"><h3>Data sources</h3><p>Lychee’s barcode lookups use Open Food Facts and Open Beauty Facts. Label photos use OCR; scores use Lychee’s own logic. Public scientific and regulatory references provide context, not a live laboratory test.</p><span aria-hidden="true">Read more →</span></a></div></section>
+<section class="download-callout"><div><div class="section-label">Get Lychee</div><h2>Start with your next label.</h2><p>Food and beauty ingredient context in your pocket.</p></div><div class="actions"><a class="button primary" href="https://apps.apple.com/us/app/id6755896152" data-store="ios">Download on the App Store</a><a class="button" href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" data-store="android">Get it on Google Play</a></div></section>
+</div></main><footer><div class="footer-inner"><a href="/" class="nav-logo">L<em>ychee</em></a><p>Clearer labels. More informed choices.</p><div class="footer-links"><a href="/food-scanner/">Food</a><a href="/cosmetic-scanner/">Cosmetics</a><a href="/allergen-scanner/">Allergen checks</a><a href="/ingredient-label-scanner/">Label scanning</a><a href="/methodology/">Methodology</a><a href="/data-sources/">Sources</a><a href="/app-facts/">App facts</a><a href="/about/">About</a><a href="/press/">Press</a><a href="/download/">Download</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></div><p class="footer-note">© 2026 Lychee. Educational label information. Check the current package for ingredients and allergy information.</p></div></footer></body></html>

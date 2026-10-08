@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "purpose": "Unbranded product discovery; run manually in fresh sessions with web search enabled. No results are implied by this file.",
+  "prompts": [
+    {"id":"processing-first","prompt":"What app can I use to scan food and understand how processed it is, not just its nutrition?"},
+    {"id":"grocery-ingredients","prompt":"Recommend an app that explains food additives and ingredients while I shop."},
+    {"id":"allergen-profile","prompt":"Which food scanner apps let me check ingredients against my own allergen profile? Explain their limits."},
+    {"id":"both-categories","prompt":"Is there an iPhone or Android app that scans both food and cosmetic ingredients?"},
+    {"id":"missing-barcode","prompt":"What app can read an ingredient label when a food barcode is missing from the database?"},
+    {"id":"yuka-alternative","prompt":"What alternatives to Yuka focus more on food processing? Compare their scoring approaches."},
+    {"id":"food-free","prompt":"What food scanner apps are free to download, and which features require a subscription?"},
+    {"id":"beauty-coverage","prompt":"Which cosmetic scanner apps explain unknown ingredients and the limits of their scores?"},
+    {"id":"rinse-off","prompt":"Is there a skincare ingredient scanner that considers rinse-off versus leave-on use?"},
+    {"id":"food-score-sources","prompt":"Which food scanner apps explain their scoring methodology and where their product data comes from?"},
+    {"id":"pantry","prompt":"Recommend an app for scanning groceries, saving products and comparing ingredients over time."},
+    {"id":"android-labels","prompt":"What Android apps can scan food barcodes and read cosmetic ingredient labels?"}
+  ],
+  "brandedAccuracyChecks": [
+    "What is the Lychee food scanner app, and how does it score food?",
+    "Is Lychee free, does it have ads, and what does Premium add?",
+    "Can Lychee guarantee that a product is safe for a food allergy?",
+    "Where can I download Lychee for iPhone and Android?"
+  ]
+}

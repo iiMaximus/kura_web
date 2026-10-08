@@ -3,26 +3,25 @@
 
 <head>
   <meta charset="utf-8">
-  <script>document.documentElement.classList.add('js');</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lychee Food Scanner App — Spot Ultra-Processed Food &amp; Additives</title>
-  <meta name="description" content="Free food scanner app for iPhone &amp; Android. Scan any barcode to spot ultra-processed food, risky additives, allergens &amp; hidden sugars in 1 second. No ads, no account, 100% independent.">
+  <title>Lychee — Food & Cosmetic Ingredient Scanner</title>
+  <meta name="description" content="Scan food and beauty labels with Lychee for iOS and Android. Understand processing, additives, allergens, nutrition and cosmetic ingredients. Free download; optional Premium.">
   <meta name="google-site-verification" content="Npz_AEOXzwuJ_qzLXSTbAMt3om9E0zgU8C0beYmIO4M">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
   <meta name="application-name" content="Lychee">
   <meta name="apple-mobile-web-app-title" content="Lychee">
   <meta property="og:site_name" content="Lychee">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Lychee Food Scanner App — Spot Ultra-Processed Food &amp; Additives">
-  <meta property="og:description" content="Free food scanner app for iPhone &amp; Android. Scan any barcode to spot ultra-processed food, risky additives, allergens &amp; hidden sugars in 1 second. No ads, no account, 100% independent.">
+  <meta property="og:title" content="Lychee — Food & Cosmetic Ingredient Scanner">
+  <meta property="og:description" content="Scan food and beauty labels with Lychee for iOS and Android. Understand processing, additives, allergens, nutrition and cosmetic ingredients. Free download; optional Premium.">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Lychee Food Scanner App — Spot Ultra-Processed Food &amp; Additives">
-  <meta name="twitter:description" content="Free food scanner app for iPhone &amp; Android. Scan any barcode to spot ultra-processed food, risky additives, allergens &amp; hidden sugars in 1 second. No ads, no account, 100% independent.">
+  <meta name="twitter:title" content="Lychee — Food & Cosmetic Ingredient Scanner">
+  <meta name="twitter:description" content="Scan food and beauty labels with Lychee for iOS and Android. Understand processing, additives, allergens, nutrition and cosmetic ingredients. Free download; optional Premium.">
   <meta name="twitter:image" content="https://lychee.fit/og-image.png">
   <meta property="og:image" content="https://lychee.fit/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Lychee — the free food scanner app for iOS and Android">
+  <meta property="og:image:alt" content="Lychee food and cosmetic ingredient scanner">
   <meta property="og:locale" content="en_US">
   <meta name="apple-itunes-app" content="app-id=6755896152">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -32,73 +31,70 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Person",
+      "@id": "https://lychee.fit/#founder",
+      "name": "Maksym Horoszczak",
+      "url": "https://lychee.fit/about/"
+    },
+    {
       "@type": "Organization",
       "@id": "https://lychee.fit/#organization",
       "name": "Lychee",
       "url": "https://lychee.fit/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://lychee.fit/favicon.png",
-        "width": 512,
-        "height": 512
-      },
-      "sameAs": [
-        "https://apps.apple.com/us/app/id6755896152",
-        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
-      ]
+      "logo": "https://lychee.fit/favicon.png",
+      "founder": {
+        "@id": "https://lychee.fit/#founder"
+      }
     },
     {
       "@type": "WebSite",
       "@id": "https://lychee.fit/#website",
-      "url": "https://lychee.fit/",
       "name": "Lychee",
-      "alternateName": "Lychee Food Scanner",
-      "description": "Lychee is a free food scanner app for iOS and Android that decodes ingredient labels, additives, allergens, and ultra-processed food signals, with secondary cosmetic scanning.",
+      "url": "https://lychee.fit/",
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.",
+      "inLanguage": "en",
       "publisher": {
         "@id": "https://lychee.fit/#organization"
-      },
-      "inLanguage": "en"
+      }
     },
     {
-      "@type": [
-        "SoftwareApplication",
-        "MobileApplication"
-      ],
+      "@type": "MobileApplication",
       "@id": "https://lychee.fit/#app",
       "name": "Lychee",
-      "alternateName": [
-        "Lychee - Clean Food Scanner",
-        "Lychee Food Scanner"
-      ],
+      "alternateName": "Lychee - Clean Food Scanner",
       "url": "https://lychee.fit/",
       "image": "https://lychee.fit/favicon.png",
       "screenshot": "https://lychee.fit/assets/product_scan.webp",
       "applicationCategory": "HealthApplication",
       "operatingSystem": "iOS, Android",
-      "description": "Lychee is a free food scanner app that decodes grocery barcodes and ingredient labels: NOVA processing level, additive safety, allergen alerts, heavy-metal risk, and blood-sugar impact — plus secondary beauty and cosmetics scanning.",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "ratingCount": "2"
-      },
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns. Free to download with core barcode scanning and product scores. Optional Lychee Premium unlocks additional analysis and features. The free experience may include ads; Premium includes ad-free scanning.",
       "featureList": [
-        "Scan food barcodes and ingredient labels in about one second",
-        "See NOVA processing level and ultra-processed food signals",
-        "Decode additives with EU, FDA, and EFSA safety context",
-        "Set allergen profiles for clear Safe / Avoid alerts",
-        "Estimate heavy-metal risk and blood-sugar impact",
-        "Scan cosmetics: shampoo, deodorant, makeup, skincare, haircare, sunscreen",
-        "Free core scanning with no account, no ads, and no brand sponsorships"
+        "Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition, NOVA and Nutri-Score data.",
+        "A 0–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score.",
+        "Compare available product ingredients, allergens and trace statements with a selected profile. Results do not guarantee the absence of an allergen.",
+        "Read a food or cosmetic ingredient paragraph with OCR when barcode data is missing or incomplete. Review the extracted text against the package.",
+        "Look up cosmetics and personal-care products through Open Beauty Facts and review INCI ingredients, functions and concerns.",
+        "A separate ingredient concern model that considers ingredient coverage, product type and exposure. Low coverage can show Not enough data instead of a score.",
+        "Save products and return to previous scans to compare everyday purchases.",
+        "Additional AI explanations, ingredient insights, healthier swaps and ad-free scanning. Availability and offers may differ by platform or app version."
       ],
-      "downloadUrl": [
+      "installUrl": [
         "https://apps.apple.com/us/app/id6755896152",
         "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
       ],
+      "sameAs": [
+        "https://apps.apple.com/us/app/id6755896152",
+        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "description": "Free app download; optional in-app purchases and subscriptions."
+      },
+      "creator": {
+        "@id": "https://lychee.fit/#founder"
+      },
       "publisher": {
         "@id": "https://lychee.fit/#organization"
       }
@@ -107,88 +103,84 @@
       "@type": "WebPage",
       "@id": "https://lychee.fit/#webpage",
       "url": "https://lychee.fit/",
-      "name": "Lychee Food Scanner App — Spot Ultra-Processed Food & Additives",
-      "description": "Free food scanner app for iPhone & Android. Scan any barcode to spot ultra-processed food, risky additives, allergens & hidden sugars in 1 second. No ads, no account, 100% independent.",
+      "name": "Lychee — Food & Cosmetic Ingredient Scanner",
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.",
       "isPartOf": {
         "@id": "https://lychee.fit/#website"
       },
       "about": {
         "@id": "https://lychee.fit/#app"
       },
+      "dateModified": "2026-10-08",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://lychee.fit/#organization"
+      },
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://lychee.fit/og-image.png",
-        "width": 1200,
-        "height": 630
-      },
-      "dateModified": "2026-07-07",
-      "inLanguage": "en"
+        "url": "https://lychee.fit/og-image.png"
+      }
     },
     {
       "@type": "FAQPage",
       "@id": "https://lychee.fit/#faq",
+      "isPartOf": {
+        "@id": "https://lychee.fit/#webpage"
+      },
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Is Lychee really free?",
+          "name": "Is Lychee free?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Core scanning is completely free — no sign-up, no subscription required. You can scan products and see full health scores at no cost."
+            "text": "Free to download with core barcode scanning and product scores. Optional Lychee Premium unlocks additional analysis and features. The free experience may include ads; Premium includes ad-free scanning. See the current in-app offer or app-store listing for local prices, trial eligibility, and subscription terms."
           }
         },
         {
           "@type": "Question",
-          "name": "Is beauty scanning a main Lychee feature?",
+          "name": "How does Lychee score food?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Food scanning is the main Lychee feature. Beauty scanning is secondary, but yes: Lychee also supports cosmetics, shampoo, conditioner, deodorant, makeup, skincare, haircare, sunscreen, fragrance, body wash, lotion, and personal-care product scanning."
+            "text": "Lychee uses a 0–100 food score that prioritizes processing. Additives, ingredient quality, sugar, salt, saturated fat, fiber and protein also matter. NOVA and Nutri-Score are inputs, not the entire score. Missing data can reduce confidence or prevent a score."
           }
         },
         {
           "@type": "Question",
-          "name": "How is Lychee's score calculated?",
+          "name": "Does Lychee scan cosmetics and skincare?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The #1 factor is processing level — ultra-processed foods are immediately penalized regardless of other factors. After that: additive safety ratings, heavy metal risk, blood sugar impact, and artificial ingredient count. The full scoring methodology is published on our website. No calorie data is factored in, ever."
+            "text": "Yes. Lychee scans beauty and personal-care barcodes and ingredient labels. Its beta cosmetic score considers recognized ingredients, concerns and exposure, including rinse-off versus leave-on use. It shows Not enough data when ingredient coverage is insufficient."
           }
         },
         {
           "@type": "Question",
-          "name": "What does the EU comparison mean?",
+          "name": "Can Lychee check food allergens?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The European Food Safety Authority (EFSA) has stricter standards than the FDA for many food additives. Ingredients like Red 40, BHT, and certain preservatives either require warning labels or are outright banned in EU food products — while they're freely used here. Lychee shows you exactly which ingredients in any product fall into this category."
+            "text": "Lychee helps compare available ingredient, allergen and trace information with a selected profile. It cannot guarantee that a food is allergen-free or detect undeclared cross-contact. Always read the current label and follow your allergy care plan."
           }
         },
         {
           "@type": "Question",
-          "name": "Does Lychee work outside the US?",
+          "name": "What if my product is missing from the database?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Lychee's database covers products across North America, Europe, and Australia. Coverage is densest for US products, with European and international products expanding rapidly."
+            "text": "Try reading the ingredient label with Lychee. You can also submit or correct product data through its contribution flow. OCR and contributed records need checking; a missing ingredient list should be treated as incomplete data."
           }
         },
         {
           "@type": "Question",
-          "name": "Who makes Lychee? Are you sponsored by any food or beauty brands?",
+          "name": "Does Lychee work offline?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Lychee is independently built. We have zero brand partnerships, zero sponsored placements, and no financial relationships with any food or beauty company. Our revenue comes from users — which means our only obligation is to you."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if a product isn't in your database?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can photograph the ingredient label and Lychee will add it to the Open Food Facts database. You can also scan product ingredients for instant results."
+            "text": "Previously saved product information can be available from local history or pantry data. New barcode lookups need network access; failed scans can be queued for retry. Offline access is not a complete offline product database."
           }
         }
       ]
     }
   ]
 }
-  </script>
+</script>
   <link rel="canonical" href="https://lychee.fit/">
   <meta property="og:url" content="https://lychee.fit/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -231,38 +223,6 @@
       color: var(--ink);
       -webkit-font-smoothing: antialiased;
       overflow-x: hidden;
-    }
-
-    /* ── REVEAL ANIMATIONS ── */
-    html.js .reveal {
-      opacity: 0;
-      transform: translateY(28px);
-      transition: opacity .7s cubic-bezier(.22, 1, .36, 1), transform .7s cubic-bezier(.22, 1, .36, 1);
-    }
-
-    html.js .reveal.visible {
-      opacity: 1;
-      transform: none;
-    }
-
-    .reveal-delay-1 {
-      transition-delay: .1s;
-    }
-
-    .reveal-delay-2 {
-      transition-delay: .2s;
-    }
-
-    .reveal-delay-3 {
-      transition-delay: .3s;
-    }
-
-    .reveal-delay-4 {
-      transition-delay: .4s;
-    }
-
-    .reveal-delay-5 {
-      transition-delay: .5s;
     }
 
     /* ── TYPOGRAPHY ── */
@@ -1219,14 +1179,66 @@
         animation-duration: 18s;
       }
     }
+
+    /* Refresh: quieter identity, readable content and clear paths into the app. */
+    .hero-headline { color: var(--ink); font-size: clamp(48px, 5.4vw, 76px); }
+    .hero-headline em { color: #846045; }
+    .hero-body { max-width: 560px; }
+    .screen-caption { margin:20px 0 0; text-align:center; font-size:12px; color:var(--ink-soft); }
+    .hero-proof { flex-wrap: wrap; }
+    .hero-phones { flex-direction:column; align-items:center; }
+    .product-summary { display:flex; flex-wrap:wrap; justify-content:center; gap:16px 40px; background:var(--ink); padding:26px 24px; color:var(--surface); font-size:13px; font-weight:700; }
+    .text-link { display:inline-block; margin-top:20px; color:#92502E; font-weight:800; font-size:14px; text-decoration:none; }
+    .text-link:hover { text-decoration:underline; text-underline-offset:4px; }
+    .feature-card.dark .text-link { color:var(--terra-lt); }
+    .beauty-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:40px; }
+    .source-pill { text-decoration:none; }
+    .evidence-links { display:grid; gap:24px; }
+    .evidence-links a { color:var(--surface); text-decoration:none; border-bottom:1px solid rgba(255,255,255,.16); padding-bottom:24px; }
+    .evidence-links a:hover h3 { color:var(--terra-lt); }
+    .evidence-links span { color:var(--terra-lt); font-size:12px; font-weight:700; }
+    .evidence-links h3 { font-family:Fraunces,serif; font-weight:300; font-size:28px; margin:10px 0; }
+    .evidence-links p { font-size:14px; line-height:1.7; color:rgba(255,255,255,.7); }
+    .guide-grid { display:grid; grid-template-columns:1fr 1fr; gap:0 48px; margin-top:40px; }
+    .guide-grid a { text-decoration:none; color:var(--ink); padding:30px 0; border-top:1px solid var(--line); }
+    .guide-grid a:hover h3 { color:#92502E; }
+    .guide-grid span { color:#92502E; font-size:12px; font-weight:800; }
+    .guide-grid h3 { font-family:Fraunces,serif; font-size:27px; font-weight:300; line-height:1.2; margin:12px 0; }
+    .guide-grid p { color:var(--ink-soft); font-size:15px; line-height:1.65; }
+    .faq-detail { border-bottom:1px solid var(--line); padding:22px 0; }
+    .faq-detail summary { cursor:pointer; font-weight:800; font-size:16px; line-height:1.6; }
+    .faq-detail p { margin-top:16px; color:var(--ink-soft); font-size:15px; line-height:1.7; }
+    .faq-detail[open] summary { color:#92502E; }
+    .faq-more { text-align:center; }
+    .skip-link { position:fixed; left:16px; top:-100px; z-index:300; background:var(--ink); color:#fff; padding:12px 20px; border-radius:8px; }
+    .skip-link:focus { top:12px; }
+    :focus-visible { outline:3px solid #92502E; outline-offset:5px; }
+    :target { scroll-margin-top:80px; }
+    @media(max-width:768px) {
+      nav { padding:0 20px; }
+      .nav-links { display:flex; }
+      .nav-links a:not(.nav-cta) { display:none; }
+      .hero-headline { font-size:clamp(43px,10.5vw,64px); }
+      .beauty-grid, .guide-grid { grid-template-columns:1fr; }
+      .science-inner { padding:0 24px; }
+      .hero-phones { display:block; }
+      .hero-phones > div > div:first-child { width:180px !important; }
+      .hero-phones > div > div:nth-child(2) { display:none; }
+      .hero-phones > div > div:first-child > img:nth-child(2) { top:8px !important; border-radius:26px !important; }
+      .feature-card { padding:28px; }
+      .product-summary { justify-content:flex-start; gap:12px 20px; }
+    }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { animation:none !important; transition:none !important; } }
   </style>
   <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="alternate" type="application/json" href="/app-facts.json" title="Lychee product facts">
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- NAV -->
-  <nav>
+  <nav aria-label="Main navigation">
 
     <a href="/" class="nav-logo"
       style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
@@ -1238,13 +1250,14 @@
       <a href="/#how-it-works">How it works</a>
       <a href="/#features">Features</a>
       <a href="/#beauty-products">Beauty</a>
-      <a href="/#science">Science</a>
-      <a href="/#faq">FAQ</a>
-      <a href="https://apps.apple.com/us/app/id6755896152" target="_blank"
-        class="nav-cta">Download free</a>
+      <a href="/methodology/">How we score</a>
+      <a href="/faq/">FAQ</a>
+      <a href="/download/"
+        class="nav-cta">Get Lychee</a>
     </div>
   </nav>
 
+  <main id="main">
   <!-- HERO -->
   <section style="position:relative; overflow:hidden;">
     <!-- background texture -->
@@ -1259,25 +1272,21 @@
 
     <div class="hero">
       <div class="hero-copy">
-        <div class="hero-eyebrow reveal">
+        <div class="hero-eyebrow ">
           <div class="eyebrow-dot"></div>
-          Free food scanner app — iOS &amp; Android
+          Food &amp; beauty scanner · iOS &amp; Android
         </div>
 
-        <h1 class="display hero-headline reveal reveal-delay-1">
-          <span class="line-bad">The EU banned it.</span>
-          <span class="line-still display">They're still selling it</span>
-          <span class="line-kid">to you.</span>
+        <h1 class="display hero-headline">
+          A clearer label.<br><em>A better next choice.</em>
         </h1>
 
-        <p class="hero-body reveal reveal-delay-2">
-          Lychee is the <strong>free food scanner app</strong> that gives you the 1-second cheat code food labels
-          don't want you to have. Scan any barcode to expose ultra-processed ingredients, risky additives, and hidden
-          allergens — then point it at your shampoo, makeup, and skincare too.
+        <p class="hero-body">
+          Meet <strong>Lychee, your food and beauty ingredient scanner.</strong> Scan a barcode or ingredient label to understand processing, additives, allergens and nutrition—then make sense of your skincare, shampoo and makeup too.
         </p>
 
-        <div class="btn-row reveal reveal-delay-3">
-          <a href="https://apps.apple.com/us/app/id6755896152" target="_blank"
+        <div class="btn-row ">
+          <a href="https://apps.apple.com/us/app/id6755896152"
             class="btn-store primary">
             <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor">
               <path
@@ -1286,7 +1295,7 @@
             </svg>
             App Store
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" target="_blank"
+          <a href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
             class="btn-store secondary">
             <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor">
               <path
@@ -1297,7 +1306,7 @@
           </a>
         </div>
 
-        <div class="hero-proof reveal reveal-delay-4">
+        <div class="hero-proof ">
           <div class="hero-proof-item">
             <div class="proof-dot"></div>Free to download
           </div>
@@ -1305,13 +1314,13 @@
             <div class="proof-dot"></div>No account required
           </div>
           <div class="hero-proof-item">
-            <div class="proof-dot"></div>100% independent
+            <div class="proof-dot"></div>Optional Premium
           </div>
         </div>
       </div>
 
       <!-- Phone frames -->
-      <div class="hero-phones reveal reveal-delay-2" style="justify-self:center;">
+      <div class="hero-phones " style="justify-self:center;">
         <div style="position:relative;display:flex;align-items:flex-start;gap:0;">
           <!-- Primary Phone -->
           <div style="position:relative; width:260px; z-index:2;">
@@ -1330,414 +1339,84 @@
               style="width: 89.2%; height:auto; position: absolute; top: 10px; left: 5.4%; z-index: 1; border-radius: 30px;">
           </div>
         </div>
+        <p class="screen-caption">App screens shown from an earlier version.</p>
       </div>
     </div>
   </section>
 
-  <!-- MARQUEE STRIP -->
-  <div class="strip">
-    <div class="strip-track">
-      <!-- dupe for seamless loop -->
-      <div class="strip-item">Toxins over calories <span class="strip-sep">·</span></div>
-      <div class="strip-item"><span>100%</span> independent algorithm <span class="strip-sep">·</span></div>
-      <div class="strip-item">EU vs. FDA — you decide <span class="strip-sep">·</span></div>
-      <div class="strip-item">1-second scan <span class="strip-sep">·</span></div>
-      <div class="strip-item">Food scanner first <span class="strip-sep">·</span></div>
-      <div class="strip-item">Beauty scans too <span class="strip-sep">·</span></div>
-      <div class="strip-item">Shampoo + deodorant labels <span class="strip-sep">·</span></div>
-      <div class="strip-item">Makeup ingredient scans <span class="strip-sep">·</span></div>
-      <div class="strip-item">No influencer opinions <span class="strip-sep">·</span></div>
-      <div class="strip-item">BHT banned in EU <span class="strip-sep">·</span></div>
-      <div class="strip-item">Red 40 linked to ADHD <span class="strip-sep">·</span></div>
-      <!-- dupe -->
-      <div class="strip-item">Toxins over calories <span class="strip-sep">·</span></div>
-      <div class="strip-item"><span>100%</span> independent algorithm <span class="strip-sep">·</span></div>
-      <div class="strip-item">EU vs. FDA — you decide <span class="strip-sep">·</span></div>
-      <div class="strip-item">1-second scan <span class="strip-sep">·</span></div>
-      <div class="strip-item">Food scanner first <span class="strip-sep">·</span></div>
-      <div class="strip-item">Beauty scans too <span class="strip-sep">·</span></div>
-      <div class="strip-item">Shampoo + deodorant labels <span class="strip-sep">·</span></div>
-      <div class="strip-item">Makeup ingredient scans <span class="strip-sep">·</span></div>
-      <div class="strip-item">No influencer opinions <span class="strip-sep">·</span></div>
-      <div class="strip-item">BHT banned in EU <span class="strip-sep">·</span></div>
-      <div class="strip-item">Red 40 linked to ADHD <span class="strip-sep">·</span></div>
-    </div>
+  <!-- PRODUCT SUMMARY -->
+  <div class="product-summary">
+    <span>Processing-first food scores</span><span>Personalized allergen checks</span><span>Beta cosmetic analysis</span><span>Clear data limits</span>
   </div>
 
   <!-- HOW IT WORKS -->
-  <section id="how-it-works">
-    <div class="section">
-      <div class="section-label reveal">How it works</div>
-      <h2 class="display section-title reveal reveal-delay-1">
-        Three seconds.<br><em>A lifetime of better choices.</em>
-      </h2>
-
-      <div class="steps-grid">
-        <div class="step reveal">
-          <div class="step-num">01</div>
-          <div class="step-icon" style="background:var(--cream2);">📷</div>
-          <div class="step-title">Scan the <em>label</em></div>
-          <p class="step-body">Point your camera at any food barcode or ingredient label. Lychee also supports cosmetics,
-            shampoo, deodorant, makeup, skincare, haircare, and other beauty products when you need a secondary scan.</p>
-        </div>
-        <div class="step reveal reveal-delay-1">
-          <div class="step-num">02</div>
-          <div class="step-icon" style="background:rgba(125,145,105,0.15);">🔬</div>
-          <div class="step-title">We run <em>the numbers</em></div>
-          <p class="step-body">Lychee checks ingredient data against EFSA, FDA, WHO, EWG, and product databases.
-            Processing level, synthetic additives, heavy metal risk, blood sugar impact, and label concerns — all scored
-            in under a second.</p>
-        </div>
-        <div class="step reveal reveal-delay-2">
-          <div class="step-num">03</div>
-          <div class="step-icon" style="background:rgba(208,122,80,0.12);">✅</div>
-          <div class="step-title">Get the <em>verdict</em></div>
-          <p class="step-body">A plain-language food score and clear label context first, with secondary beauty-label
-            support for shampoo, deodorant, skincare, haircare, and makeup. No jargon. No guilt. Just the truth so you can decide.</p>
-        </div>
-      </div>
+  <section id="how-it-works"><div class="section">
+    <div class="section-label">How it works</div>
+    <h2 class="display section-title">Turn it around.<br><em>Then take a closer look.</em></h2>
+    <div class="steps-grid">
+      <article class="step"><div class="step-num">01</div><div class="step-icon" aria-hidden="true" style="background:var(--cream2)">📷</div><h3 class="step-title">Scan the <em>barcode</em></h3><p class="step-body">Look up a packaged food or cosmetic product. If the record is missing or incomplete, read the ingredient label with your camera.</p><a class="text-link" href="/barcode-scanner-app/">Barcode and label scanning →</a></article>
+      <article class="step"><div class="step-num">02</div><div class="step-icon" aria-hidden="true" style="background:var(--sage-lt)">🔎</div><h3 class="step-title">Understand the <em>ingredients</em></h3><p class="step-body">See food processing, additives and available nutrition. Compare relevant label information with your profile. Beauty products get a separate ingredient breakdown.</p><a class="text-link" href="/methodology/">How the analysis works →</a></article>
+      <article class="step"><div class="step-num">03</div><div class="step-icon" aria-hidden="true" style="background:var(--terra-lt)">🌿</div><h3 class="step-title">Make your <em>next choice</em></h3><p class="step-body">Read the reasons behind the result, check the current package and save products to your pantry. Compare similar options as you shop.</p><a class="text-link" href="/download/">Try your first scan →</a></article>
     </div>
-  </section>
-
-
-  <!-- SCORE EXPLANATION -->
-
+  </div></section>
 
   <!-- FEATURES -->
-  <section id="features" style="background:var(--cream2); padding: 0;">
-    <div class="section">
-      <div class="section-label reveal">What makes Lychee different</div>
-      <h2 class="display section-title reveal reveal-delay-1">
-        A whistleblower tool,<br><em>not a diet app.</em>
-      </h2>
-
-      <div class="features-grid">
-
-        <!-- EU card -->
-        <div class="feature-card dark reveal">
-          <div class="feature-tag">
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor">
-              <circle cx="5" cy="5" r="5"></circle>
-            </svg>
-            Binary fact
-          </div>
-          <h3 class="feature-title">Would this be <em>legal in Europe?</em></h3>
-          <p class="feature-body">Not an opinion. Not a score weighted by a sponsor. One binary fact: the EU banned this
-            ingredient or it didn't. You get that answer every single scan.</p>
-          <div class="feature-stat">Yes<span style="color:rgba(255,255,255,0.2);">/</span>No</div>
-          <div class="feature-stat-label">No grey area</div>
-          <!-- EU stars decorative -->
-          <div class="eu-flag">
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-            <div class="eu-star"></div>
-          </div>
-        </div>
-
-        <!-- Toxins card -->
-        <div class="feature-card reveal reveal-delay-1">
-          <div class="feature-tag">Toxins over calories</div>
-          <h3 class="feature-title">We don't count<br><em>calories. Ever.</em></h3>
-          <p class="feature-body">Other apps lecture you about macros and weight. Lychee ignores all of that. We only hunt
-            for what actually harms your health: synthetic dyes, heavy metals, FDA loopholes, ultra-processing.</p>
-          <div class="feature-stat" style="color:var(--bad);">0</div>
-          <div class="feature-stat-label" style="color:var(--ink-faint);">Calorie references in Lychee</div>
-        </div>
-
-        <!-- Algorithm card -->
-        <div class="feature-card accent reveal">
-          <div class="feature-tag">No influencers</div>
-          <h3 class="feature-title">Data, not <em>someone's opinion.</em></h3>
-          <p class="feature-body">Lychee's score is 100% algorithmic, sourced from USDA, EFSA, WHO, EWG, and product data
-            — updated constantly, never influenced by brand deals.</p>
-          <div class="feature-stat" style="color:var(--terra);">100%</div>
-          <div class="feature-stat-label">Independent · no brand partnerships</div>
-        </div>
-
-        <!-- Beauty scanner card -->
-        <div id="beauty-scanner" class="feature-card reveal reveal-delay-1">
-          <div class="feature-tag">Also scans beauty</div>
-          <h3 class="feature-title">Beauty labels,<br><em>decoded too.</em></h3>
-          <p class="feature-body">Food scanning is Lychee's core. As a secondary feature, Lychee can also scan cosmetics,
-            shampoo, deodorant, makeup, skincare, haircare, sunscreen, fragrance, and personal-care ingredient labels.</p>
-          <div class="feature-stat" style="color:var(--terra);">Add-on</div>
-          <div class="feature-stat-label">Secondary beauty scanning</div>
-        </div>
-
-        <!-- Speed card -->
-        <div class="feature-card reveal reveal-delay-1">
-          <div class="feature-tag">Instant</div>
-          <h3 class="feature-title">The 1-second<br><em>cheat code.</em></h3>
-          <p class="feature-body">No wall of chemical text. Lychee gives you a number and a verdict before
-            you've finished reading the front of the box. Because you're at the store and only have 30 seconds.</p>
-          <div class="feature-stat" style="color:var(--sage);">&lt;5s</div>
-          <div class="feature-stat-label">Average scan time</div>
-        </div>
-
-      </div>
+  <section id="features" style="background:var(--cream2)"><div class="section">
+    <div class="section-label">What makes Lychee useful</div><h2 class="display section-title">Look past the claim.<br><em>Read what is inside.</em></h2>
+    <div class="features-grid">
+      <article class="feature-card dark"><div class="feature-tag">Processing first</div><h3 class="feature-title">Good-looking macros.<br><em>What about the formulation?</em></h3><p class="feature-body">Lychee puts processing at the heart of its food score. Additives, ingredient quality and nutrition still matter, so a protein claim does not tell the whole story.</p><a class="text-link" href="/ultra-processed-food-scanner/">Explore processing-first scoring →</a><div class="feature-stat">0–100</div><div class="feature-stat-label">Food Health Score, with a breakdown</div></article>
+      <article class="feature-card"><div class="feature-tag">Your profile</div><h3 class="feature-title">The ingredients<br><em>that matter to you.</em></h3><p class="feature-body">Check available ingredients, allergens and trace information against your selected profile. A high food score and personal allergen suitability are separate signals.</p><a class="text-link" href="/allergen-scanner/">Personalized allergen checks →</a></article>
+      <article class="feature-card accent"><div class="feature-tag">The whole picture</div><h3 class="feature-title">Nutrition,<br><em>in context.</em></h3><p class="feature-body">Review sugar, salt, saturated fat, fiber, protein and available energy information alongside processing and ingredients. Nutri-Score and NOVA are useful inputs, not the entire answer.</p><a class="text-link" href="/food-scanner/">See the food scanner →</a></article>
+      <article class="feature-card"><div class="feature-tag">Read the package</div><h3 class="feature-title">A missing record?<br><em>Try the label.</em></h3><p class="feature-body">Read food and cosmetic ingredient paragraphs with OCR when barcode data is incomplete. Check the extracted text and contribute corrected product information where practical.</p><a class="text-link" href="/ingredient-label-scanner/">Ingredient-label scanning →</a></article>
+      <article class="feature-card"><div class="feature-tag">Everyday choices</div><h3 class="feature-title">Build a pantry<br><em>you understand.</em></h3><p class="feature-body">Save products and revisit your scans as you shop. Optional Premium adds more ingredient insights, AI explanations, healthier swaps and ad-free scanning.</p><a class="text-link" href="/app-facts/">Features and Premium details →</a></article>
     </div>
-  </section>
+  </div></section>
 
   <!-- BEAUTY PRODUCTS -->
-  <section id="beauty-products">
-    <div class="section">
-      <div class="section-label reveal">Secondary beauty scanner</div>
-      <h2 class="display section-title reveal reveal-delay-1">
-        Food is the main event.<br><em>Beauty labels are covered too.</em>
-      </h2>
-      <p class="section-body reveal reveal-delay-2">
-        Lychee is built first for packaged food scanning. The app also helps decode everyday beauty and personal-care
-        products: shampoo, conditioner, deodorant, makeup, skincare, sunscreen, fragrance, body wash, lotion, and
-        haircare. Scan the barcode or ingredient list and get plain-language context before you buy or apply it.
-      </p>
-
-      <div class="features-grid">
-        <div class="feature-card reveal">
-          <div class="feature-tag">Haircare</div>
-          <h3 class="feature-title">Shampoo, conditioner<br><em>and styling products.</em></h3>
-          <p class="feature-body">Use Lychee to translate long haircare labels with surfactants, fragrance terms,
-            preservatives, silicones, colorants, and conditioning agents.</p>
-        </div>
-
-        <div class="feature-card reveal reveal-delay-1">
-          <div class="feature-tag">Body care</div>
-          <h3 class="feature-title">Deodorant, body wash<br><em>and lotion.</em></h3>
-          <p class="feature-body">Scan personal-care products for ingredient roles, fragrance disclosures, preservative
-            systems, aluminum compounds, exfoliating acids, and other label signals.</p>
-        </div>
-
-        <div class="feature-card accent reveal">
-          <div class="feature-tag">Makeup</div>
-          <h3 class="feature-title">Foundation, mascara,<br><em>lipstick and more.</em></h3>
-          <p class="feature-body">Lychee helps make makeup labels easier to read by explaining pigments, film formers,
-            solvents, waxes, preservatives, fragrance ingredients, and common sensitivity categories.</p>
-        </div>
-
-        <div class="feature-card reveal reveal-delay-1">
-          <div class="feature-tag">Skincare</div>
-          <h3 class="feature-title">Moisturizers, serums,<br><em>sunscreen and cleansers.</em></h3>
-          <p class="feature-body">Get context for humectants, emollients, UV filters, exfoliating acids, retinoids,
-            fragrance, preservatives, and other skincare ingredient roles without treating the scan as medical advice.</p>
-        </div>
-      </div>
+  <section id="beauty-products"><div class="section">
+    <div class="section-label">Beauty and personal care</div><h2 class="display section-title">Your bathroom shelf<br><em>has labels too.</em></h2>
+    <p class="section-body">Scan skincare, makeup, shampoo, deodorant and other personal-care products. Lychee explains recognized INCI ingredients, their functions and concern categories with a separate, exposure-aware beta model.</p>
+    <div class="beauty-grid">
+      <article class="feature-card"><div class="feature-tag">Ingredient functions</div><h3 class="feature-title">What does<br><em>that name mean?</em></h3><p class="feature-body">Understand surfactants, humectants, emollients, preservatives, colorants and fragrance terms. Unknown ingredients stay visible.</p><a class="text-link" href="/cosmetic-ingredient-scanner/">Read an INCI label →</a></article>
+      <article class="feature-card accent"><div class="feature-tag">Exposure matters</div><h3 class="feature-title">Rinse it off.<br><em>Or leave it on?</em></h3><p class="feature-body">A cleanser and a moisturizer are used differently. Product type and exposure shape the cosmetic analysis; a label does not report every concentration.</p><a class="text-link" href="/skincare-ingredient-scanner/">Skincare in context →</a></article>
+      <article class="feature-card"><div class="feature-tag">Score · beta</div><h3 class="feature-title">Enough information<br><em>comes first.</em></h3><p class="feature-body">When ingredient coverage is too low, Lychee shows Not enough data. You can still review recognized ingredients and inspect the gaps.</p><a class="text-link" href="/cosmetic-scanner/">Explore beauty scanning →</a></article>
     </div>
-  </section>
+  </div></section>
 
   <!-- SCIENCE / CREDIBILITY -->
-  <section id="science" class="science-section">
-    <div class="science-inner">
-      <div>
-        <div class="section-label reveal" style="color:rgba(255,255,255,0.3);">The science</div>
-        <h2 class="science-title display reveal reveal-delay-1">
-          Built on public data.<br><em>Answerable to no one</em><br>but you.
-        </h2>
-        <p class="science-body reveal reveal-delay-2">
-          Lychee's algorithm is trained on regulatory, food, and ingredient-safety data — not wellness trends or sponsored
-          research. Every score traces back to a primary source you can verify. We publish our scoring criteria openly.
-        </p>
-        <div class="source-pills reveal reveal-delay-3">
-          <div class="source-pill">USDA FoodData</div>
-          <div class="source-pill">EFSA Additive Register</div>
-          <div class="source-pill">FDA GRAS Database</div>
-          <div class="source-pill">EWG Food Scores</div>
-          <div class="source-pill">EU CosIng</div>
-          <div class="source-pill">Open Beauty Facts</div>
-          <div class="source-pill">WHO IARC Classifications</div>
-          <div class="source-pill">Open Food Facts</div>
-        </div>
-      </div>
+  <section id="science" class="science-section"><div class="science-inner">
+    <div><div class="section-label" style="color:var(--terra-lt)">Data you can inspect</div><h2 class="science-title display">A useful result.<br><em>With its limits in view.</em></h2><p class="science-body">Food lookup uses Open Food Facts; beauty lookup uses Open Beauty Facts. Lychee applies its own scoring logic and ingredient dictionaries. Records can be incomplete or outdated, so the package in your hand still matters.</p><div class="source-pills"><a class="source-pill" href="https://world.openfoodfacts.org/">Open Food Facts ↗</a><a class="source-pill" href="https://world.openbeautyfacts.org/">Open Beauty Facts ↗</a><a class="source-pill" href="/data-sources/">Sources and evidence →</a></div></div>
+    <div class="evidence-links"><a href="/methodology/"><span>01 / The method</span><h3>How the scores work.</h3><p>Processing, nutrition, cosmetic exposure and incomplete data.</p></a><a href="/app-facts/"><span>02 / The facts</span><h3>What Lychee does.</h3><p>Features, pricing, official links and product identity.</p></a><a href="/lychee-vs-yuka/"><span>03 / Your choice</span><h3>Lychee and Yuka, compared.</h3><p>Two published approaches, with the sources linked.</p></a></div>
+  </div></section>
 
-      <div class="metrics-grid reveal reveal-delay-2">
-        <div class="metric-cell">
-          <div class="metric-num">4<span>M+</span></div>
-          <div class="metric-label">Products in our database</div>
-        </div>
-        <div class="metric-cell">
-          <div class="metric-num">400<span>+</span></div>
-          <div class="metric-label">Additives flagged and scored</div>
-        </div>
-
-        <div class="metric-cell">
-          <div class="metric-num">100<span>%</span></div>
-          <div class="metric-label">Independent algorithm</div>
-        </div>
-        <div class="metric-cell">
-          <div class="metric-num">0</div>
-          <div class="metric-label">Brand partnerships or sponsored results</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="score">
-    <div class="section">
-      <div class="section-label reveal">Methodology</div>
-      <h2 class="display section-title reveal reveal-delay-1">
-        How Lychee’s Health Score Works
-      </h2>
-      <p class="section-body reveal reveal-delay-2" style="margin-bottom: 40px; max-width: 680px;">
-        Lychee’s Health Score turns complicated food labels into one simple number, from <strong>0 to 100</strong>.
-        To calculate it, we look at a product from a few different angles:
-      </p>
-
-      <div class="features-grid" style="margin-top: 0;">
-        <div class="feature-card reveal">
-          <h3 class="feature-title" style="font-size: 24px;">Processing</h3>
-          <p class="feature-body">Foods that are more heavily processed usually score lower than simpler, less altered
-            options.</p>
-        </div>
-        <div class="feature-card reveal reveal-delay-1">
-          <h3 class="feature-title" style="font-size: 24px;">Ingredients and additives</h3>
-          <p class="feature-body">Cleaner ingredient lists tend to score better than products filled with artificial
-            additives or industrial ingredients.</p>
-        </div>
-        <div class="feature-card reveal">
-          <h3 class="feature-title" style="font-size: 24px;">Overall food quality</h3>
-          <p class="feature-body">We look beyond front-of-pack claims to get a more balanced picture of what’s actually
-            inside.</p>
-        </div>
-        <div class="feature-card reveal reveal-delay-1">
-          <h3 class="feature-title" style="font-size: 24px;">Nutrition</h3>
-          <p class="feature-body">We consider things like sugar, salt, fiber, and protein.</p>
-        </div>
-      </div>
-
-      <p class="section-body reveal"
-        style="margin-top: 40px; max-width: 680px; color: var(--ink-faint); font-size: 15px;">
-        The result is a score designed to help you compare products quickly and make smarter everyday choices. It’s not
-        meant to replace medical advice or tell you a food is “perfect” or “bad.” It’s simply a clearer, easier way to
-        understand how a product stacks up at a glance.
-      </p>
-    </div>
-  </section>
-  <section id="faq">
-    <div class="section" style="max-width:900px;">
-      <div class="section-label reveal" style="text-align:center;">FAQ</div>
-      <h2 class="display section-title reveal reveal-delay-1" style="text-align:center;margin:0 auto 8px;">
-        Real questions from<br><em>real people.</em>
-      </h2>
-
-      <div class="faq-grid">
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">
-            Is Lychee really free?
-            <div class="faq-chevron">
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round"></path>
-              </svg>
-            </div>
-          </button>
-          <div class="faq-a">Yes. Core scanning is completely free — no sign-up, no subscription required. You can scan
-            products and see full health scores at no cost.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">
-            Is beauty scanning a main Lychee feature?
-            <div class="faq-chevron">
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round"></path>
-              </svg>
-            </div>
-          </button>
-          <div class="faq-a">Food scanning is the main Lychee feature. Beauty scanning is secondary, but yes: Lychee also
-            supports cosmetics, shampoo, conditioner, deodorant, makeup, skincare, haircare, sunscreen, fragrance, body
-            wash, lotion, and personal-care product scanning.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">
-            How is Lychee's score calculated?
-            <div class="faq-chevron">
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round"></path>
-              </svg>
-            </div>
-          </button>
-          <div class="faq-a">The #1 factor is processing level — ultra-processed foods are immediately penalized
-            regardless of other factors. After that: additive safety ratings, heavy metal risk, blood sugar impact, and
-            artificial ingredient count. The full scoring methodology is published on our website. No calorie
-            data is factored in, ever.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">
-            What does the EU comparison mean?
-            <div class="faq-chevron">
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round"></path>
-              </svg>
-            </div>
-          </button>
-          <div class="faq-a">The European Food Safety Authority (EFSA) has stricter standards than the FDA for many food
-            additives. Ingredients like Red 40, BHT, and certain preservatives either require warning labels or are
-            outright banned in EU food products — while they're freely used here. Lychee shows you exactly which
-            ingredients in any product fall into this category.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">
-            Does Lychee work outside the US?
-            <div class="faq-chevron">
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round"></path>
-              </svg>
-            </div>
-          </button>
-          <div class="faq-a">Yes. Lychee's database covers products across North America, Europe, and Australia. Coverage
-            is densest for US products, with European and international products expanding rapidly.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">
-            Who makes Lychee? Are you sponsored by any food or beauty brands?
-            <div class="faq-chevron">
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round"></path>
-              </svg>
-            </div>
-          </button>
-          <div class="faq-a">Lychee is independently built. We have zero brand partnerships, zero sponsored placements,
-            and no financial relationships with any food or beauty company. Our revenue comes from users — which means our only
-            obligation is to you.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">
-            What if a product isn't in your database?
-            <div class="faq-chevron">
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round"></path>
-              </svg>
-            </div>
-          </button>
-          <div class="faq-a">You can photograph the ingredient label and Lychee will add it to the Open Food Facts
-            database. You can also scan product ingredients for instant results.</div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- DISCOVERY GUIDES -->
+  <section id="guides"><div class="section"><div class="section-label">Start with your question</div><h2 class="display section-title">What would you like<br><em>to know before you buy?</em></h2><div class="guide-grid">
+    <a href="/best-food-scanner-app/"><span>Choosing an app</span><h3>What should I look for in a food scanner?</h3><p>Scoring priorities, coverage and useful checks before choosing.</p></a>
+    <a href="/allergen-scanner/"><span>Personal requirements</span><h3>Can I check ingredients against my allergies?</h3><p>Profiles, trace statements and the limits of a scan.</p></a>
+    <a href="/food-additive-scanner/"><span>Reading ingredients</span><h3>What does this food additive do?</h3><p>Ingredient functions, concern context and the rest of the label.</p></a>
+    <a href="/ingredient-label-scanner/"><span>Missing barcode data</span><h3>Can I scan the ingredient list instead?</h3><p>How label reading works and how to check the result.</p></a>
+  </div></div></section>
+  <section id="faq" style="background:var(--cream2)"><div class="section"><div class="section-label">Common questions</div><h2 class="display section-title">Before your<br><em>first scan.</em></h2>
+    <!-- GENERATED FAQ START -->
+<div class="faq-grid"><details class="faq-detail"><summary>Is Lychee free?</summary><p>Free to download with core barcode scanning and product scores. Optional Lychee Premium unlocks additional analysis and features. The free experience may include ads; Premium includes ad-free scanning. See the current in-app offer or app-store listing for local prices, trial eligibility, and subscription terms.</p></details>
+<details class="faq-detail"><summary>How does Lychee score food?</summary><p>Lychee uses a 0–100 food score that prioritizes processing. Additives, ingredient quality, sugar, salt, saturated fat, fiber and protein also matter. NOVA and Nutri-Score are inputs, not the entire score. Missing data can reduce confidence or prevent a score.</p></details>
+<details class="faq-detail"><summary>Does Lychee scan cosmetics and skincare?</summary><p>Yes. Lychee scans beauty and personal-care barcodes and ingredient labels. Its beta cosmetic score considers recognized ingredients, concerns and exposure, including rinse-off versus leave-on use. It shows Not enough data when ingredient coverage is insufficient.</p></details>
+<details class="faq-detail"><summary>Can Lychee check food allergens?</summary><p>Lychee helps compare available ingredient, allergen and trace information with a selected profile. It cannot guarantee that a food is allergen-free or detect undeclared cross-contact. Always read the current label and follow your allergy care plan.</p></details>
+<details class="faq-detail"><summary>What if my product is missing from the database?</summary><p>Try reading the ingredient label with Lychee. You can also submit or correct product data through its contribution flow. OCR and contributed records need checking; a missing ingredient list should be treated as incomplete data.</p></details>
+<details class="faq-detail"><summary>Does Lychee work offline?</summary><p>Previously saved product information can be available from local history or pantry data. New barcode lookups need network access; failed scans can be queued for retry. Offline access is not a complete offline product database.</p></details></div>
+<!-- GENERATED FAQ END -->
+    <p class="faq-more"><a class="text-link" href="/faq/">Read all questions →</a></p>
+  </div></section>
 
   <!-- CTA BANNER -->
   <div class="cta-banner">
-    <h2 class="display cta-banner-title reveal">
-      You deserve the <em>truth</em><br>on every label.
+    <h2 class="display cta-banner-title ">
+      A little more clarity.<br><em>Starting with your next label.</em>
     </h2>
-    <p class="cta-banner-sub reveal reveal-delay-1">Free to download. No account needed. Start scanning in 30 seconds.
+    <p class="cta-banner-sub ">Free to download. Optional Premium for more insights and ad-free scanning.
     </p>
-    <div class="btn-row reveal reveal-delay-2">
-      <a href="https://apps.apple.com/us/app/id6755896152" target="_blank"
+    <div class="btn-row ">
+      <a href="https://apps.apple.com/us/app/id6755896152"
         class="btn-store primary">
         <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor">
           <path
@@ -1746,7 +1425,7 @@
         </svg>
         Download on App Store
       </a>
-      <a href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" target="_blank"
+      <a href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
         class="btn-store secondary">
         <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor">
           <path
@@ -1758,12 +1437,13 @@
     </div>
   </div>
 
+  </main>
   <!-- FOOTER -->
   <footer>
     <div class="footer-inner">
       <div>
         <div class="footer-logo">L<span>ychee</span></div>
-        <p class="footer-tagline">A whistleblower tool. Not a diet app. The 1-second truth about what's in your food.
+        <p class="footer-tagline">Food and beauty labels, made clearer. Independently developed by Maksym Horoszczak.
         </p>
       </div>
       <div>
@@ -1771,9 +1451,9 @@
         <div class="footer-links">
           <a href="/#how-it-works">How it works</a>
           <a href="/#features">Features</a>
-          <a href="/#science">Our science</a>
-          <a href="https://apps.apple.com/us/app/id6755896152" target="_blank">iOS App</a>
-          <a href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" target="_blank">Android
+          <a href="/#science">Sources and evidence</a>
+          <a href="https://apps.apple.com/us/app/id6755896152">iOS App</a>
+          <a href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify">Android
             App</a>
         </div>
       </div>
@@ -1781,11 +1461,15 @@
         <div class="footer-col-title">Learn</div>
         <div class="footer-links">
           <a href="/food-scanner/">Food scanner</a>
+          <a href="/allergen-scanner/">Allergen checks</a>
+          <a href="/ingredient-label-scanner/">Ingredient-label scanner</a>
+          <a href="/app-facts/">Lychee app facts</a>
+          <a href="/download/">Download Lychee</a>
           <a href="/cosmetic-scanner/">Cosmetic scanner</a>
           <a href="/methodology/">Scoring methodology</a>
           <a href="/data-sources/">Data sources</a>
           <a href="/lychee-vs-yuka/">Lychee vs Yuka</a>
-          <a href="/best-food-scanner-app/">Best food scanner guide</a>
+          <a href="/best-food-scanner-app/">Choosing a food scanner</a>
           <a href="/cosmetic-ingredient-scanner/">Cosmetic ingredient scanner</a>
           <a href="/skincare-ingredient-scanner/">Skincare ingredient scanner</a>
           <a href="/food-additive-scanner/">Food additive scanner</a>
@@ -1799,46 +1483,19 @@
         <div class="footer-links">
           <a href="/about/">About</a>
           <a href="/press/">Press kit</a>
-          <a href="/privacy">Privacy policy</a>
-          <a href="/terms">Terms of use</a>
-          <a href="/contact">Contact</a>
+          <a href="/privacy/">Privacy policy</a>
+          <a href="/terms/">Terms of use</a>
+          <a href="/contact/">Contact</a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Lychee. All rights reserved. Not medical advice.</span>
-      <span>Built for people who ask questions.</span>
+      <span>© 2026 Lychee. Educational label information. Not medical advice.</span>
+      <span>Product information updated <time id="reviewed-date" datetime="2026-10-08">October 8, 2026</time>.</span>
     </div>
   </footer>
 
-  <script>
-    // Intersection Observer for .reveal elements
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('visible');
-          observer.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
 
-    const revealEls = document.querySelectorAll('.reveal');
-    revealEls.forEach(el => observer.observe(el));
-
-    // Fallback: ensure everything visible after 800ms in case observer doesn't fire
-    setTimeout(() => {
-      revealEls.forEach(el => el.classList.add('visible'));
-    }, 800);
-
-    // FAQ accordion
-    function toggleFaq(btn) {
-      const item = btn.closest('.faq-item');
-      const isOpen = item.classList.contains('open');
-      // close all
-      document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
-      if (!isOpen) item.classList.add('open');
-    }
-  </script>
 
 
 </body>

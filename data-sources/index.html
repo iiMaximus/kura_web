@@ -1,85 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lychee Data Sources — Open Food Facts, EFSA, FDA &amp; More</title>
-  <meta name="description" content="The public databases and regulatory references behind Lychee’s food and cosmetic scans, including Open Food Facts, USDA, FDA, EFSA, and EU safety lists.">
-  <link rel="canonical" href="https://lychee.fit/data-sources/">
-  <meta property="og:url" content="https://lychee.fit/data-sources/">
-  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-  <meta property="og:site_name" content="Lychee">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="Lychee Data Sources — Open Food Facts, EFSA, FDA &amp; More">
-  <meta property="og:description" content="The public databases and regulatory references behind Lychee’s food and cosmetic scans, including Open Food Facts, USDA, FDA, EFSA, and EU safety lists.">
-  <meta property="og:image" content="https://lychee.fit/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Lychee — the free food scanner app for iOS and Android">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Lychee Data Sources — Open Food Facts, EFSA, FDA &amp; More">
-  <meta name="twitter:description" content="The public databases and regulatory references behind Lychee’s food and cosmetic scans, including Open Food Facts, USDA, FDA, EFSA, and EU safety lists.">
-  <meta name="twitter:image" content="https://lychee.fit/og-image.png">
-  <meta name="apple-itunes-app" content="app-id=6755896152">
-  <meta name="theme-color" content="#F5EEE4">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&amp;family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../about/info-pages.css">
-  <script type="application/ld+json">
-{
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lychee Product Data Sources &amp; Evidence Limits</title><meta name="description" content="Lychee’s barcode lookups use Open Food Facts and Open Beauty Facts. Label photos use OCR; scores use Lychee’s own logic. Public scientific and regulatory references provide context, not a live laboratory test.">
+<link rel="canonical" href="https://lychee.fit/data-sources/"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta property="og:site_name" content="Lychee"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:title" content="Lychee Product Data Sources &amp; Evidence Limits"><meta property="og:description" content="Lychee’s barcode lookups use Open Food Facts and Open Beauty Facts. Label photos use OCR; scores use Lychee’s own logic. Public scientific and regulatory references provide context, not a live laboratory test."><meta property="og:url" content="https://lychee.fit/data-sources/"><meta property="og:image" content="https://lychee.fit/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Lychee food and cosmetic ingredient scanner">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Lychee Product Data Sources &amp; Evidence Limits"><meta name="twitter:description" content="Lychee’s barcode lookups use Open Food Facts and Open Beauty Facts. Label photos use OCR; scores use Lychee’s own logic. Public scientific and regulatory references provide context, not a live laboratory test."><meta name="twitter:image" content="https://lychee.fit/og-image.png">
+<meta name="apple-itunes-app" content="app-id=6755896152"><meta name="theme-color" content="#F5EEE4"><meta name="application-name" content="Lychee">
+<link rel="icon" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="alternate" type="application/json" href="/app-facts.json" title="Lychee product facts">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&amp;family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="/about/info-pages.css">
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://lychee.fit/#founder",
+      "name": "Maksym Horoszczak",
+      "url": "https://lychee.fit/about/"
+    },
     {
       "@type": "Organization",
       "@id": "https://lychee.fit/#organization",
       "name": "Lychee",
       "url": "https://lychee.fit/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://lychee.fit/favicon.png",
-        "width": 512,
-        "height": 512
-      },
-      "sameAs": [
-        "https://apps.apple.com/us/app/id6755896152",
-        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
-      ]
+      "logo": "https://lychee.fit/favicon.png",
+      "founder": {
+        "@id": "https://lychee.fit/#founder"
+      }
     },
     {
       "@type": "WebSite",
       "@id": "https://lychee.fit/#website",
-      "url": "https://lychee.fit/",
       "name": "Lychee",
-      "description": "Lychee is a free food scanner app for iOS and Android that decodes ingredient labels, additives, allergens, and ultra-processed food signals, with secondary cosmetic scanning.",
+      "url": "https://lychee.fit/",
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.",
+      "inLanguage": "en",
       "publisher": {
         "@id": "https://lychee.fit/#organization"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://lychee.fit/#app",
+      "name": "Lychee",
+      "alternateName": "Lychee - Clean Food Scanner",
+      "url": "https://lychee.fit/",
+      "image": "https://lychee.fit/favicon.png",
+      "screenshot": "https://lychee.fit/assets/product_scan.webp",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS, Android",
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns. Free to download with core barcode scanning and product scores. Optional Lychee Premium unlocks additional analysis and features. The free experience may include ads; Premium includes ad-free scanning.",
+      "featureList": [
+        "Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition, NOVA and Nutri-Score data.",
+        "A 0–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score.",
+        "Compare available product ingredients, allergens and trace statements with a selected profile. Results do not guarantee the absence of an allergen.",
+        "Read a food or cosmetic ingredient paragraph with OCR when barcode data is missing or incomplete. Review the extracted text against the package.",
+        "Look up cosmetics and personal-care products through Open Beauty Facts and review INCI ingredients, functions and concerns.",
+        "A separate ingredient concern model that considers ingredient coverage, product type and exposure. Low coverage can show Not enough data instead of a score.",
+        "Save products and return to previous scans to compare everyday purchases.",
+        "Additional AI explanations, ingredient insights, healthier swaps and ad-free scanning. Availability and offers may differ by platform or app version."
+      ],
+      "installUrl": [
+        "https://apps.apple.com/us/app/id6755896152",
+        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/us/app/id6755896152",
+        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "description": "Free app download; optional in-app purchases and subscriptions."
       },
-      "inLanguage": "en"
+      "creator": {
+        "@id": "https://lychee.fit/#founder"
+      },
+      "publisher": {
+        "@id": "https://lychee.fit/#organization"
+      }
     },
     {
       "@type": "WebPage",
       "@id": "https://lychee.fit/data-sources/#webpage",
       "url": "https://lychee.fit/data-sources/",
-      "name": "Lychee Data Sources — Open Food Facts, EFSA, FDA & More",
-      "description": "The public databases and regulatory references behind Lychee’s food and cosmetic scans, including Open Food Facts, USDA, FDA, EFSA, and EU safety lists.",
+      "name": "Lychee Product Data Sources & Evidence Limits",
+      "description": "Lychee’s barcode lookups use Open Food Facts and Open Beauty Facts. Label photos use OCR; scores use Lychee’s own logic. Public scientific and regulatory references provide context, not a live laboratory test.",
       "isPartOf": {
         "@id": "https://lychee.fit/#website"
       },
-      "breadcrumb": {
-        "@id": "https://lychee.fit/data-sources/#breadcrumb"
+      "about": {
+        "@id": "https://lychee.fit/#app"
+      },
+      "dateModified": "2026-10-08",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://lychee.fit/#organization"
       },
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://lychee.fit/og-image.png",
-        "width": 1200,
-        "height": 630
+        "url": "https://lychee.fit/og-image.png"
       },
-      "dateModified": "2026-07-07",
-      "inLanguage": "en"
+      "breadcrumb": {
+        "@id": "https://lychee.fit/data-sources/#breadcrumb"
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -88,7 +113,7 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Home",
+          "name": "Lychee",
           "item": "https://lychee.fit/"
         },
         {
@@ -98,111 +123,52 @@
           "item": "https://lychee.fit/data-sources/"
         }
       ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://lychee.fit/data-sources/#faq",
+      "isPartOf": {
+        "@id": "https://lychee.fit/data-sources/#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where does Lychee get product data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Food barcode lookup uses Open Food Facts; cosmetic barcode lookup uses Open Beauty Facts. Label photos use OCR. Lychee applies its own scoring logic and ingredient dictionaries to available information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Lychee use AI to calculate every score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The food and cosmetic scores use scoring logic and ingredient dictionaries. Optional AI assistance adds explanations and analysis; it is not a laboratory test or a guarantee that a label is accurate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Lychee detect heavy metals or microplastics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A barcode or label photo cannot measure contaminants. Where Lychee presents estimates or published lab results, those are different forms of evidence. Check the source, tested product, date and limits before drawing a conclusion."
+          }
+        }
+      ]
     }
   ]
-}
-  </script>
-</head>
-<body>
-  <nav aria-label="Main navigation">
-    <a href="/" class="nav-logo"><img src="/assets/logo-64.png" alt="Lychee logo" width="28" height="28"><span>L<em>ychee</em></span></a>
-    <div class="nav-links">
-      <a href="/food-scanner/">Food scanner</a>
-      <a href="/cosmetic-scanner/">Cosmetics</a>
-      <a href="/methodology/">Methodology</a>
-      <a href="/data-sources/">Sources</a>
-      <a href="/faq/">FAQ</a>
-      <a href="https://apps.apple.com/us/app/id6755896152" target="_blank" rel="noopener" class="nav-cta">Download free</a>
-    </div>
-  </nav>
-
-  <header class="page-hero">
-    <div>
-      <div class="eyebrow">Data Sources</div>
-      <h1>Public references behind better label questions.</h1>
-      <p class="lede">Lychee pages use sourceable language and link to outside references so people can verify ingredient, additive, food, and cosmetic context beyond a single app screen.</p>
-    </div>
-    <aside class="hero-card">
-      <ul class="mini-list">
-        <li>Food product data can be incomplete or user-contributed.</li>
-        <li>Regulatory status can differ across the US, EU, and other regions.</li>
-        <li>Cosmetic ingredient concern does not equal personal risk.</li>
-        <li>Labels and manufacturer instructions remain the practical source of truth.</li>
-      </ul>
-    </aside>
-  </header>
-
-  <main>
-    <section class="two-col">
-      <div>
-        <div class="section-label">Food References</div>
-        <h2>Food scanner sources are useful, but not identical.</h2>
-        <p>Some sources describe a product label. Others describe nutrient composition, additive regulation, toxicology review, or cancer-hazard classification. Lychee presents these as context, not as a single proof that a food is good or bad for every person.</p>
-      </div>
-      <aside class="source-list">
-        <a href="https://world.openfoodfacts.org/" target="_blank" rel="noopener">Open Food Facts <span>Collaborative product database for barcode and label details.</span></a>
-        <a href="https://fdc.nal.usda.gov/" target="_blank" rel="noopener">USDA FoodData Central <span>US food composition and branded food data.</span></a>
-        <a href="https://www.fda.gov/food/food-additives-and-gras-ingredients-information-consumers/understanding-how-fda-regulates-food-additives-and-gras-ingredients" target="_blank" rel="noopener">FDA food additives and GRAS <span>US framework for additives and GRAS ingredients.</span></a>
-        <a href="https://www.efsa.europa.eu/en/topics/topic/food-additives" target="_blank" rel="noopener">EFSA food additives <span>EU scientific assessments and additive re-evaluation context.</span></a>
-        <a href="https://www.iarc.who.int/monographs/" target="_blank" rel="noopener">WHO IARC Monographs <span>Hazard classifications for cancer-related evidence.</span></a>
-      </aside>
-    </section>
-
-    <section class="two-col">
-      <div>
-        <div class="section-label">Cosmetic References</div>
-        <h2>Beauty scanning needs regulatory and exposure caveats.</h2>
-        <p>Cosmetic labels often use INCI names and may group fragrance components under terms such as fragrance or parfum. A scanner can explain ingredient roles and known concern categories, but concentration and use pattern are usually not visible from the ingredient list alone.</p>
-      </div>
-      <aside class="source-list">
-        <a href="https://www.fda.gov/cosmetics/cosmetic-products-ingredients" target="_blank" rel="noopener">FDA cosmetic products and ingredients <span>US consumer information on cosmetic products and selected ingredients.</span></a>
-        <a href="https://www.fda.gov/cosmetics/cosmetics-laws-regulations/fda-authority-over-cosmetics-how-cosmetics-are-not-fda-approved-are-fda-regulated" target="_blank" rel="noopener">FDA cosmetics regulation <span>US explanation of cosmetics oversight and premarket approval limits.</span></a>
-        <a href="https://www.fda.gov/cosmetics/cosmetic-ingredients/allergens-cosmetics" target="_blank" rel="noopener">FDA allergens in cosmetics <span>Consumer context for cosmetic allergies and label checks.</span></a>
-        <a href="https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en" target="_blank" rel="noopener">European Commission CosIng <span>EU database for cosmetic ingredient names and regulatory references.</span></a>
-        <a href="https://world.openbeautyfacts.org/" target="_blank" rel="noopener">Open Beauty Facts <span>Collaborative cosmetic product data that should be checked against packaging.</span></a>
-      </aside>
-    </section>
-
-    <section>
-      <div class="section-label">How To Interpret Sources</div>
-      <h2>One source rarely answers the whole question.</h2>
-      <div class="card-grid">
-        <article class="card">
-          <h3>Product databases</h3>
-          <p>Helpful for barcode lookup and label fields, but they may lag behind formula changes or contain contributor errors.</p>
-        </article>
-        <article class="card">
-          <h3>Regulator pages</h3>
-          <p>Helpful for legal status and safety frameworks, but rules differ by country and may not address every personal health concern.</p>
-        </article>
-        <article class="card">
-          <h3>Hazard references</h3>
-          <p>Helpful for identifying concern categories, but hazard alone does not establish real-world risk at a specific dose or concentration.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="callout">
-      <h2>Attribution and limitations</h2>
-      <p>When Lychee uses or references open data, the app and pages should preserve source attribution and license requirements. Lychee summaries should be checked against product packaging, manufacturer guidance, and professional advice for medical, allergy, pregnancy, child-safety, or dermatology decisions.</p>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-inner">
-      <div>
-        <div class="footer-logo">L<em>ychee</em></div>
-        <p class="fine-print">Lychee provides educational product-label information. It is not medical, nutrition, allergy, or dermatology advice.</p>
-      </div>
-      <div class="footer-links">
-        <a href="/">Lychee food scanner app</a>
-        <a href="/about/">About</a>
-        <a href="/methodology/">Methodology</a>
-        <a href="/food-scanner/">Food scanner</a>
-        <a href="/cosmetic-scanner/">Cosmetics</a>
-        <a href="/faq/">FAQ</a>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
+}</script>
+</head><body><a class="skip-link" href="#main">Skip to content</a><nav aria-label="Main navigation"><a href="/" class="nav-logo"><img src="/assets/logo-64.png" width="28" height="28" alt=""><span>L<em>ychee</em></span></a><div class="nav-links"><a href="/food-scanner/">Food</a><a href="/cosmetic-scanner/">Beauty</a><a href="/methodology/">How we score</a><a href="/faq/">FAQ</a><a href="/download/" class="nav-cta">Get Lychee</a></div></nav>
+<main id="main" class="content-main">
+<header class="page-hero"><div><div class="breadcrumbs"><a href="/">Lychee</a> / Data sources</div><span class="eyebrow">Data sources</span><h1>Know what the source can actually tell you.</h1><p class="lede">Lychee’s barcode lookups use Open Food Facts and Open Beauty Facts. Label photos use OCR; scores use Lychee’s own logic. Public scientific and regulatory references provide context, not a live laboratory test.</p><div class="actions"><a class="button primary" href="https://apps.apple.com/us/app/id6755896152" data-store="ios">Download on the App Store</a><a class="button" href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" data-store="android">Get it on Google Play</a></div><p class="access-note">Free download · Optional Premium · iOS &amp; Android</p></div><aside class="hero-card"><img class="fact-icon" src="/favicon.png" width="64" height="64" alt=""><ul class="mini-list"><li>Open databases supply product records.</li><li>OCR supplies text read from the package.</li><li>Lychee’s rules turn available inputs into analysis.</li><li>Reference resources are different from direct data integrations.</li></ul><p class="reviewed">Updated <time datetime="2026-10-08">October 8, 2026</time> · By Lychee</p></aside></header>
+<div class="content-body"><section><div class="section-label">Direct product data</div><h2>Two open databases, different product categories.</h2><div class="source-list"><a href="https://world.openfoodfacts.org/">Open Food Facts<span>Food barcode and product-label data. Collaborative records can be incomplete, outdated or different from the package in your hand.</span></a><a href="https://world.openbeautyfacts.org/">Open Beauty Facts<span>Cosmetic barcode and product-label data. Product coverage and ingredient completeness vary.</span></a></div><p>Contributed records can contain errors or incomplete fields. Formulas and regional versions may differ. Check the current packaging, and review the database’s attribution and licensing information when reusing its data.</p></section>
+<section><div class="section-label">The analysis layer</div><h2>Product data is not the score.</h2><div class="card-grid"><article class="card"><h3>Lychee rules</h3><p>The app applies its own processing, ingredient, additive and nutrition logic. Food and cosmetics have separate models.</p></article><article class="card"><h3>Ingredient dictionaries</h3><p>Recognized names, aliases, functions and concerns help interpret food and cosmetic labels. Unknown ingredients remain gaps.</p></article><article class="card"><h3>Optional AI</h3><p>Generated explanations can help translate a label. They should be checked against inputs and primary sources.</p></article></div></section>
+<section><div class="section-label">External reference resources</div><h2>Useful background, with a specific role.</h2><p>The following links help readers check scientific and regulatory context. They are not a claim that Lychee queries every database live on each scan, is endorsed by these organizations, or has tested every product.</p><div class="source-list"><a href="https://www.efsa.europa.eu/en/topics/topic/food-additives">EFSA food additives<span>EU scientific assessment context for additives.</span></a><a href="https://www.fda.gov/food/food-ingredients-packaging">FDA food ingredients and packaging<span>US additive and ingredient resources.</span></a><a href="https://www.fda.gov/cosmetics/cosmetic-products-ingredients">FDA cosmetics<span>US cosmetic product and ingredient information.</span></a><a href="https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en">European Commission CosIng<span>Cosmetic ingredient names and regulatory references; a database entry does not by itself establish approval for every use.</span></a><a href="https://monographs.iarc.who.int/">IARC Monographs<span>Hazard classification context, which is different from risk at a specific dose.</span></a></div></section>
+<section><div class="section-label">Evidence boundaries</div><h2>Keep a label, an estimate and a test separate.</h2><p>An ingredient list does not report heavy-metal or microplastic concentrations. A category-based estimate is not a measurement. A published lab test relates to the tested product and sample; it should not be extended to every formula, batch or similar product.</p><p>Lychee’s <a href="/methodology/">methodology</a> explains how incomplete inputs and ingredient coverage affect results.</p></section>
+<section id="faq"><div class="section-label">Common questions</div><h2>Before you scan.</h2><div class="faq-list"><details class="faq-detail"><summary>Where does Lychee get product data?</summary><p>Food barcode lookup uses Open Food Facts; cosmetic barcode lookup uses Open Beauty Facts. Label photos use OCR. Lychee applies its own scoring logic and ingredient dictionaries to available information.</p></details>
+<details class="faq-detail"><summary>Does Lychee use AI to calculate every score?</summary><p>The food and cosmetic scores use scoring logic and ingredient dictionaries. Optional AI assistance adds explanations and analysis; it is not a laboratory test or a guarantee that a label is accurate.</p></details>
+<details class="faq-detail"><summary>Can Lychee detect heavy metals or microplastics?</summary><p>A barcode or label photo cannot measure contaminants. Where Lychee presents estimates or published lab results, those are different forms of evidence. Check the source, tested product, date and limits before drawing a conclusion.</p></details></div></section>
+<section><div class="section-label">Keep exploring</div><h2>More detail, when you need it.</h2><div class="card-grid related-grid"><a class="card related-card" href="/methodology/"><h3>Scoring methodology</h3><p>Lychee uses a processing-first food model and a separate beta cosmetic ingredient model. Both depend on the information available; a missing or uncertain label should not produce fake confidence.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/app-facts/"><h3>Lychee facts</h3><p>Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/faq/"><h3>Frequently asked questions</h3><p>Find out what Lychee scans, how the food and beta cosmetic models work, what happens when product data is missing, and what optional Premium adds.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/about/"><h3>About Lychee</h3><p>Lychee helps people understand everyday product labels: food processing, additives, allergens, nutrition and cosmetic ingredients. It is independently developed by Maksym Horoszczak for iOS and Android.</p><span aria-hidden="true">Read more →</span></a></div></section>
+<section class="download-callout"><div><div class="section-label">Get Lychee</div><h2>Start with your next label.</h2><p>Food and beauty ingredient context in your pocket.</p></div><div class="actions"><a class="button primary" href="https://apps.apple.com/us/app/id6755896152" data-store="ios">Download on the App Store</a><a class="button" href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" data-store="android">Get it on Google Play</a></div></section>
+</div></main><footer><div class="footer-inner"><a href="/" class="nav-logo">L<em>ychee</em></a><p>Clearer labels. More informed choices.</p><div class="footer-links"><a href="/food-scanner/">Food</a><a href="/cosmetic-scanner/">Cosmetics</a><a href="/allergen-scanner/">Allergen checks</a><a href="/ingredient-label-scanner/">Label scanning</a><a href="/methodology/">Methodology</a><a href="/data-sources/">Sources</a><a href="/app-facts/">App facts</a><a href="/about/">About</a><a href="/press/">Press</a><a href="/download/">Download</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></div><p class="footer-note">© 2026 Lychee. Educational label information. Check the current package for ingredients and allergy information.</p></div></footer></body></html>

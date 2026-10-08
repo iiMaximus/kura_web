@@ -1,85 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>How Lychee Scores Food &amp; Cosmetics — Methodology</title>
-  <meta name="description" content="How the Lychee food scanner turns ingredient labels into scores: processing level, additive safety, allergen signals, heavy-metal risk, and blood-sugar impact.">
-  <link rel="canonical" href="https://lychee.fit/methodology/">
-  <meta property="og:url" content="https://lychee.fit/methodology/">
-  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-  <meta property="og:site_name" content="Lychee">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="How Lychee Scores Food &amp; Cosmetics — Methodology">
-  <meta property="og:description" content="How the Lychee food scanner turns ingredient labels into scores: processing level, additive safety, allergen signals, heavy-metal risk, and blood-sugar impact.">
-  <meta property="og:image" content="https://lychee.fit/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Lychee — the free food scanner app for iOS and Android">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="How Lychee Scores Food &amp; Cosmetics — Methodology">
-  <meta name="twitter:description" content="How the Lychee food scanner turns ingredient labels into scores: processing level, additive safety, allergen signals, heavy-metal risk, and blood-sugar impact.">
-  <meta name="twitter:image" content="https://lychee.fit/og-image.png">
-  <meta name="apple-itunes-app" content="app-id=6755896152">
-  <meta name="theme-color" content="#F5EEE4">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&amp;family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../about/info-pages.css">
-  <script type="application/ld+json">
-{
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Lychee Scores Food &amp; Cosmetics — Methodology</title><meta name="description" content="Lychee uses a processing-first food model and a separate beta cosmetic ingredient model. Both depend on the information available; a missing or uncertain label should not produce fake confidence.">
+<link rel="canonical" href="https://lychee.fit/methodology/"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta property="og:site_name" content="Lychee"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:title" content="How Lychee Scores Food &amp; Cosmetics — Methodology"><meta property="og:description" content="Lychee uses a processing-first food model and a separate beta cosmetic ingredient model. Both depend on the information available; a missing or uncertain label should not produce fake confidence."><meta property="og:url" content="https://lychee.fit/methodology/"><meta property="og:image" content="https://lychee.fit/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Lychee food and cosmetic ingredient scanner">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How Lychee Scores Food &amp; Cosmetics — Methodology"><meta name="twitter:description" content="Lychee uses a processing-first food model and a separate beta cosmetic ingredient model. Both depend on the information available; a missing or uncertain label should not produce fake confidence."><meta name="twitter:image" content="https://lychee.fit/og-image.png">
+<meta name="apple-itunes-app" content="app-id=6755896152"><meta name="theme-color" content="#F5EEE4"><meta name="application-name" content="Lychee">
+<link rel="icon" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="alternate" type="application/json" href="/app-facts.json" title="Lychee product facts">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&amp;family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="/about/info-pages.css">
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://lychee.fit/#founder",
+      "name": "Maksym Horoszczak",
+      "url": "https://lychee.fit/about/"
+    },
     {
       "@type": "Organization",
       "@id": "https://lychee.fit/#organization",
       "name": "Lychee",
       "url": "https://lychee.fit/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://lychee.fit/favicon.png",
-        "width": 512,
-        "height": 512
-      },
-      "sameAs": [
-        "https://apps.apple.com/us/app/id6755896152",
-        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
-      ]
+      "logo": "https://lychee.fit/favicon.png",
+      "founder": {
+        "@id": "https://lychee.fit/#founder"
+      }
     },
     {
       "@type": "WebSite",
       "@id": "https://lychee.fit/#website",
-      "url": "https://lychee.fit/",
       "name": "Lychee",
-      "description": "Lychee is a free food scanner app for iOS and Android that decodes ingredient labels, additives, allergens, and ultra-processed food signals, with secondary cosmetic scanning.",
+      "url": "https://lychee.fit/",
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.",
+      "inLanguage": "en",
       "publisher": {
         "@id": "https://lychee.fit/#organization"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://lychee.fit/#app",
+      "name": "Lychee",
+      "alternateName": "Lychee - Clean Food Scanner",
+      "url": "https://lychee.fit/",
+      "image": "https://lychee.fit/favicon.png",
+      "screenshot": "https://lychee.fit/assets/product_scan.webp",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS, Android",
+      "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns. Free to download with core barcode scanning and product scores. Optional Lychee Premium unlocks additional analysis and features. The free experience may include ads; Premium includes ad-free scanning.",
+      "featureList": [
+        "Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition, NOVA and Nutri-Score data.",
+        "A 0–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score.",
+        "Compare available product ingredients, allergens and trace statements with a selected profile. Results do not guarantee the absence of an allergen.",
+        "Read a food or cosmetic ingredient paragraph with OCR when barcode data is missing or incomplete. Review the extracted text against the package.",
+        "Look up cosmetics and personal-care products through Open Beauty Facts and review INCI ingredients, functions and concerns.",
+        "A separate ingredient concern model that considers ingredient coverage, product type and exposure. Low coverage can show Not enough data instead of a score.",
+        "Save products and return to previous scans to compare everyday purchases.",
+        "Additional AI explanations, ingredient insights, healthier swaps and ad-free scanning. Availability and offers may differ by platform or app version."
+      ],
+      "installUrl": [
+        "https://apps.apple.com/us/app/id6755896152",
+        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/us/app/id6755896152",
+        "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "description": "Free app download; optional in-app purchases and subscriptions."
       },
-      "inLanguage": "en"
+      "creator": {
+        "@id": "https://lychee.fit/#founder"
+      },
+      "publisher": {
+        "@id": "https://lychee.fit/#organization"
+      }
     },
     {
       "@type": "WebPage",
       "@id": "https://lychee.fit/methodology/#webpage",
       "url": "https://lychee.fit/methodology/",
       "name": "How Lychee Scores Food & Cosmetics — Methodology",
-      "description": "How the Lychee food scanner turns ingredient labels into scores: processing level, additive safety, allergen signals, heavy-metal risk, and blood-sugar impact.",
+      "description": "Lychee uses a processing-first food model and a separate beta cosmetic ingredient model. Both depend on the information available; a missing or uncertain label should not produce fake confidence.",
       "isPartOf": {
         "@id": "https://lychee.fit/#website"
       },
-      "breadcrumb": {
-        "@id": "https://lychee.fit/methodology/#breadcrumb"
+      "about": {
+        "@id": "https://lychee.fit/#app"
+      },
+      "dateModified": "2026-10-08",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://lychee.fit/#organization"
       },
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://lychee.fit/og-image.png",
-        "width": 1200,
-        "height": 630
+        "url": "https://lychee.fit/og-image.png"
       },
-      "dateModified": "2026-07-07",
-      "inLanguage": "en"
+      "breadcrumb": {
+        "@id": "https://lychee.fit/methodology/#breadcrumb"
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -88,127 +113,71 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Home",
+          "name": "Lychee",
           "item": "https://lychee.fit/"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Methodology",
+          "name": "Scoring methodology",
           "item": "https://lychee.fit/methodology/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://lychee.fit/methodology/#faq",
+      "isPartOf": {
+        "@id": "https://lychee.fit/methodology/#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does Lychee score food?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lychee uses a 0–100 food score that prioritizes processing. Additives, ingredient quality, sugar, salt, saturated fat, fiber and protein also matter. NOVA and Nutri-Score are inputs, not the entire score. Missing data can reduce confidence or prevent a score."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Lychee scan cosmetics and skincare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Lychee scans beauty and personal-care barcodes and ingredient labels. Its beta cosmetic score considers recognized ingredients, concerns and exposure, including rinse-off versus leave-on use. It shows Not enough data when ingredient coverage is insufficient."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Lychee use AI to calculate every score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The food and cosmetic scores use scoring logic and ingredient dictionaries. Optional AI assistance adds explanations and analysis; it is not a laboratory test or a guarantee that a label is accurate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Lychee detect heavy metals or microplastics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A barcode or label photo cannot measure contaminants. Where Lychee presents estimates or published lab results, those are different forms of evidence. Check the source, tested product, date and limits before drawing a conclusion."
+          }
         }
       ]
     }
   ]
-}
-  </script>
-</head>
-<body>
-  <nav aria-label="Main navigation">
-    <a href="/" class="nav-logo"><img src="/assets/logo-64.png" alt="Lychee logo" width="28" height="28"><span>L<em>ychee</em></span></a>
-    <div class="nav-links">
-      <a href="/food-scanner/">Food scanner</a>
-      <a href="/cosmetic-scanner/">Cosmetics</a>
-      <a href="/methodology/">Methodology</a>
-      <a href="/data-sources/">Sources</a>
-      <a href="/faq/">FAQ</a>
-      <a href="https://apps.apple.com/us/app/id6755896152" target="_blank" rel="noopener" class="nav-cta">Download free</a>
-    </div>
-  </nav>
-
-  <header class="page-hero">
-    <div>
-      <div class="eyebrow">Methodology</div>
-      <h1>How Lychee turns ingredient labels into useful context.</h1>
-      <p class="lede">Lychee combines product lookup, label reading, ingredient normalization, public-source checks, and plain-language explanations. The goal is clarity, not certainty where the evidence does not support certainty.</p>
-      <div class="actions">
-        <a class="button primary" href="/data-sources/">Review sources</a>
-        <a class="button" href="/faq/">Read FAQ</a>
-      </div>
-    </div>
-    <aside class="hero-card">
-      <ul class="mini-list">
-        <li>Identify the product by barcode or label when possible.</li>
-        <li>Extract and normalize ingredient names, including additive and INCI-style names.</li>
-        <li>Map ingredients to source references and explain the main caveats.</li>
-        <li>Show an understandable result while encouraging label verification.</li>
-      </ul>
-    </aside>
-  </header>
-
-  <main>
-    <section>
-      <div class="section-label">Core Workflow</div>
-      <h2>The scan is built in layers.</h2>
-      <div class="card-grid">
-        <article class="card">
-          <h3>1. Product match</h3>
-          <p>Lychee first tries to match the barcode or product details to available product data. Coverage varies by region, product category, and how recently a formula was updated.</p>
-        </article>
-        <article class="card">
-          <h3>2. Ingredient parsing</h3>
-          <p>Ingredient text is parsed into recognizable names, synonyms, additive codes, and cosmetic ingredient names where possible. Unclear or missing text should be checked against the package.</p>
-        </article>
-        <article class="card">
-          <h3>3. Source mapping</h3>
-          <p>Ingredients are compared with public references such as food additive resources, nutrition data, cosmetic ingredient databases, and regulator pages.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="two-col">
-      <div>
-        <div class="section-label">Food Scores</div>
-        <h2>Food analysis emphasizes ingredients, additives, processing cues, and label context.</h2>
-        <p>For food, Lychee highlights ingredient-list signals such as additive categories, sweeteners, colorants, preservatives, common allergens, and processing indicators. Where a food score appears, it should be read as a summary of label-based signals rather than a full nutrition diagnosis.</p>
-        <p>A food can be acceptable for one person and inappropriate for another. Allergies, medical conditions, total diet, serving size, and age can change the practical meaning of a scan.</p>
-      </div>
-      <aside class="note">
-        <h3>What a score cannot prove</h3>
-        <p>A score cannot prove that a food is safe for every person, that a product is unsafe in all contexts, or that a single scan captures long-term dietary risk.</p>
-      </aside>
-    </section>
-
-    <section class="two-col">
-      <div>
-        <div class="section-label">Cosmetic Scans</div>
-        <h2>Cosmetic analysis separates ingredient concern from personal risk.</h2>
-        <p>For skincare, makeup, haircare, deodorant, fragrance, and other beauty products, Lychee can explain ingredient roles and flag common concern categories such as fragrance terms, preservatives, colorants, exfoliating acids, UV filters, and potential allergens or irritants.</p>
-        <p>Cosmetic risk depends heavily on concentration, formulation, exposure, frequency of use, whether the product is rinse-off or leave-on, and a person's skin history. Lychee does not diagnose allergies, acne, dermatitis, pregnancy safety, or medication interactions.</p>
-      </div>
-      <aside class="source-list">
-        <a href="https://www.fda.gov/cosmetics/cosmetics-laws-regulations/fda-authority-over-cosmetics-how-cosmetics-are-not-fda-approved-are-fda-regulated" target="_blank" rel="noopener">FDA cosmetics authority <span>US context for cosmetics regulation.</span></a>
-        <a href="https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en" target="_blank" rel="noopener">European Commission CosIng <span>EU cosmetic ingredient reference.</span></a>
-        <a href="https://www.fda.gov/cosmetics/cosmetic-ingredients/allergens-cosmetics" target="_blank" rel="noopener">FDA allergens in cosmetics <span>Consumer guidance on cosmetic allergens.</span></a>
-      </aside>
-    </section>
-
-    <section>
-      <div class="section-label">AI Assistance</div>
-      <h2>AI can explain labels, but sources and labels stay primary.</h2>
-      <p>Lychee may use AI-assisted interpretation to make ingredient lists easier to read. AI output is treated as an explanation layer, not as an authority. The product package, public source references, and professional medical advice remain more important than a generated summary.</p>
-      <div class="callout">
-        <h3>Reviewed May 15, 2026</h3>
-        <p>This methodology page describes Lychee's public information approach. Source pages and regulations can change, so Lychee pages link to primary references where practical.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-inner">
-      <div>
-        <div class="footer-logo">L<em>ychee</em></div>
-        <p class="fine-print">Lychee provides educational product-label information. It is not medical, nutrition, allergy, or dermatology advice.</p>
-      </div>
-      <div class="footer-links">
-        <a href="/">Lychee food scanner app</a>
-        <a href="/about/">About</a>
-        <a href="/food-scanner/">Food scanner</a>
-        <a href="/cosmetic-scanner/">Cosmetics</a>
-        <a href="/data-sources/">Sources</a>
-        <a href="/contact/">Contact</a>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
+}</script>
+</head><body><a class="skip-link" href="#main">Skip to content</a><nav aria-label="Main navigation"><a href="/" class="nav-logo"><img src="/assets/logo-64.png" width="28" height="28" alt=""><span>L<em>ychee</em></span></a><div class="nav-links"><a href="/food-scanner/">Food</a><a href="/cosmetic-scanner/">Beauty</a><a href="/methodology/">How we score</a><a href="/faq/">FAQ</a><a href="/download/" class="nav-cta">Get Lychee</a></div></nav>
+<main id="main" class="content-main">
+<header class="page-hero"><div><div class="breadcrumbs"><a href="/">Lychee</a> / Scoring methodology</div><span class="eyebrow">Scoring methodology</span><h1>A useful score needs reasons and limits.</h1><p class="lede">Lychee uses a processing-first food model and a separate beta cosmetic ingredient model. Both depend on the information available; a missing or uncertain label should not produce fake confidence.</p><div class="actions"><a class="button primary" href="https://apps.apple.com/us/app/id6755896152" data-store="ios">Download on the App Store</a><a class="button" href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" data-store="android">Get it on Google Play</a></div><p class="access-note">Free download · Optional Premium · iOS &amp; Android</p></div><aside class="hero-card"><img class="fact-icon" src="/favicon.png" width="64" height="64" alt=""><ul class="mini-list"><li>Food Health Score: 0–100, with processing first.</li><li>Nutrition and ingredient quality are part of the food model.</li><li>Cosmetics: ingredient coverage plus product exposure.</li><li>Scoring logic is separate from optional AI explanations.</li></ul><p class="reviewed">Updated <time datetime="2026-10-08">October 8, 2026</time> · By Lychee</p></aside></header>
+<div class="content-body"><section><div class="section-label">Food scoring</div><h2>Processing comes first. Nutrition still matters.</h2><p>Lychee’s food Health Score runs from 0 to 100. Whole and minimally processed foods should generally score higher than heavily engineered products. A good-looking macro profile should not erase evidence of ultra-processing.</p><div class="card-grid"><article class="card"><h3>Processing</h3><p>NOVA data and ingredient-list signals help establish the starting point. Label evidence can challenge an incomplete or inconsistent database classification.</p></article><article class="card"><h3>Ingredients and additives</h3><p>Additives, industrial formulation markers, seed oils and ingredient quality can affect the result. Front-of-pack health claims do not override the ingredient list.</p></article><article class="card"><h3>Nutrition</h3><p>Sugar, salt, saturated fat, fiber and protein are considered alongside processing. Lychee displays available nutrition, including energy; it is not a calorie-tracking program.</p></article></div><p>There is no single fixed percentage formula for every product. Category-specific rules, penalties, caps and data checks are part of the model. NOVA and Nutri-Score provide context; neither is a complete substitute for Lychee’s score.</p></section>
+<section><div class="section-label">Reading the result</div><h2>A comparison score, with reasons behind it.</h2><div class="table-wrap"><table><caption>Current food score labels</caption><thead><tr><th scope="col">Score</th><th scope="col">Label</th><th scope="col">How to use it</th></tr></thead><tbody><tr><td>75–100</td><td>Excellent</td><td>Higher-scoring label profile within this model.</td></tr><tr><td>60–74</td><td>Good</td><td>Review the breakdown and your own requirements.</td></tr><tr><td>35–59</td><td>Average</td><td>Inspect processing, ingredients and nutrition tradeoffs.</td></tr><tr><td>0–34</td><td>Poor</td><td>Review the reasons and compare available alternatives.</td></tr></tbody></table></div><p>A high food score does not override an allergen alert. A low score is not a diagnosis. Compare products used for similar purposes and read the reasons, not just the number.</p><p>Some products do not receive a food score. Insufficient information, supplements requiring dose-specific context, and pure water are examples where a comparative number may not be useful.</p></section>
+<section><div class="section-label">Cosmetic scoring · beta</div><h2>The formula and how you use it both matter.</h2><p>Cosmetics use a separate model. Lychee recognizes INCI ingredients, explains their functions and concern categories, and considers product-use context such as rinse-off, leave-on, lip, oral, eye-area and fragrance exposure.</p><ul><li>Ingredient coverage is checked before a score appears. Recognized and unknown ingredients remain useful information even when no score is available.</li><li>The general coverage gate requires at least three ingredients and 75% recognition. Additional checks can withhold a score for a short OCR extract, mismatched product data or poor confidence; selected single-ingredient formulas are an exception.</li><li>When ingredient coverage is strong but product type is uncertain, Lychee can use a cautious exposure assumption instead of automatically blocking the score.</li><li>Concentration, the finished formulation and personal sensitivity cannot be fully determined from an INCI list. A flagged ingredient is a reason to read more, not proof of harm.</li></ul><aside class="callout"><h3>Not enough data is a valid result</h3><p>Low coverage should not produce a reassuring number. The cosmetic score is beta, and ingredient explanations remain visible so you can inspect the label yourself.</p></aside></section>
+<section><div class="section-label">Data and interpretation</div><h2>Keep the inputs and interpretation separate.</h2><div class="card-grid"><article class="card"><h3>Product label</h3><p>Barcode records come from open product databases or text read from a label. Neither proves that the current package has the same formula.</p></article><article class="card"><h3>Scoring model</h3><p>Lychee applies its own rules to available inputs. The number summarizes those rules; it is not a regulator’s approval or a clinical assessment.</p></article><article class="card"><h3>AI and estimates</h3><p>AI explanations and contaminant estimates provide additional context. They cannot measure contamination or establish individual medical risk.</p></article></div><p>Published laboratory results, when present, should be read separately from estimates and tied to the specific tested product and source. Scoring evolves as data and implementation improve; old saved results may differ from a fresh analysis.</p></section>
+<section id="faq"><div class="section-label">Common questions</div><h2>Before you scan.</h2><div class="faq-list"><details class="faq-detail"><summary>How does Lychee score food?</summary><p>Lychee uses a 0–100 food score that prioritizes processing. Additives, ingredient quality, sugar, salt, saturated fat, fiber and protein also matter. NOVA and Nutri-Score are inputs, not the entire score. Missing data can reduce confidence or prevent a score.</p></details>
+<details class="faq-detail"><summary>Does Lychee scan cosmetics and skincare?</summary><p>Yes. Lychee scans beauty and personal-care barcodes and ingredient labels. Its beta cosmetic score considers recognized ingredients, concerns and exposure, including rinse-off versus leave-on use. It shows Not enough data when ingredient coverage is insufficient.</p></details>
+<details class="faq-detail"><summary>Does Lychee use AI to calculate every score?</summary><p>The food and cosmetic scores use scoring logic and ingredient dictionaries. Optional AI assistance adds explanations and analysis; it is not a laboratory test or a guarantee that a label is accurate.</p></details>
+<details class="faq-detail"><summary>Can Lychee detect heavy metals or microplastics?</summary><p>A barcode or label photo cannot measure contaminants. Where Lychee presents estimates or published lab results, those are different forms of evidence. Check the source, tested product, date and limits before drawing a conclusion.</p></details></div></section>
+<section><div class="section-label">Keep exploring</div><h2>More detail, when you need it.</h2><div class="card-grid related-grid"><a class="card related-card" href="/data-sources/"><h3>Data sources</h3><p>Lychee’s barcode lookups use Open Food Facts and Open Beauty Facts. Label photos use OCR; scores use Lychee’s own logic. Public scientific and regulatory references provide context, not a live laboratory test.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/food-scanner/"><h3>Food scanner</h3><p>Lychee scans packaged food barcodes and ingredient labels. See a processing-first score, additives, allergen information and available nutrition in one place, then compare your next purchase.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/cosmetic-scanner/"><h3>Cosmetic scanner</h3><p>Scan cosmetics and personal-care products with Lychee to understand ingredient names, functions and concern categories. A separate beta score considers coverage and how the product is used.</p><span aria-hidden="true">Read more →</span></a><a class="card related-card" href="/app-facts/"><h3>Lychee facts</h3><p>Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.</p><span aria-hidden="true">Read more →</span></a></div></section>
+<section class="download-callout"><div><div class="section-label">Get Lychee</div><h2>Start with your next label.</h2><p>Food and beauty ingredient context in your pocket.</p></div><div class="actions"><a class="button primary" href="https://apps.apple.com/us/app/id6755896152" data-store="ios">Download on the App Store</a><a class="button" href="https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify" data-store="android">Get it on Google Play</a></div></section>
+</div></main><footer><div class="footer-inner"><a href="/" class="nav-logo">L<em>ychee</em></a><p>Clearer labels. More informed choices.</p><div class="footer-links"><a href="/food-scanner/">Food</a><a href="/cosmetic-scanner/">Cosmetics</a><a href="/allergen-scanner/">Allergen checks</a><a href="/ingredient-label-scanner/">Label scanning</a><a href="/methodology/">Methodology</a><a href="/data-sources/">Sources</a><a href="/app-facts/">App facts</a><a href="/about/">About</a><a href="/press/">Press</a><a href="/download/">Download</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></div><p class="footer-note">© 2026 Lychee. Educational label information. Check the current package for ingredients and allergy information.</p></div></footer></body></html>

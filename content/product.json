@@ -1,0 +1,41 @@
+{
+  "name": "Lychee",
+  "storeName": "Lychee - Clean Food Scanner",
+  "origin": "https://lychee.fit",
+  "reviewed": "2026-10-08",
+  "founder": "Maksym Horoszczak",
+  "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.",
+  "positioning": "A processing-first food scanner with personalized allergen checks and a separate beta cosmetic scoring model.",
+  "platforms": ["iOS", "Android"],
+  "downloads": {
+    "ios": "https://apps.apple.com/us/app/id6755896152",
+    "android": "https://play.google.com/store/apps/details?id=com.maksymhoroszczak.allergify"
+  },
+  "pricing": {
+    "summary": "Free to download with core barcode scanning and product scores. Optional Lychee Premium unlocks additional analysis and features. The free experience may include ads; Premium includes ad-free scanning.",
+    "exactPrices": "See the current in-app offer or app-store listing for local prices, trial eligibility, and subscription terms."
+  },
+  "features": [
+    {"name": "Food barcode scanning", "description": "Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition, NOVA and Nutri-Score data."},
+    {"name": "Processing-first food score", "description": "A 0–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score."},
+    {"name": "Personalized allergen checks", "description": "Compare available product ingredients, allergens and trace statements with a selected profile. Results do not guarantee the absence of an allergen."},
+    {"name": "Ingredient-label scanning", "description": "Read a food or cosmetic ingredient paragraph with OCR when barcode data is missing or incomplete. Review the extracted text against the package."},
+    {"name": "Cosmetic barcode scanning", "description": "Look up cosmetics and personal-care products through Open Beauty Facts and review INCI ingredients, functions and concerns."},
+    {"name": "Beta cosmetic score", "description": "A separate ingredient concern model that considers ingredient coverage, product type and exposure. Low coverage can show Not enough data instead of a score."},
+    {"name": "Pantry and scan history", "description": "Save products and return to previous scans to compare everyday purchases."},
+    {"name": "Optional Premium", "description": "Additional AI explanations, ingredient insights, healthier swaps and ad-free scanning. Availability and offers may differ by platform or app version."}
+  ],
+  "dataSources": [
+    {"name": "Open Food Facts", "url": "https://world.openfoodfacts.org/", "role": "Food barcode and product-label data. Collaborative records can be incomplete, outdated or different from the package in your hand."},
+    {"name": "Open Beauty Facts", "url": "https://world.openbeautyfacts.org/", "role": "Cosmetic barcode and product-label data. Product coverage and ingredient completeness vary."}
+  ],
+  "limitations": [
+    "Lychee provides educational label information, not medical advice, diagnosis, treatment or a guarantee of product safety.",
+    "Database records, OCR text and AI explanations can contain errors. Check the current packaging and manufacturer information.",
+    "An ingredient concern is not a measurement of concentration or individual risk. Cosmetic exposure and personal sensitivity matter.",
+    "A barcode or ingredient photo cannot measure heavy metals or microplastics. Estimates and separately sourced laboratory results must be distinguished.",
+    "Coverage varies by product, region and available data. Lychee does not guarantee recognition of every barcode or ingredient.",
+    "App features, Premium access and offers can change. Check the current app-store listing and in-app offer."
+  ],
+  "naming": "Lychee is the current public name. Older references may say Kura or Allergify; the Android package still contains allergify for store continuity."
+}

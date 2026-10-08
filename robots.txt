@@ -1,66 +1,94 @@
+# Public pages are readable without JavaScript. Search and training access are
+# distinct controls; this preserves the existing allow policy for both.
 User-agent: *
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: GPTBot
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: Claude-SearchBot
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: Claude-User
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: Perplexity-User
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: Googlebot
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: Bingbot
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 User-agent: CCBot
 Allow: /
 Disallow: /outreach/
 Disallow: /docs/
+Disallow: /scripts/
+Disallow: /content/
 
 Sitemap: https://lychee.fit/sitemap.xml
