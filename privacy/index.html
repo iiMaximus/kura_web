@@ -791,8 +791,8 @@
 </nav>
 <main class="page-content">
 <h1>Privacy Policy for Lychee</h1>
-<p><strong>Last Updated:</strong> September 28, 2026</p>
-<p><strong>Effective Date:</strong> September 28, 2026</p>
+<p><strong>Last Updated:</strong> October 8, 2026</p>
+<p><strong>Effective Date:</strong> October 8, 2026</p>
 <hr>
 <h2>Introduction</h2>
 <p>Welcome to Lychee. This Privacy Policy explains what information Lychee collects, how we use it, what third-party services we rely on, and the choices you have.</p>
@@ -832,6 +832,7 @@
 <li>Feature usage statistics</li>
 <li>Product analytics events collected through PostHog, such as onboarding progress, selected goal/concern identifiers, feature usage, scan mode, response times, error categories, app version, and platform details, associated with a persistent pseudonymous identifier</li>
 <li>App install, app launch, checkout, trial, and subscription events collected through the Meta/Facebook SDK for ad attribution, campaign measurement, and advertising optimization</li>
+<li>In iOS versions offering optional Google measurement, Firebase/Google Analytics app-instance and device identifiers, app/device information, and basic app usage and subscription events, subject to your choice as described in Section 3.10</li>
 </ul>
 <p><strong>Subscription data</strong></p>
 <ul>
@@ -875,6 +876,7 @@
 <ul>
 <li>Display ads to non-Premium users through Google AdMob</li>
 <li>Measure whether Instagram/Facebook ads lead to app installs or subscription events through the Meta/Facebook SDK</li>
+<li>With optional Google measurement enabled, measure Google Ads performance and optimize campaigns using app installs, basic engagement, and verified subscription conversions</li>
 <li>Support free access to core features</li>
 </ul>
 <h3>2.6 Analytics and Improvement</h3>
@@ -951,7 +953,13 @@
 <li>We avoid storing direct personal identifiers in these reports where possible</li>
 <li>Do not submit information in product contributions that you do not want included in public product databases</li>
 </ul>
-<h3>3.10 Service Providers and Legal Requirements</h3>
+<h3>3.10 Google Analytics for Firebase and Google Ads</h3>
+<p><strong>Data shared:</strong> In iOS versions that offer Google measurement, and only after you allow it, Google Analytics for Firebase receives a pseudonymous app-instance identifier, app/device information, basic usage events (such as first open, completed onboarding, a completed scan without its contents, a paywall view, and checkout started), and verified trial or subscription-start events. Subscription events can include a subscription product identifier, store, currency, and amount. These identifiers are not anonymous. Advertising identifiers and advertising data use are subject to Apple’s App Tracking Transparency permission and your device settings.</p>
+<p><strong>Purpose:</strong> Measure Google Ads attribution and campaign performance, understand basic conversion steps, and optimize advertising for app installs and subscription conversions. Google may use on-device conversion measurement where supported.</p>
+<p><strong>RevenueCat connection:</strong> When both Google measurement and iOS tracking permission are allowed, we provide the Firebase app-instance identifier to RevenueCat so it can send subscription lifecycle events to Google Analytics, including purchases, trials, renewals, cancellations, and refunds. This connection does not send checkout email, name, or card details to Google Analytics.</p>
+<p><strong>Limits and choice:</strong> We do not intentionally send scanned product names, barcodes, photos, ingredients, scan results, health scores, allergies, profile answers, names, email addresses, card details, or precise location to Firebase Analytics. This integration does not enable personalized advertising audiences. You can decline or withdraw Google measurement in the App’s Legal &amp; Privacy menu; your choice does not affect scanning or Premium access. Withdrawal stops this optional app collection and requests removal of the RevenueCat identifier link; it does not automatically delete previously received records. Contact us for data access or deletion requests.</p>
+<p><strong>More information:</strong> <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps that use its services</a>.</p>
+<h3>3.11 Service Providers and Legal Requirements</h3>
 <p>We may use trusted service providers for hosting, analytics, subscription management, crash reporting, product lookup, product contribution, storage, and customer support. We require providers processing data on our behalf to protect it and use it for the agreed services under applicable data-protection terms. Some providers, including payment platforms, also act independently for their own legal, security, or fraud-prevention purposes as described in their policies.</p>
 <p>We may disclose information if required by law, court order, subpoena, or another valid legal request.</p>
 <hr>
@@ -999,6 +1007,7 @@
 <li><strong>iOS:</strong> Settings &gt; Privacy &amp; Security &gt; Tracking, and Settings &gt; Privacy &amp; Security &gt; Apple Advertising</li>
 <li><strong>Android:</strong> Settings &gt; Google &gt; Ads &gt; Opt out of Ads Personalization</li>
 <li><strong>Premium:</strong> Subscribe to remove ads entirely</li>
+<li><strong>Google measurement (supported iOS versions):</strong> Legal &amp; Privacy &gt; Change Google measurement choice. You can decline or withdraw optional Firebase measurement without losing app features or Premium access</li>
 </ul>
 <h3>5.4 Consent and other legal bases</h3>
 <p>Where EU/EEA data protection law applies, we rely on performance of a contract for requested App features, purchases, subscription access, recovery, and support; legal obligations for required billing/accounting records; and legitimate interests for proportionate security, fraud prevention, and service reliability, subject to your rights. Where consent is required, including certain advertising/tracking or processing of sensitive information, it must be obtained separately. A purchase is not consent to marketing.</p>
@@ -1021,6 +1030,7 @@
 <ul>
 <li><strong>AdMob and Meta/Facebook SDK:</strong> Advertising identifiers where permitted for ad delivery, attribution, and campaign measurement</li>
 <li><strong>PostHog:</strong> Persistent pseudonymous identifiers for product analytics</li>
+<li><strong>Firebase/Google Analytics:</strong> With optional Google measurement enabled in supported iOS versions, app-instance identifiers and basic events for analytics and Google Ads conversion measurement; advertising use is additionally subject to tracking permission</li>
 <li><strong>RevenueCat and Stripe:</strong> Customer and transaction identifiers, checkout/portal session data, and payment-security information for billing, recovery, and subscription management</li>
 <li><strong>Contact form:</strong> Our support link opens a Tally-hosted form. Tally processes the contact details, message, and any attachments you submit to handle your request. Email is also available in Section 12. See <a href="https://tally.so/help/privacy-policy">Tally’s privacy policy</a></li>
 </ul>
