@@ -1,8 +1,8 @@
 # Privacy Policy for Lychee
 
-**Last Updated:** October 8, 2026
+**Last Updated:** October 9, 2026
 
-**Effective Date:** October 8, 2026
+**Effective Date:** October 9, 2026
 
 ---
 
@@ -199,7 +199,9 @@ Web checkout email is used for receipts, service and billing messages, subscript
 
 **Purpose:** Measure Google Ads attribution and campaign performance, understand basic conversion steps, and optimize advertising for app installs and subscription conversions. Google may use on-device conversion measurement where supported.
 
-**RevenueCat connection:** When both Google measurement and iOS tracking permission are allowed, we provide the Firebase app-instance identifier to RevenueCat so it can send subscription lifecycle events to Google Analytics, including purchases, trials, renewals, cancellations, and refunds. This connection does not send checkout email, name, or card details to Google Analytics.
+**Apple aggregate attribution:** Apple’s privacy-preserving attribution can report installs and conversion categories to ad networks without identifying you, including when you decline tracking or optional Firebase analytics. Apple controls reporting delays, privacy thresholds and the detail included in these reports. We do not use these aggregate reports to identify individual users.
+
+**RevenueCat connection:** When you allow optional Google analytics, we provide the Firebase app-instance identifier to RevenueCat so it can link subscription lifecycle events to your consented app analytics, including purchases, trials, renewals, cancellations, and refunds. This first-party analytics connection does not require access to the advertising identifier and does not override an Apple tracking refusal. Advertising storage and advertising user data remain disabled when tracking is refused, and personalized advertising audiences remain off. This connection does not send checkout email, name, or card details to Google Analytics.
 
 **Limits and choice:** We do not intentionally send scanned product names, barcodes, photos, ingredients, scan results, health scores, allergies, profile answers, names, email addresses, card details, or precise location to Firebase Analytics. This integration does not enable personalized advertising audiences. You can decline or withdraw Google measurement in the App’s Legal & Privacy menu; your choice does not affect scanning or Premium access. Withdrawal stops this optional app collection and requests removal of the RevenueCat identifier link; it does not automatically delete previously received records. Contact us for data access or deletion requests.
 
@@ -255,7 +257,7 @@ You can limit ad tracking:
 - **iOS:** Settings > Privacy & Security > Tracking, and Settings > Privacy & Security > Apple Advertising
 - **Android:** Settings > Google > Ads > Opt out of Ads Personalization
 - **Premium:** Subscribe to remove ads entirely
-- **Google measurement (supported iOS versions):** Legal & Privacy > Change Google measurement choice. You can decline or withdraw optional Firebase measurement without losing app features or Premium access
+- **Google measurement (supported iOS versions):** Legal & Privacy > Help improve Lychee and our ads. You can decline or withdraw optional Firebase measurement without losing app features or Premium access
 
 ### 5.4 Consent and other legal bases
 Where EU/EEA data protection law applies, we rely on performance of a contract for requested App features, purchases, subscription access, recovery, and support; legal obligations for required billing/accounting records; and legitimate interests for proportionate security, fraud prevention, and service reliability, subject to your rights. Where consent is required, including certain advertising/tracking or processing of sensitive information, it must be obtained separately. A purchase is not consent to marketing.
