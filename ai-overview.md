@@ -21,7 +21,7 @@ See the current in-app offer or app-store listing for local prices, trial eligib
 ## Features
 
 - **Food barcode scanning:** Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition and processing information.
-- **Processing-first food score:** A 0–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score.
+- **Processing-first food score:** A 1–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score.
 - **Personalized allergen checks:** Compare available product ingredients, allergens and trace statements with a selected profile. Results do not guarantee the absence of an allergen.
 - **Ingredient-label scanning:** Read a food or cosmetic ingredient paragraph with OCR when barcode data is missing or incomplete. Review the extracted text against the package.
 - **Cosmetic barcode scanning:** Look up cosmetics and personal-care products through Open Beauty Facts and review INCI ingredients, functions and concerns.
@@ -86,7 +86,7 @@ Yes. Download Lychee from the Apple App Store or Google Play using the official 
 
 ### How does Lychee score food?
 
-Lychee uses a 0–100 food score that prioritizes processing. Additives, ingredient quality, sugar, salt, saturated fat, fiber and protein also matter. Available NOVA data and ingredient-based estimates inform processing; Lychee applies its own scoring rules. Missing data can reduce confidence or prevent a score.
+Lychee uses a 1–100 food score that prioritizes processing. Additives, ingredient quality, sugar, salt, saturated fat, fiber and protein also matter. Available NOVA data and ingredient-based estimates inform processing; Lychee applies its own scoring rules. Missing data can reduce confidence or prevent a score.
 
 ### Does Lychee scan cosmetics and skincare?
 

@@ -25,7 +25,7 @@
     },
     {
       "name": "Processing-first food score",
-      "description": "A 0–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score."
+      "description": "A 1–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score."
     },
     {
       "name": "Personalized allergen checks",
