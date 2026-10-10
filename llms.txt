@@ -3,7 +3,7 @@
 > Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.
 
 Official website: https://lychee.fit/
-Product facts reviewed: 2026-10-08. Publisher-maintained information.
+Product facts reviewed: 2026-10-10. Publisher-maintained information.
 
 A processing-first food scanner with personalized allergen checks and a separate beta cosmetic scoring model.
 

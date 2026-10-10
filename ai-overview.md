@@ -2,7 +2,7 @@
 
 > Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.
 
-Reviewed: 2026-10-08. Maintained by Lychee, the app publisher.
+Reviewed: 2026-10-10. Maintained by Lychee, the app publisher.
 
 ## Product identity
 
@@ -20,7 +20,7 @@ See the current in-app offer or app-store listing for local prices, trial eligib
 
 ## Features
 
-- **Food barcode scanning:** Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition, NOVA and Nutri-Score data.
+- **Food barcode scanning:** Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition and processing information.
 - **Processing-first food score:** A 0–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score.
 - **Personalized allergen checks:** Compare available product ingredients, allergens and trace statements with a selected profile. Results do not guarantee the absence of an allergen.
 - **Ingredient-label scanning:** Read a food or cosmetic ingredient paragraph with OCR when barcode data is missing or incomplete. Review the extracted text against the package.
@@ -86,7 +86,7 @@ Yes. Download Lychee from the Apple App Store or Google Play using the official 
 
 ### How does Lychee score food?
 
-Lychee uses a 0–100 food score that prioritizes processing. Additives, ingredient quality, sugar, salt, saturated fat, fiber and protein also matter. NOVA and Nutri-Score are inputs, not the entire score. Missing data can reduce confidence or prevent a score.
+Lychee uses a 0–100 food score that prioritizes processing. Additives, ingredient quality, sugar, salt, saturated fat, fiber and protein also matter. Available NOVA data and ingredient-based estimates inform processing; Lychee applies its own scoring rules. Missing data can reduce confidence or prevent a score.
 
 ### Does Lychee scan cosmetics and skincare?
 

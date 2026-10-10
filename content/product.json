@@ -2,7 +2,7 @@
   "name": "Lychee",
   "storeName": "Lychee - Clean Food Scanner",
   "origin": "https://lychee.fit",
-  "reviewed": "2026-10-08",
+  "reviewed": "2026-10-10",
   "founder": "Maksym Horoszczak",
   "description": "Lychee is a food and cosmetic ingredient scanner for iOS and Android. Scan a barcode or ingredient label to understand processing, additives, allergens, nutrition, and cosmetic ingredient concerns.",
   "positioning": "A processing-first food scanner with personalized allergen checks and a separate beta cosmetic scoring model.",
@@ -16,7 +16,7 @@
     "exactPrices": "See the current in-app offer or app-store listing for local prices, trial eligibility, and subscription terms."
   },
   "features": [
-    {"name": "Food barcode scanning", "description": "Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition, NOVA and Nutri-Score data."},
+    {"name": "Food barcode scanning", "description": "Look up packaged foods through Open Food Facts and review available ingredients, allergens, nutrition and processing information."},
     {"name": "Processing-first food score", "description": "A 0–100 comparison score that prioritizes processing and also considers additives, ingredient quality and nutrition. Incomplete data can limit or prevent a score."},
     {"name": "Personalized allergen checks", "description": "Compare available product ingredients, allergens and trace statements with a selected profile. Results do not guarantee the absence of an allergen."},
     {"name": "Ingredient-label scanning", "description": "Read a food or cosmetic ingredient paragraph with OCR when barcode data is missing or incomplete. Review the extracted text against the package."},
