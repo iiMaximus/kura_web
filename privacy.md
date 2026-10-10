@@ -1,8 +1,8 @@
 # Privacy Policy for Lychee
 
-**Last Updated:** October 9, 2026
+**Last Updated:** October 10, 2026
 
-**Effective Date:** October 9, 2026
+**Effective Date:** October 10, 2026
 
 ---
 
@@ -50,7 +50,7 @@ Scan history is primarily stored locally on your device unless you use AI analys
 - Feature usage statistics
 - Product analytics events collected through PostHog, such as onboarding progress, selected goal/concern identifiers, feature usage, scan mode, response times, error categories, app version, and platform details, associated with a persistent pseudonymous identifier
 - App install, app launch, checkout, trial, and subscription events collected through the Meta/Facebook SDK for ad attribution, campaign measurement, and advertising optimization
-- In iOS versions offering optional Google measurement, Firebase/Google Analytics app-instance and device identifiers, app/device information, and basic app usage and subscription events, subject to your choice as described in Section 3.10
+- In supported iOS versions, limited Google install and subscription signals in Basic mode; app-instance identifiers and additional usage events only with optional detailed analytics. See Section 3.10 for choices and older app versions
 
 **Subscription data**
 - Subscription status, entitlement status, product identifiers, trial status, purchases, renewals, cancellations, refunds, disputes, and receipt/transaction metadata processed through Apple, Google, RevenueCat, and Stripe as appropriate to the payment route
@@ -90,7 +90,7 @@ Scan history is primarily stored locally on your device unless you use AI analys
 ### 2.5 Advertising and Attribution
 - Display ads to non-Premium users through Google AdMob
 - Measure whether Instagram/Facebook ads lead to app installs or subscription events through the Meta/Facebook SDK
-- With optional Google measurement enabled, measure Google Ads performance and optimize campaigns using app installs, basic engagement, and verified subscription conversions
+- Measure Google Ads performance using limited install and verified subscription signals; additional app analytics is optional
 - Support free access to core features
 
 ### 2.6 Analytics and Improvement
@@ -195,17 +195,17 @@ Web checkout email is used for receipts, service and billing messages, subscript
 
 ### 3.10 Google Analytics for Firebase and Google Ads
 
-**Data shared:** In iOS versions that offer Google measurement, and only after you allow it, Google Analytics for Firebase receives a pseudonymous app-instance identifier, app/device information, basic usage events (such as first open, completed onboarding, a completed scan without its contents, a paywall view, and checkout started), and verified trial or subscription-start events. Subscription events can include a subscription product identifier, store, currency, and amount. These identifiers are not anonymous. Advertising identifiers and advertising data use are subject to Apple’s App Tracking Transparency permission and your device settings.
+**Data shared:** In iOS versions with the App measurement setting, new installations default to Basic. This uses Google Analytics for Firebase with analytics identifier storage, advertising storage, advertising user data and personalized advertising consent set to denied. The SDK can send limited install and subscription signals for measurement and modeling. These signals can include technical app/device and network information; limited measurement is not a promise that network traffic is anonymous. We do not attach customer, transaction or product identifiers to our Basic subscription events or link a Firebase app-instance identifier to RevenueCat in Basic mode. If you explicitly choose Detailed, Google Analytics receives a pseudonymous app-instance identifier, app/device information, basic usage events and verified subscription events, which can include subscription product, store, currency and amount. These identifiers are not anonymous. Advertising identifier access and advertising use remain subject to Apple’s App Tracking Transparency permission. Older versions with the optional Google checkbox continue to require that choice before Firebase collection; existing explicit refusals remain Off in newer versions.
 
 **Purpose:** Measure Google Ads attribution and campaign performance, understand basic conversion steps, and optimize advertising for app installs and subscription conversions. Google may use on-device conversion measurement where supported.
 
 **Apple aggregate attribution:** Apple’s privacy-preserving attribution can report installs and conversion categories to ad networks without identifying you, including when you decline tracking or optional Firebase analytics. Apple controls reporting delays, privacy thresholds and the detail included in these reports. We do not use these aggregate reports to identify individual users.
 
-**RevenueCat connection:** When you allow optional Google analytics, we provide the Firebase app-instance identifier to RevenueCat so it can link subscription lifecycle events to your consented app analytics, including purchases, trials, renewals, cancellations, and refunds. This first-party analytics connection does not require access to the advertising identifier and does not override an Apple tracking refusal. Advertising storage and advertising user data remain disabled when tracking is refused, and personalized advertising audiences remain off. This connection does not send checkout email, name, or card details to Google Analytics.
+**RevenueCat connection:** Only when you allow Detailed analytics (or allowed Google analytics in an older version), we provide the Firebase app-instance identifier to RevenueCat so it can link subscription lifecycle events to your consented app analytics, including purchases, trials, renewals, cancellations, and refunds. This first-party analytics connection does not require access to the advertising identifier and does not override an Apple tracking refusal. Advertising storage and advertising user data remain disabled when tracking is refused, and personalized advertising audiences remain off. This connection does not send checkout email, name, or card details to Google Analytics.
 
-**Limits and choice:** We do not intentionally send scanned product names, barcodes, photos, ingredients, scan results, health scores, allergies, profile answers, names, email addresses, card details, or precise location to Firebase Analytics. This integration does not enable personalized advertising audiences. You can decline or withdraw Google measurement in the App’s Legal & Privacy menu; your choice does not affect scanning or Premium access. Withdrawal stops this optional app collection and requests removal of the RevenueCat identifier link; it does not automatically delete previously received records. Contact us for data access or deletion requests.
+**Limits and choice:** We do not intentionally send scanned product names, barcodes, photos, ingredients, scan results, health scores, allergies, profile answers, names, email addresses, card details, or precise location to Firebase Analytics. This integration does not enable personalized advertising audiences. In Legal & Privacy > App measurement, choose Basic for limited signals, Detailed to allow additional analytics, or Off to stop Firebase collection, including limited signals. Your choice does not affect scanning or Premium access. Choosing Off resets local Firebase analytics data and requests removal of the RevenueCat identifier link; it does not automatically delete previously received records. Apple’s separate aggregate attribution and necessary billing records are not controlled by this setting. Contact us for data access or deletion requests.
 
-**More information:** [Google Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from apps that use its services](https://policies.google.com/technologies/partner-sites).
+**More information:** [Google Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from apps that use its services](https://business.safety.google/privacy/).
 
 ### 3.11 Service Providers and Legal Requirements
 We may use trusted service providers for hosting, analytics, subscription management, crash reporting, product lookup, product contribution, storage, and customer support. We require providers processing data on our behalf to protect it and use it for the agreed services under applicable data-protection terms. Some providers, including payment platforms, also act independently for their own legal, security, or fraud-prevention purposes as described in their policies.
@@ -257,10 +257,10 @@ You can limit ad tracking:
 - **iOS:** Settings > Privacy & Security > Tracking, and Settings > Privacy & Security > Apple Advertising
 - **Android:** Settings > Google > Ads > Opt out of Ads Personalization
 - **Premium:** Subscribe to remove ads entirely
-- **Google measurement (supported iOS versions):** Legal & Privacy > Help improve Lychee and our ads. You can decline or withdraw optional Firebase measurement without losing app features or Premium access
+- **Google measurement (supported iOS versions):** Legal & Privacy > App measurement: Basic, Detailed or Off. Off stops Firebase collection without losing app features or Premium access. Older app versions have an optional Google measurement choice
 
 ### 5.4 Consent and other legal bases
-Where EU/EEA data protection law applies, we rely on performance of a contract for requested App features, purchases, subscription access, recovery, and support; legal obligations for required billing/accounting records; and legitimate interests for proportionate security, fraud prevention, and service reliability, subject to your rights. Where consent is required, including certain advertising/tracking or processing of sensitive information, it must be obtained separately. A purchase is not consent to marketing.
+Where EU/EEA data protection law applies, we rely on performance of a contract for requested App features, purchases, subscription access, recovery, and support; legal obligations for required billing/accounting records; and legitimate interests for proportionate security, fraud prevention, service reliability and limited campaign measurement without analytics or advertising identifier storage, subject to your rights. Optional Detailed analytics is based on consent. Where consent is required, including for device access, advertising/tracking or processing of sensitive information, it must be obtained separately; a measurement SDK setting does not itself remove legal obligations. A purchase is not consent to marketing.
 
 You may withdraw consent using the relevant device or service privacy settings, stop using an optional feature, or contact us. You may also object to processing based on legitimate interests. Withdrawal does not affect prior lawful processing. Uninstalling stops use of the App but does not cancel a subscription or automatically delete third-party billing records. Premium removes in-app ads; it does not remove necessary billing processing or automatically disable all analytics/attribution.
 
@@ -295,7 +295,7 @@ If you are in California or another jurisdiction with similar rights, you may ha
 The native App primarily uses device storage and SDK identifiers. Our website, hosted web checkout, recovery pages, and customer billing portal may use cookies or browser storage for operation, payment security, fraud prevention, and session continuity. Third-party mobile SDKs may use similar technologies:
 - **AdMob and Meta/Facebook SDK:** Advertising identifiers where permitted for ad delivery, attribution, and campaign measurement
 - **PostHog:** Persistent pseudonymous identifiers for product analytics
-- **Firebase/Google Analytics:** With optional Google measurement enabled in supported iOS versions, app-instance identifiers and basic events for analytics and Google Ads conversion measurement; advertising use is additionally subject to tracking permission
+- **Firebase/Google Analytics:** In supported iOS versions, Basic uses denied-storage measurement signals; optional Detailed analytics uses app-instance identifiers and basic events. Off disables Firebase collection. Advertising use is additionally subject to tracking permission
 - **RevenueCat and Stripe:** Customer and transaction identifiers, checkout/portal session data, and payment-security information for billing, recovery, and subscription management
 - **Contact form:** Our support link opens a Tally-hosted form. Tally processes the contact details, message, and any attachments you submit to handle your request. Email is also available in Section 12. See [Tally’s privacy policy](https://tally.so/help/privacy-policy)
 
